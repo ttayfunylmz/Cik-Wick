@@ -22,6 +22,8 @@ public class ThirdPersonCameraController : MonoBehaviour
         Vector3 viewDirection = 
             _playerTransform.position - new Vector3(transform.position.x, _playerTransform.position.y, transform.position.z);
 
+        _orientationTransform.forward = viewDirection.normalized;
+
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
 

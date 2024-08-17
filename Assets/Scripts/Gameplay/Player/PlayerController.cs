@@ -102,4 +102,9 @@ public class PlayerController : MonoBehaviour
         _canJump = true;
     }
 
+    public Vector3 GetMovementDirection()
+    {
+        return _movementDirection;
+    }
+
 }
