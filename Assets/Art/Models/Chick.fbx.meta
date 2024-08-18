@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: be638546f71905c47a2d338a2b80c19e
+guid: 82b5c81537fdf784b923577cdebdb82f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: CivCiv_Material
-    second: {fileID: 2100000, guid: f510fec80f408b840aecd6dfe1e5df2e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Tekerlek_Material
-    second: {fileID: 2100000, guid: ac851d874fa2f1c42bed8b8b5c781cf3, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
