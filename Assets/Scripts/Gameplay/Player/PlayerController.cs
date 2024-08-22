@@ -111,4 +111,9 @@ public class PlayerController : MonoBehaviour
         return _movementDirection.normalized;
     }
 
+    public void SetMovementSpeed(float speed)
+    {
+        _movementSpeed += speed;
+    }
+
 }
