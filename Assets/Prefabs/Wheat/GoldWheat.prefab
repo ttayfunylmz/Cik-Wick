@@ -86,5 +86,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e832d42a7c1d0949ad4b851df977107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _goldParticles: {fileID: 1936488993998635378, guid: 88b14fae91f3b5345abdc3e7a5f29793, type: 3}
-  _destroyDuration: 7
+  _wheatDesignSO: {fileID: 11400000, guid: 709e991d4878cd744a50e69fad6ec1a0, type: 2}

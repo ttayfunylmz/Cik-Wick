@@ -1,15 +1,36 @@
 using UnityEngine;
+using Zenject;
 
 public class GoldWheatCollectible : MonoBehaviour, ICollectible
 {
     [Header("References")]
-    [SerializeField] private GameObject _goldParticles;
+    [SerializeField] private WheatDesignSO _wheatDesignSO;
 
-    [Header("Settings")]
-    [SerializeField] private float _destroyDuration;
+    private GameObject _particlesPrefab;
+    private float _particlesDestroyDuration;
+
+    private PlayerController _playerController;
+
+    [Inject]
+    private void ZenjectSetup(PlayerController playerController)
+    {
+        _playerController = playerController;
+    }
+
+    private void Awake() 
+    {
+        InitializeSO();    
+    }
+
+    public void InitializeSO()
+    {
+        _particlesPrefab = _wheatDesignSO._particlesPrefab;
+        _particlesDestroyDuration = _wheatDesignSO._particlesDestroyDuration;
+    }
 
     public void Collect()
     {
+        _playerController.SetMovementSpeed(40f);
         Debug.Log("Gold Wheat collected!");
         Destroy(gameObject);
     }
@@ -17,10 +38,11 @@ public class GoldWheatCollectible : MonoBehaviour, ICollectible
     public void PlayParticle(Transform playerTransform)
     {
         GameObject particleInstance = 
-            Instantiate(_goldParticles, playerTransform.position, _goldParticles.transform.rotation);
+            Instantiate(_particlesPrefab, playerTransform.position, _particlesPrefab.transform.rotation);
 
         particleInstance.transform.parent = playerTransform;
 
-        Destroy(particleInstance, _destroyDuration);
+        Destroy(particleInstance, _particlesDestroyDuration);
     }
+
 }
