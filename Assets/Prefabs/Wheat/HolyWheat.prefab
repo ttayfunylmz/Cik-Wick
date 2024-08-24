@@ -86,5 +86,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b86268f36585e04c82bd89f8f1823dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _holyParticles: {fileID: 419411002348774512, guid: 247a3e752e93a864db063f5c85fd8391, type: 3}
-  _destroyDuration: 7
+  _wheatDesignSO: {fileID: 11400000, guid: 79c6e4418e65d7f40a483473a404e646, type: 2}

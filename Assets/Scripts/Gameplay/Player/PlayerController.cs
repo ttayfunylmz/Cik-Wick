@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _groundDrag;
 
     private float _horizontalInput, _verticalInput;
+    private float _startingMovementSpeed;
     private Vector3 _movementDirection;
     private Rigidbody _playerRigidbody;
     private bool _isGrounded;
@@ -31,7 +32,8 @@ public class PlayerController : MonoBehaviour
     private void Awake() 
     {
         _playerRigidbody = GetComponent<Rigidbody>();
-        _playerRigidbody.freezeRotation = true;    
+        _playerRigidbody.freezeRotation = true;
+        _startingMovementSpeed = _movementSpeed;
     }
 
     private void Update() 
@@ -111,9 +113,15 @@ public class PlayerController : MonoBehaviour
         return _movementDirection.normalized;
     }
 
-    public void SetMovementSpeed(float speed)
+    public void ResetMovementSpeed()
+    {
+        _movementSpeed = _startingMovementSpeed;
+    }
+
+    public void SetMovementSpeed(float speed, float duration)
     {
         _movementSpeed += speed;
+        Invoke(nameof(ResetMovementSpeed), duration);
     }
 
 }

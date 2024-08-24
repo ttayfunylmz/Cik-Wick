@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _particlesPrefab: {fileID: 1936488993998635378, guid: 88b14fae91f3b5345abdc3e7a5f29793, type: 3}
   _particlesDestroyDuration: 7
+  _resetBoostDuration: 5

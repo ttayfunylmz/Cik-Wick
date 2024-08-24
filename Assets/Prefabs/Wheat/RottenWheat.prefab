@@ -86,5 +86,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f1f51c887d30ff40a3bf1aaa7549786, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rottenParticles: {fileID: 3081362037621676516, guid: 0e1cda1849280884a99fa85ea45ffbbc, type: 3}
-  _destroyDuration: 7
+  _wheatDesignSO: {fileID: 11400000, guid: ed8dd3edeb4636843af6f6cb1f66e1b0, type: 2}
+  _movementDecreaseSpeed: -20

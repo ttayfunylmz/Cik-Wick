@@ -87,3 +87,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _wheatDesignSO: {fileID: 11400000, guid: 709e991d4878cd744a50e69fad6ec1a0, type: 2}
+  _movementIncreaseSpeed: 20

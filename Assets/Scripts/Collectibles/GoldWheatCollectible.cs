@@ -6,8 +6,12 @@ public class GoldWheatCollectible : MonoBehaviour, ICollectible
     [Header("References")]
     [SerializeField] private WheatDesignSO _wheatDesignSO;
 
+    [Header("Settings")]
+    [SerializeField] private float _movementIncreaseSpeed;
+
     private GameObject _particlesPrefab;
     private float _particlesDestroyDuration;
+    private float _resetBoostDuration;
 
     private PlayerController _playerController;
 
@@ -26,12 +30,12 @@ public class GoldWheatCollectible : MonoBehaviour, ICollectible
     {
         _particlesPrefab = _wheatDesignSO._particlesPrefab;
         _particlesDestroyDuration = _wheatDesignSO._particlesDestroyDuration;
+        _resetBoostDuration = _wheatDesignSO._resetBoostDuration;
     }
 
     public void Collect()
     {
-        _playerController.SetMovementSpeed(40f);
-        Debug.Log("Gold Wheat collected!");
+        _playerController.SetMovementSpeed(_movementIncreaseSpeed, _resetBoostDuration);
         Destroy(gameObject);
     }
 
@@ -44,5 +48,4 @@ public class GoldWheatCollectible : MonoBehaviour, ICollectible
 
         Destroy(particleInstance, _particlesDestroyDuration);
     }
-
 }
