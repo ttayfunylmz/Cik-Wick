@@ -6,6 +6,9 @@ public class HolyWheatCollectible : MonoBehaviour, ICollectible
     [Header("References")]
     [SerializeField] private WheatDesignSO _wheatDesignSO;
 
+    [Header("Settings")]
+    [SerializeField] private float _forceIncrease;
+
     private GameObject _particlesPrefab;
     private float _particlesDestroyDuration;
     private float _resetBoostDuration;
@@ -32,7 +35,7 @@ public class HolyWheatCollectible : MonoBehaviour, ICollectible
 
     public void Collect()
     {
-        //TODO: Double Jump
+        _playerController.SetJumpForce(_forceIncrease, _resetBoostDuration);
         Destroy(gameObject);
     }
 
