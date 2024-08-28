@@ -1,15 +1,20 @@
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
+using Zenject;
 
 public class PlayerAnimationController : MonoBehaviour
 {
     [SerializeField] private Animator _playerAnimator;
 
     private PlayerController _playerController;
+    private StateController _stateController;
 
-    private void Awake() 
+    [Inject]
+    private void ZenjectSetup(PlayerController playerController, StateController stateController)
     {
-        _playerController = GetComponent<PlayerController>();    
+        _playerController = playerController;
+        _stateController = stateController;
     }
 
     private void Start() 
@@ -19,7 +24,7 @@ public class PlayerAnimationController : MonoBehaviour
 
     private void Update() 
     {
-        SetPlayerAnimations();        
+        SetPlayerAnimations();
     }
 
     private void PlayerController_OnPlayerJumped()
@@ -35,13 +40,26 @@ public class PlayerAnimationController : MonoBehaviour
 
     private void SetPlayerAnimations()
     {
-        if(_playerController.GetMovementDirection() != Vector3.zero)
+        var currentState = _stateController.GetCurrentState();
+
+        switch (currentState)
         {
-            _playerAnimator.SetBool(Consts.Animations.IS_MOVING, true);
-        }
-        else
-        {
-            _playerAnimator.SetBool(Consts.Animations.IS_MOVING, false);
+            case PlayerState.Idle:
+                _playerAnimator.SetBool(Consts.Animations.IS_SLIDING, false);
+                _playerAnimator.SetBool(Consts.Animations.IS_MOVING, false);
+                break;
+            case PlayerState.Move:
+                _playerAnimator.SetBool(Consts.Animations.IS_SLIDING, false);
+                _playerAnimator.SetBool(Consts.Animations.IS_MOVING, true);
+                break;
+            case PlayerState.SlideIdle:
+                _playerAnimator.SetBool(Consts.Animations.IS_SLIDING, true);
+                _playerAnimator.SetBool(Consts.Animations.IS_SLIDING_ACTIVE, false);
+                break;
+            case PlayerState.Slide:
+                _playerAnimator.SetBool(Consts.Animations.IS_SLIDING, true);
+                _playerAnimator.SetBool(Consts.Animations.IS_SLIDING_ACTIVE, true);
+                break;
         }
     }
 }
