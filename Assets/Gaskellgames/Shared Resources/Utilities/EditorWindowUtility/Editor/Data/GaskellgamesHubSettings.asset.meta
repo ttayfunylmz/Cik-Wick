@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 013cba776cdeed2409ca00545a7e0e31
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 277985
+  packageName: Folder System - Gaskellgames
+  packageVersion: 1.0.1
+  assetPath: Assets/Gaskellgames/Shared Resources/Utilities/EditorWindowUtility/Editor/Data/GaskellgamesHubSettings.asset
+  uploadId: 677171

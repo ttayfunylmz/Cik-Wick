@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c0130055cd9348d47985bd15fce24b37
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 13400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 277985
+  packageName: Folder System - Gaskellgames
+  packageVersion: 1.0.1
+  assetPath: Assets/Gaskellgames/Shared Resources/Materials/Physic Materials/BounceLow.physicMaterial
+  uploadId: 677171

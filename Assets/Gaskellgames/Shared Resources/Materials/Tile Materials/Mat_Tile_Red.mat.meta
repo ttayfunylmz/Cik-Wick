@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bdc85d76144d627419a8673961355ab7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 277985
+  packageName: Folder System - Gaskellgames
+  packageVersion: 1.0.1
+  assetPath: Assets/Gaskellgames/Shared Resources/Materials/Tile Materials/Mat_Tile_Red.mat
+  uploadId: 677171

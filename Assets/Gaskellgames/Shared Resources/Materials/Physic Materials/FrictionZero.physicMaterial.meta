@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 982064384accf5e4f92ee8e7150189e1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 13400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 277985
+  packageName: Folder System - Gaskellgames
+  packageVersion: 1.0.1
+  assetPath: Assets/Gaskellgames/Shared Resources/Materials/Physic Materials/FrictionZero.physicMaterial
+  uploadId: 677171

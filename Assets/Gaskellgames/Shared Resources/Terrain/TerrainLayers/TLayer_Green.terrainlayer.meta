@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a3a5f2b911a6ea4469f73544299ee573
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 277985
+  packageName: Folder System - Gaskellgames
+  packageVersion: 1.0.1
+  assetPath: Assets/Gaskellgames/Shared Resources/Terrain/TerrainLayers/TLayer_Green.terrainlayer
+  uploadId: 677171

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f64d8cb11fe57da41a91ed7a73c08449
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 277985
+  packageName: Folder System - Gaskellgames
+  packageVersion: 1.0.1
+  assetPath: Assets/Gaskellgames/Shared Resources/Terrain/TerrainLayers/TLayer_Black.terrainlayer
+  uploadId: 677171

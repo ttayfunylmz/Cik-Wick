@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d1f836c6f5e6a8d4289ee74a43976c36
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 277985
+  packageName: Folder System - Gaskellgames
+  packageVersion: 1.0.1
+  assetPath: Assets/Gaskellgames/Shared Resources/Textures/Misc/MiniMapTexture.renderTexture
+  uploadId: 677171

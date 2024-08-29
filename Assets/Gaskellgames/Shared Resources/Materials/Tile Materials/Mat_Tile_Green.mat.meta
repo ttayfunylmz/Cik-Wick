@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ddbc8a60954195a42a27678325bdd9ef
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 277985
+  packageName: Folder System - Gaskellgames
+  packageVersion: 1.0.1
+  assetPath: Assets/Gaskellgames/Shared Resources/Materials/Tile Materials/Mat_Tile_Green.mat
+  uploadId: 677171

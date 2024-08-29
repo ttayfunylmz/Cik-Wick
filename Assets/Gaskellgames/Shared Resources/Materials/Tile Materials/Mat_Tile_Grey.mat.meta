@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fb2076d1df1c1cd46b7917921709a463
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 277985
+  packageName: Folder System - Gaskellgames
+  packageVersion: 1.0.1
+  assetPath: Assets/Gaskellgames/Shared Resources/Materials/Tile Materials/Mat_Tile_Grey.mat
+  uploadId: 677171
