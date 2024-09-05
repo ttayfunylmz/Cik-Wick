@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2509088605905823903}
   - component: {fileID: 6156518543971740944}
   - component: {fileID: 8105471902025653888}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,9 @@ GameObject:
   - component: {fileID: 695597744881859072}
   - component: {fileID: 5360825899269375273}
   - component: {fileID: 1670016569509286183}
-  m_Layer: 0
+  - component: {fileID: 8155095399955801096}
+  - component: {fileID: 7787987345070640751}
+  m_Layer: 6
   m_Name: KitchenCabinetDrawer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,6 +179,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8155095399955801096
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3966235488474928930}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.600002, y: 8.432126, z: 8.347175}
+  m_Center: {x: 4.300001, y: 4.216063, z: 4.1735873}
+--- !u!65 &7787987345070640751
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3966235488474928930}
+  m_Material: {fileID: 13400000, guid: dc4632aca0bb5fc43b97e4f169660c17, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.600002, y: 9.0107, z: 0.67224485}
+  m_Center: {x: 4.300001, y: 4.50535, z: 8.683687}
 --- !u!1 &5063748007308369102
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,7 +232,7 @@ GameObject:
   - component: {fileID: 4937158588133514141}
   - component: {fileID: 1411963263363870922}
   - component: {fileID: 768516952998583203}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Drawer
   m_TagString: Untagged
   m_Icon: {fileID: 0}

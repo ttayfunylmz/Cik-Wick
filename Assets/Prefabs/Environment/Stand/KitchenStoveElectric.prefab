@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 9118723044498160974}
   - component: {fileID: 2336027230965910165}
   - component: {fileID: 6376395978034201943}
-  m_Layer: 0
+  - component: {fileID: 3612080800045004835}
+  m_Layer: 6
   m_Name: KitchenStoveElectric
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,3 +92,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3612080800045004835
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548870810797009625}
+  m_Material: {fileID: 13400000, guid: dc4632aca0bb5fc43b97e4f169660c17, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6217641916932018668, guid: e76a3963940ccca4db40018dba9f46e5, type: 3}

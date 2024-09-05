@@ -1,16 +1,37 @@
+using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealthUI : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [Header("References")]
+    [SerializeField] private Image[] _playerHealthImages;
+
+    [Header("Sprites")]
+    [SerializeField] private Sprite _playerHealthySprite;
+    [SerializeField] private Sprite _playerUnhealthySprite;
+
+    [Header("Settings")]
+    [SerializeField] private float _scaleDuration;
+
+    private RectTransform[] _playerHealthTransforms;
+
+    private void Awake() 
     {
-        
+        _playerHealthTransforms = new RectTransform[_playerHealthImages.Length];
+
+        for (int i = 0; i < _playerHealthImages.Length; ++i)
+        {
+            _playerHealthTransforms[i] =  _playerHealthImages[i].gameObject.GetComponent<RectTransform>();
+        }    
     }
 
-    // Update is called once per frame
-    void Update()
+    private void AnimateDamageSprite(Image activeImage, RectTransform activeImageTransform)
     {
-        
+        activeImageTransform.DOScale(0f, _scaleDuration).SetEase(Ease.InBack).OnComplete(() =>
+        {
+            activeImage.sprite = _playerUnhealthySprite;
+            activeImageTransform.DOScale(1f, _scaleDuration).SetEase(Ease.OutBack);
+        });
     }
 }
