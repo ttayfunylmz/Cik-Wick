@@ -26,6 +26,14 @@ public class PlayerHealthUI : MonoBehaviour
         }    
     }
 
+    private void Update() 
+    {
+        if(Input.GetKeyDown(KeyCode.U))
+        {
+            AnimateDamageSprite(_playerHealthImages[0], _playerHealthTransforms[0]);
+        }    
+    }
+
     private void AnimateDamageSprite(Image activeImage, RectTransform activeImageTransform)
     {
         activeImageTransform.DOScale(0f, _scaleDuration).SetEase(Ease.InBack).OnComplete(() =>

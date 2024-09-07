@@ -15,3 +15,7 @@ MonoBehaviour:
   _particlesPrefab: {fileID: 1936488993998635378, guid: 88b14fae91f3b5345abdc3e7a5f29793, type: 3}
   _particlesDestroyDuration: 7
   _resetBoostDuration: 5
+  _activeSprite: {fileID: -618590433, guid: 87f45a3f7252b9f418f69b7b7963cf81, type: 3}
+  _passiveSprite: {fileID: -749839416, guid: 86be04bfa6548f14fb4600c82fe28f34, type: 3}
+  _activeWheatSprite: {fileID: 21300000, guid: e6ceb18ef21432c4d948cfaec174e143, type: 3}
+  _passiveWheatSprite: {fileID: 21300000, guid: 33d72c696dfe0b34db6970dd582dc8a3, type: 3}

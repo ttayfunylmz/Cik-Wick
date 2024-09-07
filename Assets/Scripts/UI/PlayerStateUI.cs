@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,6 +10,14 @@ public class PlayerStateUI : MonoBehaviour
     [Header("References")]
     [SerializeField] private RectTransform _playerWalkingTransform;
     [SerializeField] private RectTransform _playerSlidingTransform;
+    [SerializeField] private RectTransform _boosterSpeedTransform;
+    [SerializeField] private RectTransform _boosterJumpTransform;
+    [SerializeField] private RectTransform _boosterSlowTransform;
+
+    [Header("Images")]
+    [SerializeField] private Image _goldBoosterWheatImage;
+    [SerializeField] private Image _holyBoosterWheatImage;
+    [SerializeField] private Image _rottenBoosterWheatImage;
 
     [Header("Sprites")]
     [SerializeField] private Sprite _playerWalkingActiveSprite;
@@ -20,23 +29,34 @@ public class PlayerStateUI : MonoBehaviour
     [SerializeField] private float _moveDuration;
     [SerializeField] private Ease _moveEase;
 
+    public RectTransform GetBoosterSpeedTransform => _boosterSpeedTransform;
+    public RectTransform GetBoosterJumpTransform => _boosterJumpTransform;
+    public RectTransform GetBoosterSlowTransform => _boosterSlowTransform;
+    public Image GetGoldBoosterWheatImage => _goldBoosterWheatImage;
+    public Image GetHolyBoosterWheatImage => _holyBoosterWheatImage;
+    public Image GetRottenBoosterWheatImage => _rottenBoosterWheatImage;
+
+
     private Image _playerWalkingImage;
     private Image _playerSlidingImage;
 
-    private StateController _stateController;
     private PlayerController _playerController;
 
     [Inject]
-    private void ZenjectSetup(StateController stateController, PlayerController playerController)
+    private void ZenjectSetup(PlayerController playerController)
     {
-        _stateController = stateController;
         _playerController = playerController;
     }
 
     private void Awake() 
     {
+        SetImages();
+    }
+
+    private void SetImages()
+    {
         _playerWalkingImage = _playerWalkingTransform.GetComponent<Image>();
-        _playerSlidingImage = _playerSlidingTransform.GetComponent<Image>();    
+        _playerSlidingImage = _playerSlidingTransform.GetComponent<Image>();
     }
 
     private void Start()
@@ -70,5 +90,24 @@ public class PlayerStateUI : MonoBehaviour
 
         activeTransform.DOAnchorPosX(-25f, _moveDuration).SetEase(_moveEase);
         passiveTransform.DOAnchorPosX(-90f, _moveDuration).SetEase(_moveEase);
+    }
+
+    private IEnumerator SetBoosterUserInterfaces(RectTransform activeTransform, Image boosterImage, Image wheatImage,
+        Sprite activeSprite, Sprite passiveSprite, Sprite activeWheatSprite, Sprite passiveWheatSprite, float duration)
+    {
+        boosterImage.sprite = activeSprite;
+        wheatImage.sprite = activeWheatSprite;
+        activeTransform.DOAnchorPosX(25f, _moveDuration).SetEase(_moveEase);
+        yield return new WaitForSeconds(duration);
+        boosterImage.sprite = passiveSprite;
+        wheatImage.sprite = passiveWheatSprite;
+        activeTransform.DOAnchorPosX(90f, _moveDuration).SetEase(_moveEase);
+    }
+
+    public void PlayBoosterUIAnimations(RectTransform activeTransform, Image boosterImage, Image wheatImage,
+        Sprite activeSprite, Sprite passiveSprite, Sprite activeWheatSprite, Sprite passiveWheatSprite, float duration)
+    {
+        StartCoroutine(SetBoosterUserInterfaces(activeTransform, boosterImage, wheatImage, activeWheatSprite,
+            passiveWheatSprite, activeSprite, passiveSprite, duration));
     }
 }

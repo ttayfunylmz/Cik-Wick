@@ -6,5 +6,6 @@ public class SceneInstaller : MonoInstaller
     {
         Container.Bind<PlayerController>().FromComponentInHierarchy().AsSingle();
         Container.Bind<StateController>().FromComponentInHierarchy().AsSingle();
+        Container.Bind<PlayerStateUI>().FromComponentInHierarchy().AsSingle();
     }
 }
