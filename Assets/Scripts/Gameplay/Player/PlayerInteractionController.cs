@@ -1,7 +1,10 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerInteractionController : MonoBehaviour
 {
+    [SerializeField] private List<Transform> _eggPlaces;
+
     private PlayerController _playerController;
 
     private void Awake() 

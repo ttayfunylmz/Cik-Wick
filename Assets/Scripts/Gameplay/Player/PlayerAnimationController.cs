@@ -5,7 +5,14 @@ using Zenject;
 
 public class PlayerAnimationController : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private Animator _playerAnimator;
+    [SerializeField] private Transform _eggPlacesParentTransform;
+
+    [Header("Settings")]
+    [SerializeField] private float _eggRotationDuration;
+
+    private Vector3 _eggRotationVector = new Vector3(0f, 360f, 0f);
 
     private PlayerController _playerController;
     private StateController _stateController;
@@ -19,6 +26,8 @@ public class PlayerAnimationController : MonoBehaviour
 
     private void Start() 
     {
+        RotateEggs();
+
         _playerController.OnPlayerJumped += PlayerController_OnPlayerJumped;    
     }
 
@@ -61,5 +70,11 @@ public class PlayerAnimationController : MonoBehaviour
                 _playerAnimator.SetBool(Consts.Animations.IS_SLIDING_ACTIVE, true);
                 break;
         }
+    }
+
+    private void RotateEggs()
+    {
+        _eggPlacesParentTransform.DORotate(_eggRotationVector, _eggRotationDuration, RotateMode.FastBeyond360)
+            .SetEase(Ease.Linear).SetLoops(-1, LoopType.Restart);
     }
 }
