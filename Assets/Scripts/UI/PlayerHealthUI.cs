@@ -26,12 +26,16 @@ public class PlayerHealthUI : MonoBehaviour
         }    
     }
 
-    private void Update() 
+    public void AnimateDamage()
     {
-        if(Input.GetKeyDown(KeyCode.U))
+        for (int i = 0; i < _playerHealthImages.Length; ++i)
         {
-            AnimateDamageSprite(_playerHealthImages[0], _playerHealthTransforms[0]);
-        }    
+            if (_playerHealthImages[i].sprite == _playerHealthySprite)
+            {
+                AnimateDamageSprite(_playerHealthImages[i], _playerHealthTransforms[i]);
+                break;
+            }
+        }
     }
 
     private void AnimateDamageSprite(Image activeImage, RectTransform activeImageTransform)

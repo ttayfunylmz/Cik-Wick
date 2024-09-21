@@ -9,9 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9118723044498160974}
+  - component: {fileID: 4806682139189288763}
   - component: {fileID: 2336027230965910165}
   - component: {fileID: 6376395978034201943}
   - component: {fileID: 3612080800045004835}
+  - component: {fileID: 6366347113261028268}
   m_Layer: 6
   m_Name: KitchenStoveElectric
   m_TagString: Untagged
@@ -31,9 +33,26 @@ Transform:
   m_LocalPosition: {x: 3.75, y: 1, z: 17.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 4797218709051940294}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &4806682139189288763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548870810797009625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da0f2c033cf896429c1925c04af878c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _knifePrefab: {fileID: 5152044030976979019, guid: 086542a0ff393814f9df670516378e4d, type: 3}
+  _knifeSpawnPoint: {fileID: 4797218709051940294}
+  _spawnInterval: 3
+  _spawnOffsetRange: 3.5
 --- !u!33 &2336027230965910165
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -114,3 +133,55 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6217641916932018668, guid: e76a3963940ccca4db40018dba9f46e5, type: 3}
+--- !u!65 &6366347113261028268
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548870810797009625}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.600002, y: 8.432126, z: 8.347175}
+  m_Center: {x: 4.300001, y: 12.66, z: 4.1735873}
+--- !u!1 &1863114653001375138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4797218709051940294}
+  m_Layer: 6
+  m_Name: KnifeSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4797218709051940294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863114653001375138}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6, y: 25, z: 4.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9118723044498160974}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

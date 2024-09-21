@@ -4,12 +4,15 @@ using UnityEngine;
 public class PlayerInteractionController : MonoBehaviour
 {
     [SerializeField] private List<Transform> _eggPlaces;
+    [SerializeField] private Transform _playerVisualTransform;
 
     private PlayerController _playerController;
+    private Rigidbody _playerRigidbody;
 
     private void Awake() 
     {
-        _playerController = GetComponent<PlayerController>();    
+        _playerController = GetComponent<PlayerController>();
+        _playerRigidbody = GetComponent<Rigidbody>();
     }
 
     private void OnTriggerEnter(Collider other) 
@@ -19,10 +22,16 @@ public class PlayerInteractionController : MonoBehaviour
         collectible?.PlayParticle(transform);
     }
 
-    private void OnCollisionEnter(Collision other) 
+    private void OnCollisionEnter(Collision other)
     {
-        IBoostable boostable = other.gameObject.GetComponent<IBoostable>();
-        boostable?.Boost(_playerController);
-        boostable?.PlayBoostAnimation();
+        if(other.gameObject.TryGetComponent<IBoostable>(out var boostable))
+        {
+            boostable.Boost(_playerController);
+            boostable.PlayBoostAnimation();
+        }
+        else if(other.gameObject.TryGetComponent<IDamageable>(out var damageable))
+        {
+            damageable.GiveDamage(_playerRigidbody, _playerVisualTransform);
+        }
     }
 }

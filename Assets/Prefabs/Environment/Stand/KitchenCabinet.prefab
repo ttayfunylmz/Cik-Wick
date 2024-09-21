@@ -88,6 +88,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &5984882380665581229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5398893784632105490}
+  m_Layer: 6
+  m_Name: KnifeSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5398893784632105490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5984882380665581229}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6, y: 25, z: 4.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4288703130160452438}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6445085401155330509
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,10 +128,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4288703130160452438}
+  - component: {fileID: 2352000913071033137}
   - component: {fileID: 7578791132118230912}
   - component: {fileID: 8580712883915945520}
   - component: {fileID: 4110894436584527478}
   - component: {fileID: 6838608187252385805}
+  - component: {fileID: 5694490708091377055}
   m_Layer: 6
   m_Name: KitchenCabinet
   m_TagString: Untagged
@@ -122,8 +155,25 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6580329926462845609}
+  - {fileID: 5398893784632105490}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &2352000913071033137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6445085401155330509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da0f2c033cf896429c1925c04af878c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _knifePrefab: {fileID: 5152044030976979019, guid: 086542a0ff393814f9df670516378e4d, type: 3}
+  _knifeSpawnPoint: {fileID: 5398893784632105490}
+  _spawnInterval: 3
+  _spawnOffsetRange: 3.5
 --- !u!33 &7578791132118230912
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -220,3 +270,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.600002, y: 9.0107, z: 0.67224485}
   m_Center: {x: 4.300001, y: 4.50535, z: 8.683687}
+--- !u!65 &5694490708091377055
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6445085401155330509}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.600002, y: 8.432126, z: 8.347175}
+  m_Center: {x: 4.300001, y: 12.66, z: 4.1735873}
