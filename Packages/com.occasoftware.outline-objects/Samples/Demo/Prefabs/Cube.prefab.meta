@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 71dbe640f42598a428a68a3c91e5075b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215454
+  packageName: 'Outline Objects: Quick Outline Shader and Outline Material for URP'
+  packageVersion: 3.1.18
+  assetPath: Packages/com.occasoftware.outline-objects/Samples/Demo/Prefabs/Cube.prefab
+  uploadId: 661488

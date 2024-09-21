@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dfc07a690da5da14385bd45ad1f9933f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215454
+  packageName: 'Outline Objects: Quick Outline Shader and Outline Material for URP'
+  packageVersion: 3.1.18
+  assetPath: Packages/com.occasoftware.outline-objects/Samples/Demo/Prefabs/VP_Sphere.prefab
+  uploadId: 661488

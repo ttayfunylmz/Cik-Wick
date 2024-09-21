@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1dbaf55a285cd2f49b9d850a3b64aa77
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215454
+  packageName: 'Outline Objects: Quick Outline Shader and Outline Material for URP'
+  packageVersion: 3.1.18
+  assetPath: Packages/com.occasoftware.outline-objects/Samples/Demo/Prefabs/Teapot.prefab
+  uploadId: 661488

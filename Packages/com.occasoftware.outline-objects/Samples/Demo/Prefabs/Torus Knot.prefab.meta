@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 57c494f5804b96f4ea2d8189465cddb6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215454
+  packageName: 'Outline Objects: Quick Outline Shader and Outline Material for URP'
+  packageVersion: 3.1.18
+  assetPath: Packages/com.occasoftware.outline-objects/Samples/Demo/Prefabs/Torus
+    Knot.prefab
+  uploadId: 661488

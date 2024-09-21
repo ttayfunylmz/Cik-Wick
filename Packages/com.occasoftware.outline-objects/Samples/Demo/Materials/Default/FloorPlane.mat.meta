@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fcca42a67e117ed43ba7d998a9db7152
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215454
+  packageName: 'Outline Objects: Quick Outline Shader and Outline Material for URP'
+  packageVersion: 3.1.18
+  assetPath: Packages/com.occasoftware.outline-objects/Samples/Demo/Materials/Default/FloorPlane.mat
+  uploadId: 661488

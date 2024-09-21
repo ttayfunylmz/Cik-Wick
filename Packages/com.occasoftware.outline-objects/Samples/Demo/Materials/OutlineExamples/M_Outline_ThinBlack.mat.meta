@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 028ac2e9d4e582845815792971765447
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215454
+  packageName: 'Outline Objects: Quick Outline Shader and Outline Material for URP'
+  packageVersion: 3.1.18
+  assetPath: Packages/com.occasoftware.outline-objects/Samples/Demo/Materials/OutlineExamples/M_Outline_ThinBlack.mat
+  uploadId: 661488

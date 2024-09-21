@@ -1,0 +1,56 @@
+{
+  "displayName": "Outline Objects",
+  "name": "com.occasoftware.outline-objects",
+  "version": "3.1.18",
+  "unity": "2022.3",
+  "description": "Mesh-based outlines for Unity URP",
+  "packageType": "package",
+  "hideInEditor": false,
+  "author": {
+    "name": "OccaSoftware",
+    "email": "hello@occasoftware.com",
+    "url": "https://www.occasoftware.com/"
+  },
+  "unityRelease": "0f1",
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "14.0.7"
+  },
+  "scripts": {
+    "release": "release-it",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "release-it": "^17.0.0",
+    "husky": "^8.0.0",
+    "auto-changelog": "^2.4.0"
+  },
+  "release-it": {
+    "npm": {
+      "publish": false
+    },
+    "github": {
+      "release": true
+    },
+    "git": {
+      "commitMessage": "chore: release v${version}",
+      "changelog": "pnpx auto-changelog --stdout --commit-limit false -u --template https://raw.githubusercontent.com/release-it/release-it/main/templates/changelog-compact.hbs"
+    },
+    "hooks": {
+      "after:bump": "pnpx auto-changelog -p --commit-limit false --template keepachangelog"
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": {
+          "name": "conventionalcommits",
+          "infile": false
+        }
+      }
+    },
+    "auto-changelog": {
+      "output": "CHANGELOG.md",
+      "template": "keepachangelog",
+      "unreleased": true,
+      "commitLimit": false
+    }
+  }
+}

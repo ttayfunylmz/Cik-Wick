@@ -1,0 +1,14 @@
+{
+    "name": "OccaSoftware.OutlineObjects.Demo",
+    "rootNamespace": "OccaSoftware.OutlineObjects.Demo",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

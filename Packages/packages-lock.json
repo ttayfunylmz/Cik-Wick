@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.occasoftware.outline-objects": {
+      "version": "file:com.occasoftware.outline-objects",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "14.0.7"
+      }
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,

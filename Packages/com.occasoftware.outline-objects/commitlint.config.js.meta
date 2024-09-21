@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 40530366522fcc248b6323cd219c6d8b
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215454
+  packageName: 'Outline Objects: Quick Outline Shader and Outline Material for URP'
+  packageVersion: 3.1.18
+  assetPath: Packages/com.occasoftware.outline-objects/commitlint.config.js
+  uploadId: 661488

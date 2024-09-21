@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7c930d14ab769fa4d909fff62044af3a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215454
+  packageName: 'Outline Objects: Quick Outline Shader and Outline Material for URP'
+  packageVersion: 3.1.18
+  assetPath: Packages/com.occasoftware.outline-objects/Editor/EditorUtilities/SmoothNormalsWindow.cs
+  uploadId: 661488

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b7c0b179145bd7d40b9d3efc5862a3c2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215454
+  packageName: 'Outline Objects: Quick Outline Shader and Outline Material for URP'
+  packageVersion: 3.1.18
+  assetPath: Packages/com.occasoftware.outline-objects/Samples/Demo/Materials/OutlineExamples/M_Outline
+    6.mat
+  uploadId: 661488
