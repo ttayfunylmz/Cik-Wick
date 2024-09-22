@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da0f2c033cf896429c1925c04af878c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _knifePrefab: {fileID: 5152044030976979019, guid: 086542a0ff393814f9df670516378e4d, type: 3}
+  _knifePrefab: {fileID: 1360429674730464378, guid: 086542a0ff393814f9df670516378e4d, type: 3}
   _knifeSpawnPoint: {fileID: 5398893784632105490}
   _spawnInterval: 3
   _spawnOffsetRange: 3.5
