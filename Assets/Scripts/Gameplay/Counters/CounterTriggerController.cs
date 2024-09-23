@@ -4,7 +4,7 @@ using System.Collections;
 
 public class CounterTriggerController : MonoBehaviour
 {
-    [SerializeField] private GameObject _knifePrefab;
+    [SerializeField] private GameObject[] _obstaclePrefabs;
     [SerializeField] private Transform _knifeSpawnPoint;
     [SerializeField] private float _spawnInterval = 5f;
     [SerializeField] private float _spawnOffsetRange = 2f;
@@ -60,6 +60,7 @@ public class CounterTriggerController : MonoBehaviour
             _knifeSpawnPoint.position.z + randomOffsetZ
         );
 
-        _container.InstantiatePrefab(_knifePrefab, spawnPosition, _knifeSpawnPoint.rotation, _knifeSpawnPoint);
+        int randomIndex = Random.Range(0, _obstaclePrefabs.Length);
+        _container.InstantiatePrefab(_obstaclePrefabs[randomIndex], spawnPosition, _knifeSpawnPoint.rotation, _knifeSpawnPoint);
     }
 }

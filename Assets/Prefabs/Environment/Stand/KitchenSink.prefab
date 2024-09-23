@@ -50,7 +50,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da0f2c033cf896429c1925c04af878c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _knifePrefab: {fileID: 1360429674730464378, guid: 086542a0ff393814f9df670516378e4d, type: 3}
+  _obstaclePrefabs:
+  - {fileID: 1360429674730464378, guid: da01f6ae0f726c8499de2d6951178035, type: 3}
+  - {fileID: 1360429674730464378, guid: 086542a0ff393814f9df670516378e4d, type: 3}
   _knifeSpawnPoint: {fileID: 3681804946137621410}
   _spawnInterval: 3
   _spawnOffsetRange: 3.5
