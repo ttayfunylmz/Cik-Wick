@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 81ccd3e1b06d09a48ab1b879715b1741
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 262457
+  packageName: 'Toon Detailer: Cavity & Contours'
+  packageVersion: 1.0
+  assetPath: Assets/INab Studio/Post Processing Assets/Toon Detailer/Common URP/Demo
+    Scenes/Demo Scene URP.unity
+  uploadId: 696367

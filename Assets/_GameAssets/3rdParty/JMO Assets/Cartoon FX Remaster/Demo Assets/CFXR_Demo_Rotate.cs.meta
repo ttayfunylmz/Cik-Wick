@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1529372f6ddbfb0429260b50bc9d1aa8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109565
+  packageName: Cartoon FX Remaster Free
+  packageVersion: R 1.4.1
+  assetPath: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_Rotate.cs
+  uploadId: 693350

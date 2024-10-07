@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 03c8102322ad0d04fa6ae3f17887e967
+timeCreated: 1535104615
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109565
+  packageName: Cartoon FX Remaster Free
+  packageVersion: R 1.4.1
+  assetPath: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleText.cs
+  uploadId: 693350

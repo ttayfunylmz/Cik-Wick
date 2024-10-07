@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ce7d96d3a4d4f3b4681ab437a9710d60
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109565
+  packageName: Cartoon FX Remaster Free
+  packageVersion: R 1.4.1
+  assetPath: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_ExpressionParser.cs
+  uploadId: 693350

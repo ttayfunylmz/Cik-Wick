@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5a711a01011934ebcb58ef5ad52159d6
+timeCreated: 1435809878
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109565
+  packageName: Cartoon FX Remaster Free
+  packageVersion: R 1.4.1
+  assetPath: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.shader
+  uploadId: 693350

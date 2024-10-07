@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0b29460cf88c2f1488d7c4c8544af0a0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 60072b568d64c40a485e0fc55012dc9f, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 262457
+  packageName: 'Toon Detailer: Cavity & Contours'
+  packageVersion: 1.0
+  assetPath: Assets/INab Studio/Post Processing Assets/Common/Subgraphs/Edge Detection/Depth
+    Normals Edge Detection Blit 2022.shadersubgraph
+  uploadId: 696367

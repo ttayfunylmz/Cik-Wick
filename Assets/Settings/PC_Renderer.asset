@@ -1,5 +1,44 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6674894144279343860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 575b58c440207454da21364b3e7ad09b, type: 3}
+  m_Name: ScreenSpaceOutlines
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  renderPassEvent: 350
+  outlinesLayerMask:
+    m_Bits: 128
+  outlineSettings:
+    outlineColor:
+      r: 0
+      g: 0
+      b: 0
+      a: 1
+    outlineScale: 0
+    depthThreshold: 1.5
+    robertsCrossMultiplier: 100
+    normalThreshold: 0.4
+    steepAngleThreshold: 0.2
+    steepAngleMultiplier: 25
+    colorFormat: 0
+    depthBufferBits: 0
+    filterMode: 0
+    backgroundColor:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    perObjectData: 0
+    enableDynamicBatching: 0
+    enableInstancing: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,30 +52,23 @@ MonoBehaviour:
   m_Name: PC_Renderer
   m_EditorClassIdentifier: 
   debugShaders:
-    debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7,
-      type: 3}
+    debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
     hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
-    probeVolumeSamplingDebugComputeShader: {fileID: 7200000, guid: 53626a513ea68ce47b59dc1299fe3959,
-      type: 3}
+    probeVolumeSamplingDebugComputeShader: {fileID: 7200000, guid: 53626a513ea68ce47b59dc1299fe3959, type: 3}
   probeVolumeResources:
-    probeVolumeDebugShader: {fileID: 4800000, guid: e5c6678ed2aaa91408dd3df699057aae,
-      type: 3}
-    probeVolumeFragmentationDebugShader: {fileID: 4800000, guid: 03cfc4915c15d504a9ed85ecc404e607,
-      type: 3}
-    probeVolumeOffsetDebugShader: {fileID: 4800000, guid: 53a11f4ebaebf4049b3638ef78dc9664,
-      type: 3}
-    probeVolumeSamplingDebugShader: {fileID: 4800000, guid: 8f96cd657dc40064aa21efcc7e50a2e7,
-      type: 3}
-    probeSamplingDebugMesh: {fileID: -3555484719484374845, guid: 57d7c4c16e2765b47a4d2069b311bffe,
-      type: 3}
-    probeSamplingDebugTexture: {fileID: 2800000, guid: 24ec0e140fb444a44ab96ee80844e18e,
-      type: 3}
-    probeVolumeBlendStatesCS: {fileID: 7200000, guid: b9a23f869c4fd45f19c5ada54dd82176,
-      type: 3}
+    probeVolumeDebugShader: {fileID: 4800000, guid: e5c6678ed2aaa91408dd3df699057aae, type: 3}
+    probeVolumeFragmentationDebugShader: {fileID: 4800000, guid: 03cfc4915c15d504a9ed85ecc404e607, type: 3}
+    probeVolumeOffsetDebugShader: {fileID: 4800000, guid: 53a11f4ebaebf4049b3638ef78dc9664, type: 3}
+    probeVolumeSamplingDebugShader: {fileID: 4800000, guid: 8f96cd657dc40064aa21efcc7e50a2e7, type: 3}
+    probeSamplingDebugMesh: {fileID: -3555484719484374845, guid: 57d7c4c16e2765b47a4d2069b311bffe, type: 3}
+    probeSamplingDebugTexture: {fileID: 2800000, guid: 24ec0e140fb444a44ab96ee80844e18e, type: 3}
+    probeVolumeBlendStatesCS: {fileID: 7200000, guid: b9a23f869c4fd45f19c5ada54dd82176, type: 3}
   m_RendererFeatures:
   - {fileID: 7833122117494664109}
-  m_RendererFeatureMap: ad6b866f10d7b46c
+  - {fileID: 5478405751085540758}
+  m_RendererFeatureMap: ad6b866f10d7b46c9625e9380135074c
   m_UseNativeRenderPass: 1
+  xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   m_AssetVersion: 2
   m_OpaqueLayerMask:
@@ -56,8 +88,48 @@ MonoBehaviour:
   m_RenderingMode: 2
   m_DepthPrimingMode: 0
   m_CopyDepthMode: 0
+  m_DepthAttachmentFormat: 0
+  m_DepthTextureFormat: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 0
+--- !u!114 &5478405751085540758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1feb9a26683b5f542ab49a5bd14e15ba, type: 3}
+  m_Name: ToonDetailer
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  m_Settings:
+    _DetailerType: 0
+    _MaskUse: 0
+    _MaskLayer:
+      serializedVersion: 2
+      m_Bits: 0
+    _ControlViaVolumes: 1
+    _ColorHue: {r: 1, g: 0.6039216, b: 0, a: 1}
+    _UseFade: 0
+    _FadeAffectsOnlyContours: 0
+    _FadeStart: 40
+    _FadeEnd: 60
+    _BlackOffset: 0.5
+    _ContoursIntensity: 0.5
+    _ContoursThickness: 1
+    _ContoursElevationStrength: 1
+    _ContoursElevationSmoothness: 0
+    _ContoursDepressionStrength: 2
+    _ContoursDepressionSmoothness: 0
+    _CavityIntensity: 1
+    _CavityRadius: 0.5
+    _CavityStrength: 1.25
+    _CavitySamples: 12
+  m_Shader: {fileID: 4800000, guid: 37df264b7e415ce4bae7e85907e8f90e, type: 3}
+  m_DepthShader: {fileID: 4800000, guid: bc2f1525021c4d0478c6152672697263, type: 3}
 --- !u!114 &7833122117494664109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,9 +149,9 @@ MonoBehaviour:
     AfterOpaque: 0
     Source: 1
     NormalSamples: 1
-    Intensity: 0.4
-    DirectLightingStrength: 0.25
-    Radius: 0.3
+    Intensity: 0.2
+    DirectLightingStrength: 0.5
+    Radius: 0.7
     Samples: 1
     BlurQuality: 0
     Falloff: 100

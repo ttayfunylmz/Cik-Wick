@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4173998067522845214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1feb9a26683b5f542ab49a5bd14e15ba, type: 3}
+  m_Name: ToonDetailer
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  m_Settings:
+    _DetailerType: 0
+    _MaskUse: 2
+    _MaskLayer:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    _ControlViaVolumes: 0
+    _ColorHue: {r: 0, g: 1, b: 0.36607313, a: 1}
+    _UseFade: 0
+    _FadeAffectsOnlyContours: 0
+    _FadeStart: 40
+    _FadeEnd: 60
+    _BlackOffset: 0
+    _ContoursIntensity: 1
+    _ContoursThickness: 0.69
+    _ContoursElevationStrength: 3
+    _ContoursElevationSmoothness: 0
+    _ContoursDepressionStrength: 2.55
+    _ContoursDepressionSmoothness: 0
+    _CavityIntensity: 1
+    _CavityRadius: 0.146
+    _CavityStrength: 0.46
+    _CavitySamples: 12
+  m_Shader: {fileID: 4800000, guid: 37df264b7e415ce4bae7e85907e8f90e, type: 3}
+  m_DepthShader: {fileID: 4800000, guid: bc2f1525021c4d0478c6152672697263, type: 3}
+--- !u!114 &-2227011364461630673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ToonDetailerFeature
+  m_EditorClassIdentifier: Assembly-CSharp:INab.ToonDetailer.URP:ToonDetailerFeature
+  m_Active: 1
+  m_Settings:
+    _DetailerType: 0
+    _MaskUse: 0
+    _MaskLayer:
+      m_Bits: 0
+    _FastMode: 0
+    _ColorHue:
+      r: 0
+      g: 0
+      b: 0
+      a: 1
+    _UseFade: 0
+    _FadeAffectsOnlyContours: 0
+    _FadeStart: 40
+    _FadeEnd: 60
+    _BlackOffset: 0.2
+    _ContoursIntensity: 1
+    _ContoursThickness: 0.5
+    _ContoursElevationStrength: 1
+    _ContoursElevationSmoothness: 0
+    _ContoursDepressionStrength: 2
+    _ContoursDepressionSmoothness: 0
+    _CavityIntensity: 1
+    _CavityRadius: 0.5
+    _CavityStrength: 1.25
+    _CavitySamples: 12
+  m_Shader: {fileID: 4800000, guid: 37df264b7e415ce4bae7e85907e8f90e, type: 3}
+  m_DepthShader: {fileID: 4800000, guid: bc2f1525021c4d0478c6152672697263, type: 3}
+  m_ToonDetailerMaterial: {fileID: 0}
+  m_DepthMaterial: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
+  m_Name: Toon Detailer Renderer
+  m_EditorClassIdentifier: 
+  debugShaders:
+    debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
+    hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
+    probeVolumeSamplingDebugComputeShader: {fileID: 7200000, guid: 53626a513ea68ce47b59dc1299fe3959, type: 3}
+  probeVolumeResources:
+    probeVolumeDebugShader: {fileID: 0}
+    probeVolumeFragmentationDebugShader: {fileID: 0}
+    probeVolumeOffsetDebugShader: {fileID: 0}
+    probeVolumeSamplingDebugShader: {fileID: 0}
+    probeSamplingDebugMesh: {fileID: 0}
+    probeSamplingDebugTexture: {fileID: 0}
+    probeVolumeBlendStatesCS: {fileID: 0}
+  m_RendererFeatures:
+  - {fileID: -4173998067522845214}
+  m_RendererFeatureMap: e2452254dffa12c6
+  m_UseNativeRenderPass: 0
+  xrSystemData: {fileID: 0}
+  postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
+  m_AssetVersion: 2
+  m_OpaqueLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_TransparentLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_DefaultStencilState:
+    overrideStencilState: 0
+    stencilReference: 0
+    stencilCompareFunction: 8
+    passOperation: 2
+    failOperation: 0
+    zFailOperation: 0
+  m_ShadowTransparentReceive: 1
+  m_RenderingMode: 0
+  m_DepthPrimingMode: 0
+  m_CopyDepthMode: 1
+  m_DepthAttachmentFormat: 0
+  m_DepthTextureFormat: 0
+  m_AccurateGbufferNormals: 1
+  m_IntermediateTextureMode: 1

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3eab241579cd5514388d88f452714385
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109565
+  packageName: Cartoon FX Remaster Free
+  packageVersion: R 1.4.1
+  assetPath: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_URP.cginc
+  uploadId: 693350

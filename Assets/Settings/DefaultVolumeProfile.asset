@@ -465,6 +465,7 @@ MonoBehaviour:
   - {fileID: -6288072647309666549}
   - {fileID: 7518938298396184218}
   - {fileID: -1410297666881709256}
+  - {fileID: 2529795450717084024}
 --- !u!114 &853819529557874667
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -775,6 +776,64 @@ MonoBehaviour:
   contribution:
     m_OverrideState: 1
     m_Value: 0
+--- !u!114 &2529795450717084024
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff8b6288d5392b4786dbdd7dfe24cc0, type: 3}
+  m_Name: ToonDetailerVolumeComponent
+  m_EditorClassIdentifier: 
+  active: 1
+  _ColorHue:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  _FadeAffectsOnlyContours:
+    m_OverrideState: 1
+    m_Value: 0
+  _FadeStart:
+    m_OverrideState: 1
+    m_Value: 40
+  _FadeEnd:
+    m_OverrideState: 1
+    m_Value: 40
+  _BlackOffset:
+    m_OverrideState: 1
+    m_Value: 0.5
+  _ContoursIntensity:
+    m_OverrideState: 1
+    m_Value: 0.5
+  _ContoursThickness:
+    m_OverrideState: 1
+    m_Value: 1
+  _ContoursElevationStrength:
+    m_OverrideState: 1
+    m_Value: 1
+  _ContoursElevationSmoothness:
+    m_OverrideState: 1
+    m_Value: 0
+  _ContoursDepressionStrength:
+    m_OverrideState: 1
+    m_Value: 2
+  _ContoursDepressionSmoothness:
+    m_OverrideState: 1
+    m_Value: 0
+  _CavityIntensity:
+    m_OverrideState: 1
+    m_Value: 1
+  _CavityRadius:
+    m_OverrideState: 1
+    m_Value: 0.5
+  _CavityStrength:
+    m_OverrideState: 1
+    m_Value: 1.25
+  _CavitySamples:
+    m_OverrideState: 1
+    m_Value: 12
 --- !u!114 &3959858460715838825
 MonoBehaviour:
   m_ObjectHideFlags: 3

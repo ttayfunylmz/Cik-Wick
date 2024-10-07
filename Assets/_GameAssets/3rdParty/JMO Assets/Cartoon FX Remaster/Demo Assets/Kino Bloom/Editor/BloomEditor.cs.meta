@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 036bc30d96c3349ce86bfc8d95667da7
+timeCreated: 1435816745
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109565
+  packageName: Cartoon FX Remaster Free
+  packageVersion: R 1.4.1
+  assetPath: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomEditor.cs
+  uploadId: 693350

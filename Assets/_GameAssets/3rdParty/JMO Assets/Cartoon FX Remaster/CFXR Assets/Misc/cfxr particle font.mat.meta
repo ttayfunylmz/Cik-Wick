@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: daedbca3d89ee8640bed0c051d176ff9
+timeCreated: 1535124020
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109565
+  packageName: Cartoon FX Remaster Free
+  packageVersion: R 1.4.1
+  assetPath: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr particle
+    font.mat
+  uploadId: 693350

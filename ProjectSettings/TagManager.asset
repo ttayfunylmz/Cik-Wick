@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - ship
+  - asteroid
   layers:
   - Default
   - TransparentFX
@@ -11,9 +13,9 @@ TagManager:
   - 
   - Water
   - UI
-  - Ground
   - Obstacle
-  - 
+  - Player
+  - Ground
   - 
   - 
   - 

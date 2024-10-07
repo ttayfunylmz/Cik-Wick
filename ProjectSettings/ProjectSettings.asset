@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 601664fd74e60e14484bbeef05994226
+  productGUID: 4e619c61f59428742a82b2fedca7bf44
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: CikWick
+  productName: Cik_Wick_Remastered
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -868,14 +868,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: CikWick
+  metroPackageName: Cik_Wick_Remastered
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: CikWick
+  metroApplicationDescription: Cik_Wick_Remastered
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -946,10 +946,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: a4f61a35-6404-4d9d-bf89-2c6aeb0e11c1
+  cloudProjectId: e9c8ab1f-160c-45c0-bfca-4d133af88f91
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: CikWick
+  projectName: Cik_Wick_Remastered 2024-10-02_16-44-31
   organizationId: ttayfunylmz
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
