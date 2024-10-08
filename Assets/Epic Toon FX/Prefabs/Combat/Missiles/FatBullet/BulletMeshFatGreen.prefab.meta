@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cbdd355886203ef4ea2fe4760a3b6902
+timeCreated: 1499349187
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/FatBullet/BulletMeshFatGreen.prefab
+  uploadId: 679579

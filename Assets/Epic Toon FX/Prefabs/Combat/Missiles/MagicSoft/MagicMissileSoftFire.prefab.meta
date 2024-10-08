@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 31f9fcfbbcecdd24caf0eb7857420dcd
+timeCreated: 1499264774
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/MagicSoft/MagicMissileSoftFire.prefab
+  uploadId: 679579

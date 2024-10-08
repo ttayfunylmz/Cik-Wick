@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4b21d8abf8d26b449b109c8edb5cc78a
+timeCreated: 1499121570
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Rocket/RocketMissileFire.prefab
+  uploadId: 679579

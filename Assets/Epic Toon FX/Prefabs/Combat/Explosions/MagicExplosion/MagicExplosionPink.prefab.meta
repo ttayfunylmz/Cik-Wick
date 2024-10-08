@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fb50a68104cea5f438567fcabb8efb69
+timeCreated: 1519752601
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion/MagicExplosionPink.prefab
+  uploadId: 679579

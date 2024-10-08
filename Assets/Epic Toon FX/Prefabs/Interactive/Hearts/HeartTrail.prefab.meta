@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: faed733be55ec8345802e8121b1b1952
+timeCreated: 1528476608
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Hearts/HeartTrail.prefab
+  uploadId: 679579

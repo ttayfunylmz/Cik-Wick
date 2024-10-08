@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 73a3a14a35c722943ad82f0150bfeb69
+timeCreated: 1455648486
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/SpikyExplosion/SpikyExplosionGreen.prefab
+  uploadId: 679579

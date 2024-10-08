@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 628ef9b0c7e4fd24db54868035e11237
+timeCreated: 1499558257
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Scripts/ETFXPitchRandomizer.cs
+  uploadId: 679579

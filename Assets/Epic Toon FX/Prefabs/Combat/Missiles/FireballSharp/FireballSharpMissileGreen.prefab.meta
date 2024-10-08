@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d638dd864cf75654990d92d54e4bc96f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/FireballSharp/FireballSharpMissileGreen.prefab
+  uploadId: 679579

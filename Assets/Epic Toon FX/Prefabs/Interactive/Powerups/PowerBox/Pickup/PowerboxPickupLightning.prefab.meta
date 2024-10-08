@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9de7ac4e8a1dc33458e6d45b26fd5501
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.81
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Pickup/PowerboxPickupLightning.prefab
+  uploadId: 567564

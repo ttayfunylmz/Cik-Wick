@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2c82b2af38b82f442bd9a24539b8d33c
+timeCreated: 1499190437
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/FireballRoundExplosion/ExplosionFireballGreen.prefab
+  uploadId: 679579

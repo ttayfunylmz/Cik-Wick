@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f3df74fe190ff84f8893b1bbb6cb3b6
+timeCreated: 1455556004
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Environment/Fog/Black/FogHeavyBlack.prefab
+  uploadId: 679579

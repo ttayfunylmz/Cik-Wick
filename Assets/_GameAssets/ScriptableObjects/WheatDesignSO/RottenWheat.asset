@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa568c603ea63d49bd4cb61a53dfc5c, type: 3}
+  m_Name: RottenWheat
+  m_EditorClassIdentifier: 
+  _particlesPrefab: {fileID: 7055472359389005886, guid: 6794b1a9f2e492440b1b613099c548f6, type: 3}
+  _particlesDestroyDuration: 5
+  _resetBoostDuration: 5
+  _activeSprite: {fileID: 21300000, guid: 1061d5daf8937e841a089910502c3724, type: 3}
+  _passiveSprite: {fileID: 21300000, guid: 9fb522d1d6d2678469bee20c0b583429, type: 3}
+  _activeWheatSprite: {fileID: 21300000, guid: 6d77eebe066c3614a80ec65bec6d88d9, type: 3}
+  _passiveWheatSprite: {fileID: 21300000, guid: 38a7c70361b84084a965cf04e58b0a41, type: 3}

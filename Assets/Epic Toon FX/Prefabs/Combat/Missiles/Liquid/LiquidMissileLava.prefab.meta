@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1beb0a8414c49964fa16289d0fb73952
+timeCreated: 1551799680
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Liquid/LiquidMissileLava.prefab
+  uploadId: 679579

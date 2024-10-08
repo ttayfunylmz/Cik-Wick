@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 425d927f9eb0a72428aed6bb4c72fba1
+timeCreated: 1530792300
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Storm/StormMissile.prefab
+  uploadId: 679579

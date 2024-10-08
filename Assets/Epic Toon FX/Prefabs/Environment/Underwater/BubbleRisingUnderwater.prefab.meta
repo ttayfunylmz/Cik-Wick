@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 640ef30391bac3645a1cb5d8a5d8cf77
+timeCreated: 1552097209
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Environment/Underwater/BubbleRisingUnderwater.prefab
+  uploadId: 679579

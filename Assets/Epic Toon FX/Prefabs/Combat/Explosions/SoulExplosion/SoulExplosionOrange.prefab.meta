@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cbf6e26bfae3a4f48acb9bb79ce1e5da
+timeCreated: 1455205524
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/SoulExplosion/SoulExplosionOrange.prefab
+  uploadId: 679579

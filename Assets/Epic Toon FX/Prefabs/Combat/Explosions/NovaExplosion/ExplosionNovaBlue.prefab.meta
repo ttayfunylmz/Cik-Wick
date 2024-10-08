@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ef697b4cb271b7642af97a1a70394631
+timeCreated: 1455641702
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/NovaExplosion/ExplosionNovaBlue.prefab
+  uploadId: 679579

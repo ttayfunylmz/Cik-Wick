@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 25a78a965241d084996f23857207e95f
+timeCreated: 1499536451
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Nuke/NukeMissileFire.prefab
+  uploadId: 679579

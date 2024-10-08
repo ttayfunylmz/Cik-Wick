@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c6de9c3e430816d40aedcaaf84000975
+timeCreated: 1447610730
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodPoolGrowing.prefab
+  uploadId: 679579

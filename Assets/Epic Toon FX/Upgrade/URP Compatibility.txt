@@ -1,0 +1,34 @@
+URP Compatibility
+-----------------
+
+To upgrade the asset to URP double-click the 'ETFX URP Upgrade (6000.0.11f1)' and press Import.
+
+-----------------
+
+If you have invisible particles in URP, this may be because of a couple of reasons:
+
+* Materials have Soft Particles enabled
+* You are using a 2D project template
+* You are using an Orthographic Camera
+
+--
+
+To fix this problem for 3D projects:
+
+1. Enable Depth Texture in your SRP settings which can be found in the 'Edit/Project Settings/Graphics' menu.
+2. Make sure that 'Depth Texture' on your Main Camera is enabled. 
+
+--
+
+To fix this problem for 2D projects (or 3D projects with Orthographic Cameras):
+
+1. Select the materials in the asset that use the Standard Particle Shader.
+2. Disable the Soft Particles toggle in the inspector.
+
+-----------------
+
+Keep in mind that the purpose of Soft Particles is to make particles fade out near intersections with 3D geometry, and does not work for 2D sprites.
+
+-----------------
+
+Still having problems? Reach out here: https://archanor.com/support.html

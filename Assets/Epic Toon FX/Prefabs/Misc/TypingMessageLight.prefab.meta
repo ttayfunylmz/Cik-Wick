@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d99c8456d28dde44fa44a87e0bfbef3b
+timeCreated: 1552859215
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Misc/TypingMessageLight.prefab
+  uploadId: 679579

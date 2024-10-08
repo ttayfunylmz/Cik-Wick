@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 721ed883392764d42a3957861e7752c0
+timeCreated: 1552144327
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/ShadowExplosion/ShadowExplosion.prefab
+  uploadId: 679579

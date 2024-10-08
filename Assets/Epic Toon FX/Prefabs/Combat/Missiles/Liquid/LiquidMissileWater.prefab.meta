@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eae69d44360b6274ba18e56d229d8fc0
+timeCreated: 1551886977
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Liquid/LiquidMissileWater.prefab
+  uploadId: 679579

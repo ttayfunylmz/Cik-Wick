@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cc0bdc9defd87ef4fba2c3954f1bb0d1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions (Misc)/TargetHitExplosion.prefab
+  uploadId: 679579

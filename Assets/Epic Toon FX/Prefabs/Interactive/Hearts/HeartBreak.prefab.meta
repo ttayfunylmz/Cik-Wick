@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e518b4ac4faac2246965b820629da9f4
+timeCreated: 1529083081
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Hearts/HeartBreak.prefab
+  uploadId: 679579

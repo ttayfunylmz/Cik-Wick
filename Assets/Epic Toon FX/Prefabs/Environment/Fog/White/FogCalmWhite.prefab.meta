@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 03087867de8861c4cb5f75bd0f7faf42
+timeCreated: 1447612039
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Environment/Fog/White/FogCalmWhite.prefab
+  uploadId: 679579

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b3f1ecf8bdf01124289a7e517f46cb1a
+timeCreated: 1551717077
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Environment/Bubbles/SoapBubbleEmitter.prefab
+  uploadId: 679579

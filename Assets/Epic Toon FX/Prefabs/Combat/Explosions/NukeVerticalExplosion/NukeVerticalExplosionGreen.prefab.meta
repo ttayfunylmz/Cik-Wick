@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3a6bd25b5a08b114d8b5d315a2e9376a
+timeCreated: 1520019107
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionGreen.prefab
+  uploadId: 679579

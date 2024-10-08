@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a79f8048fa75d6c449d730e96bb836fa
+timeCreated: 1529419657
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.81
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Money/Coins/GoldCoinDirectional.prefab
+  uploadId: 567564

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 258d13d2331bbf34e837bdf97fea4878
+timeCreated: 1529420928
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Money/Coins/GoldCoinShower.prefab
+  uploadId: 679579

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6b88dc69c37f0ac47825973a9c9dcb1a
+timeCreated: 1456691466
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionYellow.prefab
+  uploadId: 679579

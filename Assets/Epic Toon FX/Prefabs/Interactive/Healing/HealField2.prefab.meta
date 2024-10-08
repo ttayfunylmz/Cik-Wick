@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ca5dad4b41345f740b9a72fa69bd69ae
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Healing/HealField2.prefab
+  uploadId: 679579

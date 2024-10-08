@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2d2dc4db83f8e7d47a43c1d641d30a95
+timeCreated: 1455725789
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/SmallExplosion/SmallExplosionGreen.prefab
+  uploadId: 679579

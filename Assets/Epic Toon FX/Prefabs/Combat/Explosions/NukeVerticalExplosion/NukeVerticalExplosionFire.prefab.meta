@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9f03f372adf02874cb666857a9f97abd
+timeCreated: 1520006424
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionFire.prefab
+  uploadId: 679579

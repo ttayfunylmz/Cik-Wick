@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ece958bbba812cd4ca52c389ccc91c24
+timeCreated: 1551972964
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodFlowing.prefab
+  uploadId: 679579

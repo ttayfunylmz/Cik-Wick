@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 02602c03e3a632f44a268976f34add18
+timeCreated: 1499301369
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/NukeExplosion/NukeExplosionBlue.prefab
+  uploadId: 679579

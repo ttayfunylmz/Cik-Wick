@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 62bc425171c9c964ba37f4fde2b18e46
+timeCreated: 1447184731
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionGreen.prefab
+  uploadId: 679579

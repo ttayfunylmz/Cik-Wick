@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff672eaca96d32c419d7a1f1b0346e8d
+timeCreated: 1529246354
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Healing/HealOnce.prefab
+  uploadId: 679579

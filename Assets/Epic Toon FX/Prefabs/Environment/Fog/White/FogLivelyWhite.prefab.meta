@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 85c42c69cd6a99a44baea39f65c67510
+timeCreated: 1447612186
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Environment/Fog/White/FogLivelyWhite.prefab
+  uploadId: 679579

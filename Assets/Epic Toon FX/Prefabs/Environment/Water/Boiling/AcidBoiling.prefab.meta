@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e370423ba226169489d92631df31f5af
+timeCreated: 1446217289
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Environment/Water/Boiling/AcidBoiling.prefab
+  uploadId: 679579

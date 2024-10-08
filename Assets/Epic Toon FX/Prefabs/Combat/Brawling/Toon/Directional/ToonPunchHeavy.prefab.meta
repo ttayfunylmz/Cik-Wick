@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 77aff4f1c9d07704bafd856e02a46ac9
+timeCreated: 1455889829
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Brawling/Toon/Directional/ToonPunchHeavy.prefab
+  uploadId: 679579

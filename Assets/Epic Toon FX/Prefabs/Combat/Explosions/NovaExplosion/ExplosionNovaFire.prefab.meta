@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ec1c5863f61e8ff4a84dbdb8a282a7ac
+timeCreated: 1455641700
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/NovaExplosion/ExplosionNovaFire.prefab
+  uploadId: 679579

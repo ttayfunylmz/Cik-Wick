@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fee5a85360b1a204cb63eeb3985e8d99
+timeCreated: 1499560576
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/LaserMuzzle/LaserMuzzlePink.prefab
+  uploadId: 679579

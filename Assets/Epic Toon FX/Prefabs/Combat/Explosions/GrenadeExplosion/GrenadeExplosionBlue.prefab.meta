@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 02b55b1514278964187c93c0b09a3dc4
+timeCreated: 1455763332
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/GrenadeExplosion/GrenadeExplosionBlue.prefab
+  uploadId: 679579

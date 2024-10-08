@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ee96a87b53bb8b24c82f7447e9b58ba2
+timeCreated: 1446742070
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Environment/Weather/Rain/RainLight.prefab
+  uploadId: 679579

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7b117ab47ae99e74fbb811d488c1eb17
+timeCreated: 1447692206
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Magic/Buff/MagicBuffBlue.prefab
+  uploadId: 679579

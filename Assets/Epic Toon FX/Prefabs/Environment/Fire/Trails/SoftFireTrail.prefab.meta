@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c39f135b5ead72a49b86bcf04496181d
+timeCreated: 1552352135
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Environment/Fire/Trails/SoftFireTrail.prefab
+  uploadId: 679579

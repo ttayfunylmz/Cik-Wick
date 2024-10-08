@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 79b0a8abb1f641b4a8faa10b904758ea
+timeCreated: 1499174174
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/BulletExplosion/BulletExplosionBlue.prefab
+  uploadId: 679579

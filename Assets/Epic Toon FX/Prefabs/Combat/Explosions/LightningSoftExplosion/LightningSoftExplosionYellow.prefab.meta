@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d616c4de34d1bda439766b6dab9b9609
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/LightningSoftExplosion/LightningSoftExplosionYellow.prefab
+  uploadId: 679579

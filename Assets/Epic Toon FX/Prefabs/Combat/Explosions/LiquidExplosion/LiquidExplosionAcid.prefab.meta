@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eb8eb977f3a1f0341ac06e638d078a1c
+timeCreated: 1551719826
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/LiquidExplosion/LiquidExplosionAcid.prefab
+  uploadId: 679579

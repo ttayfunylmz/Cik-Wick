@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cbaf2c9f645e7d148aa4402a74bf6e9f
+timeCreated: 1448028356
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerupGlow/PowerupGlow2.prefab
+  uploadId: 679579

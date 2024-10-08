@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c80bcda92d7405f409f1c017ad680972
+timeCreated: 1447091210
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodSplatDirectional.prefab
+  uploadId: 679579

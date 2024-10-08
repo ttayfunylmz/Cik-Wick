@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b69cacae8a5b6f24ea06ba15a8bb910e
+timeCreated: 1455641704
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/NovaExplosion/ExplosionNovaGreen.prefab
+  uploadId: 679579

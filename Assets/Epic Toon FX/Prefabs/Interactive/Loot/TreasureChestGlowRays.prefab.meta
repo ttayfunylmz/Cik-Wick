@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f4ee46380c4b7d04fa62d89e6d9d310c
+timeCreated: 1446650016
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Loot/TreasureChestGlowRays.prefab
+  uploadId: 679579

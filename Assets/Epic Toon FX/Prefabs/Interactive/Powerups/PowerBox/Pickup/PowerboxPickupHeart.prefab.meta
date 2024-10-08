@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3810e1b6639c90b4c806b337bf9b123f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Pickup/PowerboxPickupHeart.prefab
+  uploadId: 679579

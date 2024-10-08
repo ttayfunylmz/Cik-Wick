@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b08423cf60cb91c45a09d2875c834ca9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Sharp/SharpMissileFire.prefab
+  uploadId: 679579

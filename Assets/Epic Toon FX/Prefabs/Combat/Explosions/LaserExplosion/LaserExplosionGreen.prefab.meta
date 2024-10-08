@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 26fd612d281730243a5cb8e108261552
+timeCreated: 1499303738
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/LaserExplosion/LaserExplosionGreen.prefab
+  uploadId: 679579

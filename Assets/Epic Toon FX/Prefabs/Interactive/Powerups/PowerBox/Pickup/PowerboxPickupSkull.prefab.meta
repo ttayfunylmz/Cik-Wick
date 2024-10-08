@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 00f01328bebf34f4a94ce0983d03545f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Pickup/PowerboxPickupSkull.prefab
+  uploadId: 679579

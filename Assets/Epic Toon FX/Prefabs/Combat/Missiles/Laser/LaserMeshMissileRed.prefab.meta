@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5ebe806fbdc57ab4e834f4764618c29b
+timeCreated: 1499304707
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Laser/LaserMeshMissileRed.prefab
+  uploadId: 679579

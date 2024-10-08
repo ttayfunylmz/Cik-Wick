@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a9bb5993776894d459f46527006acc6b
+timeCreated: 1447002808
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Environment/Weather/Wind & Leaves/BlowingLeaves.prefab
+  uploadId: 679579

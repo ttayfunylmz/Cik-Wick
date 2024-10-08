@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fac9ad46c0307484fba6960de846139d
+timeCreated: 1447014653
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.81
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions (Misc)/SparkExplosion.prefab
+  uploadId: 567564

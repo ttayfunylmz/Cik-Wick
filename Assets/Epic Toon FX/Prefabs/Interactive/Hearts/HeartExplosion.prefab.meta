@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cc0562e923d0cf9448bba7acdb82e626
+timeCreated: 1528476703
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Hearts/HeartExplosion.prefab
+  uploadId: 679579

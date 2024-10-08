@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 34c006058d7d594449f3fb5c03a6d852
+timeCreated: 1499265861
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionFire.prefab
+  uploadId: 679579

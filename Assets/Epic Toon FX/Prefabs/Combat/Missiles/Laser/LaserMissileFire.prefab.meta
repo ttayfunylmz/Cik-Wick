@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2a6c671eff9a71a418bd43aa8d6188d2
+timeCreated: 1499304675
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Laser/LaserMissileFire.prefab
+  uploadId: 679579

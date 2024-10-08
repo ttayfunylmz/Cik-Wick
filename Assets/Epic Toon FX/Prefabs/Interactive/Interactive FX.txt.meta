@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 287d04cabe7c31d4bb0913745932c69f
+timeCreated: 1530793838
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Interactive FX.txt
+  uploadId: 679579

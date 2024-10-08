@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b88a52d0de3924c4db6011de30ecccd0
+timeCreated: 1529247024
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Healing/HealNova.prefab
+  uploadId: 679579

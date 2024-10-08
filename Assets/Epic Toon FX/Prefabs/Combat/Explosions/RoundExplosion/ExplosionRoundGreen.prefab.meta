@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 557d199a6dc5c384c9310c0f11e2f8aa
+timeCreated: 1455633323
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/RoundExplosion/ExplosionRoundGreen.prefab
+  uploadId: 679579

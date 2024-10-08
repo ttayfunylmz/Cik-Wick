@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ec7fa1526bea76047bba67dd11328026
+timeCreated: 1551886945
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Liquid/LiquidMissileOil.prefab
+  uploadId: 679579

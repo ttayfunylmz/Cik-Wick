@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 67a02ea392505844bab240611d904cc0
+timeCreated: 1446743182
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodSplatCritical.prefab
+  uploadId: 679579

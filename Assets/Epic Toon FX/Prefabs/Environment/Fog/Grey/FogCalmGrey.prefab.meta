@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e8bb3298d1ff4a44baa4bbd063c83b95
+timeCreated: 1455555964
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Environment/Fog/Grey/FogCalmGrey.prefab
+  uploadId: 679579

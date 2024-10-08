@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4e1790ceaba7cf84d97431c9452ca8fb
+timeCreated: 1499173489
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletMeshSmallFire.prefab
+  uploadId: 679579

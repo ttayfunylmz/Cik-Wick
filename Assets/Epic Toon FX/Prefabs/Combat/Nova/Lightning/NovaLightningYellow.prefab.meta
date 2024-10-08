@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b7e5be8cde65c7c42915ee6e2273d19b
+timeCreated: 1551710319
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Nova/Lightning/NovaLightningYellow.prefab
+  uploadId: 679579

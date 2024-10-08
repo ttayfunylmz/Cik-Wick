@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: de625fbb023d44d45ad5ff7c646e9dae
+timeCreated: 1529245388
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Healing/HealStream2.prefab
+  uploadId: 679579

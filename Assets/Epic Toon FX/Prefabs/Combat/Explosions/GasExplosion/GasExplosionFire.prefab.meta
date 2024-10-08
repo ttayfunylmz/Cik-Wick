@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 89fdb9fee1f1fe94cb02018221255e50
+timeCreated: 1552142634
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/GasExplosion/GasExplosionFire.prefab
+  uploadId: 679579

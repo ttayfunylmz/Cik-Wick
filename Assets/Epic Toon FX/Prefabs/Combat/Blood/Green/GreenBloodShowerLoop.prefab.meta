@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 760c52d3ecd5c27449429eab2a5a8c7f
+timeCreated: 1455731869
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodShowerLoop.prefab
+  uploadId: 679579

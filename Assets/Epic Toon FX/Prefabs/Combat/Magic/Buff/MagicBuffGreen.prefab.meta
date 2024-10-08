@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1ed56f4c486ff6141a344e5e5714e1b9
+timeCreated: 1456691842
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Magic/Buff/MagicBuffGreen.prefab
+  uploadId: 679579

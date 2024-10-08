@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 268f984e175944440bf68fb3d316673d
+timeCreated: 1446649477
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions (Misc)/FlashExplosion.prefab
+  uploadId: 679579

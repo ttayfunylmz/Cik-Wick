@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 16378541428887043a2d2ba231613bb9
+timeCreated: 1529332873
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/Elemental/PowerOrbFrostElemental.prefab
+  uploadId: 679579

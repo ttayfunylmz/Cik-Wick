@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ca086bfe9ada4c84d84064d3c4f57e0f
+timeCreated: 1447091350
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Blood/Yellow/YellowBloodSplatCritical.prefab
+  uploadId: 679579

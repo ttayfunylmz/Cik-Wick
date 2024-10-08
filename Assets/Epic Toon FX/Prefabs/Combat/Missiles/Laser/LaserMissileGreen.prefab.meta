@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cb75f5e3b464c96489c217523ce98a16
+timeCreated: 1499304643
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Laser/LaserMissileGreen.prefab
+  uploadId: 679579

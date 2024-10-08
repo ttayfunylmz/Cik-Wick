@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d6cfefff9d9d02e42b5025108bd0e269
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Background: {fileID: 2800000, guid: 6a5e2aff47ffbc44ebe6ab296846e509, type: 3}
+  - _Icon: {fileID: 2800000, guid: a418ccab11aad674783413a05d3779ee, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Shaders/ETFX_PowerboxLit.shader
+  uploadId: 679579

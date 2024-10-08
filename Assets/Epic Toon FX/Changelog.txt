@@ -1,0 +1,351 @@
+v1.81 (2019.4.24f1 and up) - March 1, 2023
+
+This patch add all new Powerbox effects as well as fruit missiles and explosions. Featuring whole and sliced versions of - apple, banana, coconut, grape, melon, orange, pear, pumpkin and strawberry.
+
+Total of 110 new prefabs and a new Powerbox Block shader
+
+- Added New Colored Pickup Variations (17 prefabs)
+- Added New Colored Powerbox (17 prefabs)
+- Added New Powerbox Variations (6 prefabs)
+- Added New Metal Powerbox Variations (6 prefabs)
+- Added New Powerbox Pickup Variations (6 prefabs)
+- Added Fruit Missiles (9 prefabs)
+- Added Fruit Explosions (9 prefabs)
+- Added Fruit Blast, Fruit Directional, Fruit Fountain, Fruit Shower (40 prefabs)
+- Added Power-up Block Shader
+- Improved leaf texture
+- Updated 2D Demo
+
+Note: No custom muzzles are included for the missile/explosion effects, but use the LiquidMuzzleWaterClear effect
+
+
+v1.8 (For 2019.4.24f1 and up) - December 5, 2021
+
+This patch improves on existing visuals and sound effects, and also features all new content such as new missiles, water and fire effects, powerup boxes and more.
+
+Some projectiles have been updated to use meshes instead of multiple overlapping billboards to improve consistency and performance of the effects.
+
+Textures and liquid/blood spritesheets have been updated.
+
+New content:
+
+* 82 new VFX
+* 264 new prefabs
+* 25 new SFX
+
+New Combat FX:
+
+- Added Text/Onomatopoeia Explosions (24 prefabs)
+- Added Sharp Missile (12 prefabs)
+- Added Energy Missile (15 prefabs)
+- Added Clear Water Missile (3 prefabs)
+- Added MysticDark Missile (3 prefabs)
+- Added Bubble Missile (3 prefabs)
+- Added Fireball Sharp (8 prefabs)
+- Added Fireball Soft (12 prefabs)
+- Added MeshRocket (4 prefabs)
+- Added MeshLaser (4 prefabs)
+- Added MeshBullet (4 prefabs)
+- Added Lightning Explosion Soft (4 prefabs)
+- Added Lightning Missile Soft (4 prefabs)
+- Added Nova Missile Soft (4 prefabs)
+- Added Nova Explosion Soft (4 prefabs)
+- Added Snow Missile (3 prefabs)
+- Added Flash Missile (4 prefabs)
+- Added Flash Explosion (4 prefabs)
+- Added Magic Nova Explosion (5 prefabs)
+- Added Sharp Flamethrower (4 prefabs)
+- Added Standard Muzzle (4 prefabs)
+- Added Starline Explosion (4 prefabs)
+- Added ShadowExplosion3
+- Added ShadowExplosion2
+- Added PoisonExplosion2
+- Added PoisonExplosionSoft
+- Added LiquidExplosionSlime
+- Added LiquidExplosionWaterClearBig
+- Added LiquidExplosionAcidBig
+- Added LiquidExplosionLavaBig
+- Added BloodExplosionRound2 (4 prefabs)
+- Added Blood (Water reskin) (11 prefabs)
+- Added Giblet Explosion (6 prefabs)
+- Added ToonRadialPunch (4 prefabs)
+- Added SoftRadialPunch (4 prefabs)
+- Added HitDustExplosion
+
+New Environment FX:
+
+- Added CalmStarField
+- Added Lightning Orb Soft (2 prefabs)
+- Added Lightning Orb Sharp (2 prefabs)
+- Added Transparent Water (9 prefabs)
+- Added RoundFire (4 prefabs)
+- Added SpikyFireBig (4 prefabs)
+- Added ToonRadialFire (4 prefabs)
+- Added ToonTallFire (4 prefabs)
+- Added Whirlwind variants (2 prefabs)
+- Added SmokeBurstSoft (2 prefabs)
+- Added Candle variants (3 prefabs)
+
+New Interactive FX:
+
+- Added PowerOrbLifeElemental
+- Added PowerOrbShadowElemental
+- Added PowerOrbFireSoftElemental
+- Added Level Up (12 prefabs)
+- Added Loot/Unbox Explosion (1 prefab)
+- Added Warning (4 prefabs)
+- Added SwirlPortal (5 prefabs)
+- Added ItemSparkleBurst (7 prefabs)
+- Added PowerBox (11 prefabs)
+- Added Metal PowerBox (11 prefabs)
+- Added PowerBox Pickup (11 prefabs)
+- Added HealOnceBurst
+
+Other changes:
+
+- Adjusted most effects to not cast shadow
+- Updated several effects and textures
+- Added new powerup symbol textures
+- Added new spritesheets
+- Renamed CartoonPunch to ToonPunch
+- Sorted emojis
+- Fixed Collisions being enabled on certain effects
+- Apply Active Color Space is enabled by default on effects, URP version of asset should look better now
+- Recounted prefabs (there were a bit more than expected)
+
+July 9, 2020
+
+Updated WebGL Demo and link to new PC Demo.
+
+v1.72 - July 7, 2020 (Unity 2017.4 and up)
+
+Adding new effects and a total of 15 new prefabs
+
+- Added Soul Death FX (10 prefabs)
+- Added ZzZz FX (1 prefab)
+- Added Soap bubble trail FX (1 prefab)
+- Added Water Bubble trail FX (3 prefabs)
+
+v1.71 (2017.4 and up)
+
+This mini patch includes a fix to some textures being brightly lit in URP. You can find more info about this in the documentation and official forum thread.
+
+- Added URP Fix
+- Updated documentation
+- Fixed a null reference error in 2D demo
+
+v1.7 (2017.4 and up)
+
+This update adds 208 new prefabs, as well as enhancing and optimizing all existing effects and textures. Overall there should be less overdraw while improving upon the original look of the effects. LWRP upgrade package included.
+
+No new video demo as of yet. Try the WebGL Demo and browse the screenshots!
+
+Make sure to backup your project if you update the asset!
+
+- Materials now use Standard Particle Shader
+- Included LWRP upgrade package
+- Updated documentation
+- Added New Emoji FX (29 prefabs)
+- Added Bullet Decal FX (6 prefabs)
+- Added Energy Decal FX (4 prefabs)
+- Added Explosion Decal FX (4 prefabs)
+- Added Mega Explosion FX (5 prefabs)
+- Added Spiky Flamethrower FX (5 prefabs)
+- Added Sword Wave FX (5 prefabs)
+- Added Sword Slash Thin FX (5 prefabs)
+- Added Sword Slash Thick FX (5 prefabs)
+- Added Sword Whirlwind FX (5 prefabs)
+- Added Sword Hit Mini FX (4 prefabs)
+- Added Nuke Cone Explosion FX (4 prefabs)
+- Added Star Intense Explosion FX (4 prefabs)
+- Added Vortex Portal (5 prefabs)
+- Added Sparkle Missile FX (4 prefabs)
+- Added Sparkle Explosion FX (4 prefabs)
+- Added Sparkle Muzzle FX (4 prefabs)
+- Added Glitter Explosion FX (4 prefabs)
+- Added Gas Missile FX (4 prefabs)
+- Added Grenade Missile FX (4 prefabs)
+- Added Grenade Muzzle FX (4 prefabs)
+- Added Fire Field Intense FX (4 prefabs)
+- Added Flare Soft FX (5 prefabs)
+- Added Silver Coins FX (4 prefabs)
+- Added Wave Portal FX (5 prefabs)
+- Added Fog Flat FX  (3 prefabs)
+- Added Soft Big Fire FX (5 prefabs)
+- Added Magic Aura Soft FX (3 prefabs)
+- Added Magic Circle Simple FX (3 prefabs)
+- Added Item Sparkle Soft FX (7 prefabs)
+- Added Item Skewed Glow FX (7 prefabs)
+- Added Soft Water (9 prefabs)
+- Added Candlelight Soft FX (5 prefabs)
+- Added Windline FX (4 prefabs)
+- Added Shield Soft FX (4 prefabs)
+- Added Card Glow FX (4 prefabs)
+- Added Metal Hit Big FX
+- Added Bubble Blast Big Underwater FX
+- Added Flash Bomb Radial FX
+- Added Respawn Explosion FX
+- Added Target Hit Explosion FX
+- Added Leaf Explosion FX
+- Added Scan Explosion FX
+- Added Stunned Circling Stars Simple FX
+- Added Cigarette Smoke FX
+- Added Lightning Orb Pink Sharp FX 
+- Added Lightning Orb Pink FX 
+- Added Tall Fire Yellow FX 
+- Added Rain Storm FX 
+- Added Snow Storm FX 
+- Added Falling Leaves FX
+- Added Star Vortex (3 new recolors)
+- Added Sword Slash Mini (1 new recolor)
+- Added Item Sparkle (3 new recolors)
+- Added Sparkle Area (1 new recolor)
+- Added Sparkle Solo (1 new recolor)
+- Added 3 new aura textures
+- Added new leaf texture
+- Added new evil spirit texture
+- Fixed demo script error
+- Improved lightning spritesheet
+- Improved nova spritesheet
+- Updated music notes effect
+- Updated lightning effects
+- Updated firework effects
+- Updated fire effects
+- Optimized sound effects
+- Renamed TallExplosion to GrenadeExplosion
+- Removed some old unused textures
+- Removed Legacy GUI layer on cameras (Fixes an error message)
+
+Version 1.6 (Unity 5.3.4)
+
+Another update with all new effects! Featuring 23 new effects as well as two updated 3x3 animated spritesheets. These are used for some blood and liquid effects.
+
+23 new effects ( 74 new prefabs )
+
+- Added Liquid Missile FX (4 prefabs)
+- Added Liquid Explosion FX (4 prefabs)
+- Added Liquid Muzzleflash FX (4 prefabs)
+- Added Shadow Missile FX (1 prefab)
+- Added Shadow Explosion FX (1 prefab)
+- Added Shadow Muzzle FX (1 prefab)
+- Added Gas Explosion FX (4 prefabs)
+- Added Flowing Blood (3 prefabs)
+- Added Spiky Blood Explosion (3 prefabs)
+- Added Round Blood Explosion (3 prefabs)
+- Added Animated Blood Splat (3 prefabs)
+- Added Directional Blood Splat (3 prefabs)
+- Added Soft Portal (5 prefabs)
+- Added Sparkle Solo (4 prefabs)
+- Added Basic Zone-wall FX (6 prefabs)
+- Added Torch Intense FX (4 prefabs)
+- Added Spiky Fire FX (5 prefabs)
+- Added Fire Trail FX (3 prefabs)
+- Added Lightning Nova FX (4 prefabs)
+- Added Fire Nova FX (4 prefabs)
+- Added Frost Nova FX (1 prefab)
+- Added Soap Bubble FX (2 prefabs)
+- Added Rising Bubble FX (1 prefab)
+- Added Green Spin Portal FX (1 prefab)
+- Added Typing Message FX (1 prefab)
+- Updated typing message effect
+- Updated magic shield effect
+- Updated some melee effects
+- Updated nuke explosion effects
+- Updated boiling liquid effects
+- Updated liquid 'splat' spritesheets
+- Updated missile scripts
+- New bubble & portal textures
+- New sound fx
+- Optimized some effects with high particle counts
+
+v1.5 (Unity 5.3.4)
+
+This update adds all new effects, as well as improvements to textures and older effects.
+
+- 81 new prefabs
+- Added Storm Missile FX
+- Added 11 new Emoji FX
+- Added 10 new Death FX
+- Added 4 new Heart FX
+- Added 5 new Star FX
+- Added 8 new Money FX
+- Added 8 new Healing FX
+- Added 6 new Directional Confetti FX
+- Added 5 new Elemental Powerup Orb FX
+- Added 4 new Sci-Fi Powerup Orb FX
+- Added 5 new Powerup Activate FX
+- Added 5 new Ground Trail FX
+- Added 4 new Fire Field FX
+- Added 2 new Feather FX
+- Added 1 new water FX
+- Updated emoji effects
+- Updated rain effects
+- Updated confetti blast effects
+- Updated whirlwind effect
+- Updated underwater effects
+- Updated stun effect
+- Updated heart textures
+- Updated bubble textures
+- Updated misc textures
+- Removed TGA versions for emojis
+
+v1.4 (Unity 5.3.4)
+
+- 76 new prefabs
+- Added new Magic Missile FX
+- Added new Lightning Missile FX
+- Added new Vertical Nuke FX
+- Added new Flamethrower FX
+- Added new Fire FX
+- Added new Nova FX
+- Added new Confetti Shower FX
+- Added new Small Orb FX
+- Added new Simple Portal FX
+- Added new Simple Zone FX
+- Added 3 new smoke texture variations
+- Added 4 new lightning effects
+- 1 new stun explosion prefab
+- 2 new spark prefabs
+- 3 new magic sword hit prefabs
+- 1 new lightning orb prefab
+- Optimized and improved several effects
+- Organized effects into 3 main categories
+- Improved missiles and explosion effects
+- Improved fighting effects
+- Improved flamethrower effect (added smoke)
+- Improved magic sword hit effect
+- Improved spark effect
+- Improved smoke effects
+- Improved spritesheet animations
+
+v1.31 (Unity 2017.1)
+
+- Fixed missing shield material
+- Fixed error on one explosion type
+
+v1.3 (Unity 5.3.4 and up)
+
+- Added 6 new explosion FX (25 prefabs)
+- Added 11 new missile FX (45 prefabs)
+- Added 11 new muzzleflash FX (45 prefabs)
+- Added 2 new flamethrower FX (8 prefabs)
+- Added 26 sound FX for missiles & explosions
+- Improved misc effects
+
+v1.2 (Unity 5.3.4 and up)
+
+- Additional visual improvements
+- New 2D-versions of effects for sidescroller games
+- New Sword Slash FX
+- New scripts to avoid collision with other assets
+- Remade shield effect
+- Easier to scale effects
+
+v1.1 (Unity 5.3.4 and up)
+
+- Overall visual improvements
+- Tweaked and improved nearly every effect(!)
+- Re-designed some effects
+- Fixed some rotation issues
+- Fixed some texture issues
+- Fixed some collision issues

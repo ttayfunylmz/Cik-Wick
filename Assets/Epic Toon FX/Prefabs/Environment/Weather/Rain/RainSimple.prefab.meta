@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ffea01f7349cd8b4995a6f691bea3ae5
+timeCreated: 1529598924
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Environment/Weather/Rain/RainSimple.prefab
+  uploadId: 679579

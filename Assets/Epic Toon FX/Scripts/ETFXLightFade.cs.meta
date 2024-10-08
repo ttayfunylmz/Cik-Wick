@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2f54e17d705a2894d88787e24190ebfa
+timeCreated: 1499439792
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Scripts/ETFXLightFade.cs
+  uploadId: 679579

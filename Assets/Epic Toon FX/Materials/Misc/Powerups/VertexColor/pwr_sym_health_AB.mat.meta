@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 33aa5516475b72447af93d5a75974cda
+timeCreated: 1455390115
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Materials/Misc/Powerups/VertexColor/pwr_sym_health_AB.mat
+  uploadId: 679579

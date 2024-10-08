@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0a9aa7cbab47dd34fad18af6ec82969d
+timeCreated: 1529284146
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerupActivate/PowerupActivateBlue.prefab
+  uploadId: 679579

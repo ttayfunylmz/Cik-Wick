@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ae571ae70ab87624084b26e70ea885ef
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Brawling/Toon/Radial/ToonRadialPunchLight.prefab
+  uploadId: 679579

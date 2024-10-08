@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bcd9b34aae40e764a89cacdbc1c3d4e2
+timeCreated: 1529332626
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/Elemental/PowerOrbLightningElemental.prefab
+  uploadId: 679579

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a4a1462c4d222c040ba20b5994e8a35f
+timeCreated: 1529246353
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Healing/HealOnceLoop.prefab
+  uploadId: 679579

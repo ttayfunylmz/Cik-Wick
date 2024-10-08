@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ba31194ef34f22e49a0a0b1f178dc13c
+timeCreated: 1520019255
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionPink.prefab
+  uploadId: 679579

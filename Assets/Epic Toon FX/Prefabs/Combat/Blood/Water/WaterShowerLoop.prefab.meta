@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dd3496c842c6a574489d2157e3fa121c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Blood/Water/WaterShowerLoop.prefab
+  uploadId: 679579

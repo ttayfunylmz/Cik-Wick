@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6c4ae31fa47a6c143a4e64ca4b65fc4a
+timeCreated: 1445701413
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions (Misc)/PoisonExplosion.prefab
+  uploadId: 679579

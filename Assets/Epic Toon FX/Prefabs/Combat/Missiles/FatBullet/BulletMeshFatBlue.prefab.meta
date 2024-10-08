@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0e5de1d4446e4be409b2bc4025c90341
+timeCreated: 1499348454
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/FatBullet/BulletMeshFatBlue.prefab
+  uploadId: 679579

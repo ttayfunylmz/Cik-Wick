@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cdc64e98df4cda941820127aa8b9eb37
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Blood/Water/WaterExplosionRound.prefab
+  uploadId: 679579

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e6ea0c2b13012484ba2f5dc1054e6d75
+timeCreated: 1455633320
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/RoundExplosion/ExplosionRoundFire.prefab
+  uploadId: 679579

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8b158db9a52d92c41bd357624c42ac6f
+timeCreated: 1551750595
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/LiquidExplosion/LiquidExplosionWater.prefab
+  uploadId: 679579

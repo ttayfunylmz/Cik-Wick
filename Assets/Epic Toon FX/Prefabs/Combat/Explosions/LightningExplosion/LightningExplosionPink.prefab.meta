@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 215ff560badfe1d4b8391e64e82c5f4e
+timeCreated: 1520004207
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.81
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/LightningExplosion/LightningExplosionPink.prefab
+  uploadId: 567564

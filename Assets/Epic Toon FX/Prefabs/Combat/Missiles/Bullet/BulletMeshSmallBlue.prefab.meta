@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: baf45fcc725d71e47ad7c6944cf0bd31
+timeCreated: 1499192639
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletMeshSmallBlue.prefab
+  uploadId: 679579

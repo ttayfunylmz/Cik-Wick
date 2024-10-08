@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8d867acabedb0f24196923f84f10c13a
+timeCreated: 1520004089
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/LightningExplosion/LightningExplosionGreen.prefab
+  uploadId: 679579

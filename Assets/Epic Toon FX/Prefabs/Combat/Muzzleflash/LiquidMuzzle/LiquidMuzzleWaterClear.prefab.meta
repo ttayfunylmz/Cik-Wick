@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 724522c9faa6f4b4e984d92b2d188e50
+timeCreated: 1552315681
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/LiquidMuzzle/LiquidMuzzleWaterClear.prefab
+  uploadId: 679579

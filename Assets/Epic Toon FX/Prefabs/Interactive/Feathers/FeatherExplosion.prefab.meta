@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4924b9135249e0d448901a81875768c6
+timeCreated: 1529890408
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Feathers/FeatherExplosion.prefab
+  uploadId: 679579

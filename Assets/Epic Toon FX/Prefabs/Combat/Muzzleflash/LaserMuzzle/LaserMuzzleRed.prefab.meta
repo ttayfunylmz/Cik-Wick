@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c49de3291c8b48841a7dbd15e3f74c2b
+timeCreated: 1499560513
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/LaserMuzzle/LaserMuzzleRed.prefab
+  uploadId: 679579

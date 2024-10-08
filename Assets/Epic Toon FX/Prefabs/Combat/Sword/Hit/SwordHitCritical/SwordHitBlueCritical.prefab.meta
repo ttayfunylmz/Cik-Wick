@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 77d6e8e3fa15a0b419d018e3e16931f6
+timeCreated: 1494262925
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Sword/Hit/SwordHitCritical/SwordHitBlueCritical.prefab
+  uploadId: 679579

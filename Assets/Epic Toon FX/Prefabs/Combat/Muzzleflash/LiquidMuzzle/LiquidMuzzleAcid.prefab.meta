@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d7ee09150d512054e8d210f9d0a31bc6
+timeCreated: 1552315478
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/LiquidMuzzle/LiquidMuzzleAcid.prefab
+  uploadId: 679579

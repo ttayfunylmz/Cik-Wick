@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5a50299415e426543bd096edabf3eec7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/LiquidExplosion/LiquidExplosionWaterClear.prefab
+  uploadId: 679579

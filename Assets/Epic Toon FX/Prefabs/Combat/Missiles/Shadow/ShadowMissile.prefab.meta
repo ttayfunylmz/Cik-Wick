@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a9286d9ebf8c6b947917ec3f20e96819
+timeCreated: 1552177535
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Shadow/ShadowMissile.prefab
+  uploadId: 679579

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3b29510e1c74e434b9ae0a1cf2087d84
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Death/Souls/SoulCuteDeath.prefab
+  uploadId: 679579

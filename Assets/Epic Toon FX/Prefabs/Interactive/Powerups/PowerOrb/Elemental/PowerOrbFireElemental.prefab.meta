@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e3341cd0b29d79a4895de26f271c310d
+timeCreated: 1529332623
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/Elemental/PowerOrbFireElemental.prefab
+  uploadId: 679579

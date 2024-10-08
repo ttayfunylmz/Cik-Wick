@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 81bebb42ba43fdc40b64128b7f7d97fa
+timeCreated: 1551575720
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Zone/BasicZoneWall/BasicZoneWallWhite.prefab
+  uploadId: 679579

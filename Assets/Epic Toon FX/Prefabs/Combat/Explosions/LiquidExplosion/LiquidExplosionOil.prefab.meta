@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 32e5eec4a4b3ffc4dba1ac0f5bb318be
+timeCreated: 1551797994
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions/LiquidExplosion/LiquidExplosionOil.prefab
+  uploadId: 679579

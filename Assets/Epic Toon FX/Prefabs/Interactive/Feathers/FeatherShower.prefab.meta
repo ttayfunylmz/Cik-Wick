@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 98ec747359c6152458125171ceade621
+timeCreated: 1529890410
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Feathers/FeatherShower.prefab
+  uploadId: 679579

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 775fb3e8f5df827428272416a14d9adf
+timeCreated: 1447083845
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Combat/Explosions (Misc)/StunExplosion.prefab
+  uploadId: 679579

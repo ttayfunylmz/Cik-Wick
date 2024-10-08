@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 09d9de58ef3bf5444ac94afa0e6013cb
+timeCreated: 1529419655
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Money/Coins/GoldCoinBlast.prefab
+  uploadId: 679579

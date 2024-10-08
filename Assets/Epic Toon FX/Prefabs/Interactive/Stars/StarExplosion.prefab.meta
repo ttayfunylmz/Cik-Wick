@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cc4edba986607ba48b17927b27d25e4e
+timeCreated: 1529607643
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57772
+  packageName: Epic Toon FX
+  packageVersion: 1.82
+  assetPath: Assets/Epic Toon FX/Prefabs/Interactive/Stars/StarExplosion.prefab
+  uploadId: 679579
