@@ -1,7 +1,7 @@
 using UnityEngine;
 using Zenject;
 
-public class KnifeDamageable : MonoBehaviour, IDamageable
+public class FireDamageable : MonoBehaviour, IDamageable
 {
     [Header("References")]
     [SerializeField] private GameObject _hitParticlesPrefab;

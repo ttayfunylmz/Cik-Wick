@@ -32,6 +32,16 @@ public class PlayerInteractionController : MonoBehaviour
         else if(other.gameObject.TryGetComponent<IDamageable>(out var damageable))
         {
             damageable.GiveDamage(_playerRigidbody, _playerVisualTransform);
+            damageable.PlayHitParticle(transform);
         }
+    }
+
+    private void OnParticleCollision(GameObject other) 
+    {
+        if(other.TryGetComponent<IDamageable>(out var damageable))
+        {
+            damageable.GiveDamage(_playerRigidbody, _playerVisualTransform);
+            damageable.PlayHitParticle(transform);
+        }    
     }
 }
