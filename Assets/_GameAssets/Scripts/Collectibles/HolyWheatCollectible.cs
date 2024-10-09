@@ -14,8 +14,10 @@ public class HolyWheatCollectible : MonoBehaviour, ICollectible
     private RectTransform _playerBoosterTransform;
     private Image _playerBoosterImage;
     private GameObject _particlesPrefab;
+    private GameObject _hitParticlesPrefab;
     private float _particlesDestroyDuration;
     private float _resetBoostDuration;
+    private float _hitParticlesDestroyDuration;
     private Sprite _activeSprite;
     private Sprite _passiveSprite;
     private Sprite _activeWheatSprite;
@@ -40,13 +42,15 @@ public class HolyWheatCollectible : MonoBehaviour, ICollectible
 
     public void InitializeSO()
     {
-        _particlesPrefab = _wheatDesignSO._particlesPrefab;
-        _particlesDestroyDuration = _wheatDesignSO._particlesDestroyDuration;
-        _resetBoostDuration = _wheatDesignSO._resetBoostDuration;
-        _activeSprite = _wheatDesignSO._activeSprite;
-        _passiveSprite = _wheatDesignSO._passiveSprite;
-        _activeWheatSprite = _wheatDesignSO._activeWheatSprite;
-        _passiveWheatSprite = _wheatDesignSO._passiveWheatSprite;
+        _particlesPrefab = _wheatDesignSO.ParticlesPrefab;
+        _hitParticlesPrefab = _wheatDesignSO.HitParticlesPrefab;
+        _particlesDestroyDuration = _wheatDesignSO.ParticlesDestroyDuration;
+        _resetBoostDuration = _wheatDesignSO.ResetBoostDuration;
+        _hitParticlesDestroyDuration = _wheatDesignSO.HitParticlesDestroyDuration;
+        _activeSprite = _wheatDesignSO.ActiveSprite;
+        _passiveSprite = _wheatDesignSO.PassiveSprite;
+        _activeWheatSprite = _wheatDesignSO.ActiveWheatSprite;
+        _passiveWheatSprite = _wheatDesignSO.PassiveWheatSprite;
     }
 
     public void Collect()
@@ -65,6 +69,17 @@ public class HolyWheatCollectible : MonoBehaviour, ICollectible
         particleInstance.transform.parent = playerTransform;
 
         Destroy(particleInstance, _particlesDestroyDuration);
+    }
 
+    public void PlayHitParticle(Transform playerTransform)
+    {
+        Vector3 offset = new Vector3(0f, 0.7f, 0f);
+
+        GameObject particleInstance = 
+            Instantiate(_hitParticlesPrefab, playerTransform.position + offset, _hitParticlesPrefab.transform.rotation);
+
+        particleInstance.transform.parent = playerTransform;
+
+        Destroy(particleInstance, _hitParticlesDestroyDuration);
     }
 }

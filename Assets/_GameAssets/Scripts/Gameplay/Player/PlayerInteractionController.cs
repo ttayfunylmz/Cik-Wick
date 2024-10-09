@@ -20,6 +20,7 @@ public class PlayerInteractionController : MonoBehaviour
         ICollectible collectible = other.GetComponent<ICollectible>();
         collectible?.Collect();
         collectible?.PlayParticle(transform);
+        collectible?.PlayHitParticle(transform);
     }
 
     private void OnCollisionEnter(Collision other)
@@ -27,7 +28,6 @@ public class PlayerInteractionController : MonoBehaviour
         if(other.gameObject.TryGetComponent<IBoostable>(out var boostable))
         {
             boostable.Boost(_playerController);
-            boostable.PlayBoostAnimation();
         }
         else if(other.gameObject.TryGetComponent<IDamageable>(out var damageable))
         {

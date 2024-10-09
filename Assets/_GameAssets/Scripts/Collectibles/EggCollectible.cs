@@ -41,4 +41,9 @@ public class EggCollectible : MonoBehaviour, ICollectible
     {
         
     }
+
+    public void PlayHitParticle(Transform playerTransform)
+    {
+        
+    }
 }
