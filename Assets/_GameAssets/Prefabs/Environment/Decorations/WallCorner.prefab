@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8596055260821806133}
   - component: {fileID: 7048286475750846733}
   - component: {fileID: 7143444145999342655}
+  - component: {fileID: 6354214789732990978}
   m_Layer: 0
   m_Name: WallCorner
   m_TagString: Untagged
@@ -86,3 +87,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &6354214789732990978
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402323288397365275}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3.3750002, y: 6.0000005, z: 3.3750002}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -2.6250002, y: 6.0000005, z: 2.6250002}
+  m_TimeToStationary: 0.5

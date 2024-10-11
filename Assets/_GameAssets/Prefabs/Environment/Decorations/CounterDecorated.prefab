@@ -12,12 +12,13 @@ GameObject:
   - component: {fileID: 8666333466629182021}
   - component: {fileID: 7292034975291891532}
   - component: {fileID: 8535615364353032775}
+  - component: {fileID: 23946820367618944}
   m_Layer: 8
   m_Name: CounterDecorated
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4791863535225337849
 Transform:
@@ -108,3 +109,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10.028844, y: 10.475742, z: 10.084637}
   m_Center: {x: -0.01442194, y: 5.237871, z: 0.042318106}
+--- !u!208 &23946820367618944
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4738210356566500358}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 5.0140004, y: 5.2380004, z: 5.6590004}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.014, y: 5.2380004, z: 0.65900004}
+  m_TimeToStationary: 0.5

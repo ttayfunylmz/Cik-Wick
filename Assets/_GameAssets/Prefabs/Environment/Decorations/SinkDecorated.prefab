@@ -12,12 +12,13 @@ GameObject:
   - component: {fileID: 4918421354102226724}
   - component: {fileID: 8696042493713271451}
   - component: {fileID: 1652791769069876431}
+  - component: {fileID: 4341793001069930004}
   m_Layer: 8
   m_Name: SinkDecorated
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8247531892864960884
 Transform:
@@ -109,3 +110,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1894887479207698971, guid: cd666f3d267b1f743b470c0c69cd5641, type: 3}
+--- !u!208 &4341793001069930004
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233500084993424270}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 7.5000005, y: 4.867, z: 5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 4.867, z: 0}
+  m_TimeToStationary: 0.5

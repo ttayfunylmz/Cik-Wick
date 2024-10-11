@@ -42,7 +42,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0
-    - _SquareAmount: 5
+    - _SquareAmount: 6
     m_Colors:
     - _SquareColor1: {r: 1, g: 1, b: 1, a: 1}
     - _SquareColor2: {r: 0, g: 0, b: 0, a: 1}

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2688305092276292726}
   - component: {fileID: 1089652806207520788}
   - component: {fileID: 7612657181904323873}
+  - component: {fileID: 2565406608519656546}
   m_Layer: 0
   m_Name: WallStraight
   m_TagString: Untagged
@@ -86,3 +87,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &2565406608519656546
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4627109835390960448}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3.0000002, y: 6.0000005, z: 0.75000006}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 6.0000005, z: 0.002}
+  m_TimeToStationary: 0.5

@@ -120,12 +120,13 @@ GameObject:
   - component: {fileID: 5356594211232646818}
   - component: {fileID: 967682268125052495}
   - component: {fileID: 2179221717791095512}
+  - component: {fileID: 2135628257592149770}
   m_Layer: 8
   m_Name: CounterSink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4492821147932261475
 Transform:
@@ -141,7 +142,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1068276086514337311}
-  - {fileID: 5420110177489565108}
+  - {fileID: 4697069854820623602}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5356594211232646818
@@ -219,6 +220,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4940409576145565723, guid: 65c6831628221554fb7a632464125042, type: 3}
+--- !u!208 &2135628257592149770
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8606801366562232469}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 5, y: 4.504, z: 5.105}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 4.504, z: 0.105000004}
+  m_TimeToStationary: 0.5
 --- !u!1001 &7333708841589446919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -227,6 +244,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4492821147932261475}
     m_Modifications:
+    - target: {fileID: 2248370357716103246, guid: 41dd8ab825eee734f89c3169e5fa0609, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2274084212552333836, guid: 41dd8ab825eee734f89c3169e5fa0609, type: 3}
       propertyPath: m_Name
       value: WaterParticles
@@ -295,6 +316,22 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.438
       objectReference: {fileID: 0}
+    - target: {fileID: 3412100236284332398, guid: 41dd8ab825eee734f89c3169e5fa0609, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906100511119286881, guid: 41dd8ab825eee734f89c3169e5fa0609, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4396654660916471987, guid: 41dd8ab825eee734f89c3169e5fa0609, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790417207082941597, guid: 41dd8ab825eee734f89c3169e5fa0609, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6497737976009247248, guid: 41dd8ab825eee734f89c3169e5fa0609, type: 3}
       propertyPath: UVModule.animationType
       value: 0
@@ -304,8 +341,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41dd8ab825eee734f89c3169e5fa0609, type: 3}
---- !u!4 &5420110177489565108 stripped
+--- !u!4 &4697069854820623602 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3386293678324198579, guid: 41dd8ab825eee734f89c3169e5fa0609, type: 3}
+  m_CorrespondingSourceObject: {fileID: 2659878539437014517, guid: 41dd8ab825eee734f89c3169e5fa0609, type: 3}
   m_PrefabInstance: {fileID: 7333708841589446919}
   m_PrefabAsset: {fileID: 0}

@@ -28,6 +28,7 @@ public class PlayerInteractionController : MonoBehaviour
         if(other.gameObject.TryGetComponent<IBoostable>(out var boostable))
         {
             boostable.Boost(_playerController);
+            boostable.PlayBoostParticle(transform);
         }
         else if(other.gameObject.TryGetComponent<IDamageable>(out var damageable))
         {

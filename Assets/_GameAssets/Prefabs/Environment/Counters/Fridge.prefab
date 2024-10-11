@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6298855216478465349
 Transform:
@@ -98,12 +98,13 @@ GameObject:
   - component: {fileID: 601871919622419251}
   - component: {fileID: 1699353241999260004}
   - component: {fileID: 1407885720411607354}
+  - component: {fileID: 6798057603332045844}
   m_Layer: 0
   m_Name: Fridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5108241842178586189
 Transform:
@@ -196,6 +197,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10.000002, y: 12.5, z: 10.017134}
   m_Center: {x: -2.5751508e-15, y: 6.25, z: 0.008565903}
+--- !u!208 &6798057603332045844
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7173337680396650124}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 5, y: 6.2500005, z: 3.7730002}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 6.2500005, z: -1.2270001}
+  m_TimeToStationary: 0.5
 --- !u!1 &8898139559837538174
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +229,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3808354223595482907
 Transform:
