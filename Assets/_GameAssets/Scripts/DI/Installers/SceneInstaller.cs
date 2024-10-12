@@ -7,6 +7,7 @@ public class SceneInstaller : MonoInstaller
         //Controller Bindings
         Container.Bind<PlayerController>().FromComponentInHierarchy().AsSingle();
         Container.Bind<StateController>().FromComponentInHierarchy().AsSingle();
+        Container.Bind<CatController>().FromComponentInHierarchy().AsSingle();
         Container.Bind<GameManager>().FromComponentInHierarchy().AsSingle();
         Container.Bind<HealthManager>().FromComponentInHierarchy().AsSingle();
 
@@ -14,5 +15,6 @@ public class SceneInstaller : MonoInstaller
         Container.Bind<PlayerStateUI>().FromComponentInHierarchy().AsSingle();
         Container.Bind<EggCounterUI>().FromComponentInHierarchy().AsSingle();
         Container.Bind<PlayerHealthUI>().FromComponentInHierarchy().AsSingle();
+        Container.Bind<WinLoseUI>().FromComponentInHierarchy().AsSingle();
     }
 }

@@ -25,10 +25,18 @@ public class CatAnimationController : MonoBehaviour
             case CatState.Idle:
                 _catAnimator.SetBool(Consts.CatAnimations.IS_IDLING, true);
                 _catAnimator.SetBool(Consts.CatAnimations.IS_RUNNING, false);
+                _catAnimator.SetBool(Consts.CatAnimations.IS_CHASING, false);
                 break;
             case CatState.Running:
                 _catAnimator.SetBool(Consts.CatAnimations.IS_IDLING, false);
                 _catAnimator.SetBool(Consts.CatAnimations.IS_RUNNING, true);
+                _catAnimator.SetBool(Consts.CatAnimations.IS_CHASING, false);
+                break;
+            case CatState.Chasing:
+                _catAnimator.SetBool(Consts.CatAnimations.IS_CHASING, true);
+                break;
+            case CatState.Catched:
+                _catAnimator.SetBool(Consts.CatAnimations.IS_ATTACKING, true);
                 break;
         }
     }

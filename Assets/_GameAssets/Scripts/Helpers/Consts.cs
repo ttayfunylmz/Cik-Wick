@@ -12,5 +12,13 @@ public class Consts
     {
         public const string IS_IDLING = "IsIdling";
         public const string IS_RUNNING = "IsRunning";
+        public const string IS_CHASING = "IsChasing";
+        public const string IS_ATTACKING = "IsAttacking";
+    }
+
+    public struct Layers
+    {
+        public const string GROUND = "Ground";
+        public const string FLOOR = "Floor"; 
     }
 }

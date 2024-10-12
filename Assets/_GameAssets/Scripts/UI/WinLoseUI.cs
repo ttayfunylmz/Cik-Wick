@@ -1,16 +1,34 @@
+using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WinLoseUI : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [Header("References")]
+    [SerializeField] private GameObject _blackBackgroundObject;
+    [SerializeField] private GameObject _winPopup;
+    [SerializeField] private GameObject _losePopup;
+
+    [Header("Settings")]
+    [SerializeField] private float _animationDuration = 0.3f;
+
+    private Image _blackBackgroundImage;
+    private RectTransform _winPopupTransform;
+    private RectTransform _losePopupTransform;
+
+    private void Awake() 
     {
-        
+        _blackBackgroundImage = _blackBackgroundObject.GetComponent<Image>();
+        _winPopupTransform = _winPopup.GetComponent<RectTransform>();
+        _losePopupTransform = _losePopup.GetComponent<RectTransform>();    
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnGameOver()
     {
-        
+        _blackBackgroundObject.SetActive(true);
+        _losePopup.SetActive(true);
+
+        _blackBackgroundImage.DOFade(0.8f, _animationDuration).SetEase(Ease.Linear);
+        _losePopupTransform.DOScale(1f, _animationDuration).SetEase(Ease.OutBack);
     }
 }

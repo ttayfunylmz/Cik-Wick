@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Ground Check Settings")]
     [SerializeField] private LayerMask _groundLayer;
+    [SerializeField] private LayerMask _floorLayer;
     [SerializeField] private float _playerHeight;
     [SerializeField] private float _groundDrag;
 
@@ -175,6 +176,22 @@ public class PlayerController : MonoBehaviour
     private bool IsGrounded()
     {
         return Physics.Raycast(transform.position, Vector3.down, _playerHeight * 0.5f + 0.2f, _groundLayer);
+    }
+
+    public bool CanCatChase()
+    {
+        if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, _playerHeight * 0.5f + 0.2f, _groundLayer))
+        {
+            if (hit.collider.gameObject.layer == LayerMask.NameToLayer(Consts.Layers.FLOOR))
+            {
+                return true;
+            }
+            else if (hit.collider.gameObject.layer == LayerMask.NameToLayer(Consts.Layers.GROUND))
+            {
+                return false;
+            }
+        }
+        return false;
     }
 
     public bool IsSliding()

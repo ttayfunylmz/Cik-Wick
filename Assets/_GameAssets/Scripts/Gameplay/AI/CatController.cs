@@ -1,19 +1,38 @@
+using System;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.AI;
+using Zenject;
 
 public class CatController : MonoBehaviour
 {
+    public event Action<Transform> OnCatCatched;
+
+    [Header("References")]
+    [SerializeField] private Transform _playerTransform;
+    [SerializeField] private CinemachineCamera _catCinemachineCamera;
+
     [Header("Navigation Settings")]
     [SerializeField] private float _patrolRadius = 10f;
     [SerializeField] private float _waitTime = 2f;
     [SerializeField] private int _maxDestinationAttempts = 10;
+    [SerializeField] private float _chaseDistanceThreshold = 1.5f;
+    [SerializeField] private float _chaseDistance = 2f;
 
-    private CatStateController _catStateController;
-    
     private NavMeshAgent _catAgent;
     private Vector3 _initialPosition;
     private float _timer;
     private bool _isWaiting;
+    [SerializeField] private bool _isChasing = true;
+
+    private CatStateController _catStateController;
+    private PlayerController _playerController;
+
+    [Inject]
+    private void ZenjectSetup(PlayerController playerController)
+    {
+        _playerController = playerController;
+    }
 
     private void Awake() 
     {
@@ -36,6 +55,35 @@ public class CatController : MonoBehaviour
     }
 
     private void Update()
+    {
+        if(!_playerController.CanCatChase())
+        {
+            SetPatrolMovement();
+        }
+        else
+        {
+            SetChaseMovement();
+        }
+    }
+
+    private void SetChaseMovement()
+    {
+        Vector3 directionToPlayer = (_playerTransform.position - transform.position).normalized;
+        Vector3 offsetPosition = _playerTransform.position - directionToPlayer * _chaseDistanceThreshold;
+        _catAgent.SetDestination(offsetPosition);
+        _catStateController.ChangeState(CatState.Chasing);
+
+        if (Vector3.Distance(transform.position, _playerTransform.position) <= _chaseDistance && _isChasing)
+        {
+            Debug.Log("Cat has reached close to the player.");
+            _catCinemachineCamera.Priority = 2;
+            _catStateController.ChangeState(CatState.Catched);
+            OnCatCatched?.Invoke(_playerTransform);
+            _isChasing = false;
+        }
+    }
+
+    private void SetPatrolMovement()
     {
         if (!_catAgent.pathPending && _catAgent.remainingDistance <= _catAgent.stoppingDistance)
         {
@@ -66,7 +114,7 @@ public class CatController : MonoBehaviour
 
         while (attempts < _maxDestinationAttempts && !destinationSet)
         {
-            Vector3 randomDirection = Random.insideUnitSphere * _patrolRadius;
+            Vector3 randomDirection = UnityEngine.Random.insideUnitSphere * _patrolRadius;
             randomDirection += _initialPosition;
 
             if (NavMesh.SamplePosition(randomDirection, out NavMeshHit hit, _patrolRadius, NavMesh.AllAreas))
