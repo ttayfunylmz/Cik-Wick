@@ -12,6 +12,10 @@ public class CatController : MonoBehaviour
     [SerializeField] private Transform _playerTransform;
     [SerializeField] private CinemachineCamera _catCinemachineCamera;
 
+    [Header("Settings")]
+    [SerializeField] private float _defaultSpeed = 5f;
+    [SerializeField] private float _chaseSpeed = 7f;
+
     [Header("Navigation Settings")]
     [SerializeField] private float _patrolRadius = 10f;
     [SerializeField] private float _waitTime = 2f;
@@ -27,11 +31,13 @@ public class CatController : MonoBehaviour
 
     private CatStateController _catStateController;
     private PlayerController _playerController;
+    private GameManager _gameManager;
 
     [Inject]
-    private void ZenjectSetup(PlayerController playerController)
+    private void ZenjectSetup(PlayerController playerController, GameManager gameManager)
     {
         _playerController = playerController;
+        _gameManager = gameManager;
     }
 
     private void Awake() 
@@ -71,11 +77,12 @@ public class CatController : MonoBehaviour
         Vector3 directionToPlayer = (_playerTransform.position - transform.position).normalized;
         Vector3 offsetPosition = _playerTransform.position - directionToPlayer * _chaseDistanceThreshold;
         _catAgent.SetDestination(offsetPosition);
+        _catAgent.speed = _chaseSpeed;
         _catStateController.ChangeState(CatState.Chasing);
 
         if (Vector3.Distance(transform.position, _playerTransform.position) <= _chaseDistance && _isChasing)
         {
-            Debug.Log("Cat has reached close to the player.");
+            _gameManager.ChangeGameState(GameState.GameOver);
             _catCinemachineCamera.Priority = 2;
             _catStateController.ChangeState(CatState.Catched);
             OnCatCatched?.Invoke(_playerTransform);
@@ -85,6 +92,8 @@ public class CatController : MonoBehaviour
 
     private void SetPatrolMovement()
     {
+        _catAgent.speed = _defaultSpeed;
+
         if (!_catAgent.pathPending && _catAgent.remainingDistance <= _catAgent.stoppingDistance)
         {
             if (!_isWaiting)

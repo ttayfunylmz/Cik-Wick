@@ -1,6 +1,8 @@
+using System;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
+using Zenject;
 
 public class SettingsUI : MonoBehaviour
 {
@@ -26,6 +28,14 @@ public class SettingsUI : MonoBehaviour
     private bool _isMusicActive = true;
     private bool _isSoundActive = true;
 
+    private GameManager _gameManager;
+
+    [Inject]
+    private void ZenjectSetup(GameManager gameManager)
+    {
+        _gameManager = gameManager;
+    }
+
     private void Awake() 
     {
         _settingsPopupObject.transform.localScale = Vector3.zero;
@@ -41,7 +51,7 @@ public class SettingsUI : MonoBehaviour
     {
         _settingsPopupObject.SetActive(true);
         _settingsPopupObject.transform.DOScale(1f, _scaleDuration).SetEase(Ease.OutBack);
-        //TODO: Pause the Game.
+        _gameManager.ChangeGameState(GameState.Pause);
     }
 
     private void OnResumeButtonClicked()
@@ -49,7 +59,7 @@ public class SettingsUI : MonoBehaviour
         _settingsPopupObject.transform.DOScale(0f, _scaleDuration).SetEase(Ease.OutExpo).OnComplete(() =>
         {
             _settingsPopupObject.SetActive(false);
-            //TODO: Resume the Game.
+            _gameManager.ChangeGameState(GameState.Resume);
         });
     }
 

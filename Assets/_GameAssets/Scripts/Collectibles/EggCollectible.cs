@@ -6,12 +6,10 @@ using Zenject;
 public class EggCollectible : MonoBehaviour, ICollectible
 {
     [Header("References")]
-    [SerializeField] private GameObject _eggVisualObject;
+    [SerializeField] private GameObject _hitParticlesPrefab;
 
     [Header("Settings")]
-    [SerializeField] private float _firstScaleDuration;
-    [SerializeField] private float _secondScaleDuration;
-    [SerializeField] private float _moveDuration;
+    [SerializeField] private float _hitParticlesDestroyDuration;
 
     private GameManager _gameManager;
 
@@ -24,17 +22,7 @@ public class EggCollectible : MonoBehaviour, ICollectible
     public void Collect()
     {
         _gameManager.OnEggCollected();
-
-        transform.DOMoveY(transform.position.y + 1.5f, _moveDuration).SetEase(Ease.Linear);
-        transform.DOScale(1.5f, _firstScaleDuration).SetEase(Ease.Linear).OnComplete(() =>
-        {
-            transform.DOScale(0f, _secondScaleDuration).SetEase(Ease.OutExpo).OnComplete(() =>
-            {
-                transform.gameObject.SetActive(false);
-                _eggVisualObject.SetActive(true);
-                _eggVisualObject.transform.DOScale(0.3f, 0.5f).SetEase(Ease.OutBack);
-            });
-        });
+        Destroy(gameObject);
     }
 
     public void PlayParticle(Transform playerTransform)
@@ -44,6 +32,13 @@ public class EggCollectible : MonoBehaviour, ICollectible
 
     public void PlayHitParticle(Transform playerTransform)
     {
-        
+        Vector3 offset = new Vector3(0f, 0.7f, 0f);
+
+        GameObject particleInstance = 
+            Instantiate(_hitParticlesPrefab, playerTransform.position + offset, _hitParticlesPrefab.transform.rotation);
+
+        particleInstance.transform.parent = playerTransform;
+
+        Destroy(particleInstance, _hitParticlesDestroyDuration);
     }
 }

@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class PlayerInteractionController : MonoBehaviour
 {
-    [SerializeField] private List<Transform> _eggPlaces;
     [SerializeField] private Transform _playerVisualTransform;
 
     private PlayerController _playerController;

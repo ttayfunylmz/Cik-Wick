@@ -5,6 +5,8 @@ using Zenject;
 
 public class GameManager : MonoBehaviour
 {
+    public event Action<GameState> OnGameStateChanged;
+
     [Header("References")]
     [SerializeField] private GameObject _fightingParticles;
 
@@ -31,6 +33,12 @@ public class GameManager : MonoBehaviour
         _maxEggCount = 5;
 
         _catController.OnCatCatched += CatController_OnCatCatched;
+    }
+
+    public void ChangeGameState(GameState gameState)
+    {
+        OnGameStateChanged?.Invoke(gameState);
+        Debug.Log($"Game State: {gameState}");
     }
 
     private void CatController_OnCatCatched(Transform playerTransform)

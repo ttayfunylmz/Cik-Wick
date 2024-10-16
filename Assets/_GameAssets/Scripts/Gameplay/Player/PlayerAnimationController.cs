@@ -7,7 +7,6 @@ public class PlayerAnimationController : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Animator _playerAnimator;
-    [SerializeField] private Transform _eggPlacesParentTransform;
 
     [Header("Settings")]
     [SerializeField] private float _eggRotationDuration;
@@ -26,8 +25,6 @@ public class PlayerAnimationController : MonoBehaviour
 
     private void Start() 
     {
-        RotateEggs();
-
         _playerController.OnPlayerJumped += PlayerController_OnPlayerJumped;    
     }
 
@@ -70,11 +67,5 @@ public class PlayerAnimationController : MonoBehaviour
                 _playerAnimator.SetBool(Consts.PlayerAnimations.IS_SLIDING_ACTIVE, true);
                 break;
         }
-    }
-
-    private void RotateEggs()
-    {
-        _eggPlacesParentTransform.DORotate(_eggRotationVector, _eggRotationDuration, RotateMode.FastBeyond360)
-            .SetEase(Ease.Linear).SetLoops(-1, LoopType.Restart);
     }
 }
