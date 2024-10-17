@@ -1,4 +1,5 @@
 using System;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -10,9 +11,17 @@ public class MenuControllerUI : MonoBehaviour
     [SerializeField] private Button _settingsButton;
     [SerializeField] private Button _creditsButton;
     [SerializeField] private Button _quitButton;
-    [SerializeField] private Button _skinnyDevButton;
-    [SerializeField] private Button _discordButton;
     [SerializeField] private RectTransform _headerImageTransform;
+
+    [Header("Content References")]
+    [SerializeField] private RectTransform _settingsContentTransform;
+    [SerializeField] private RectTransform _creditsContentTransform;
+    [SerializeField] private RectTransform _quitContentTransform;
+
+    [Header("Settings")]
+    [SerializeField] private float _animationDuration = 0.5f;
+
+    private RectTransform _currentContentTransform = null;
 
     private void Awake() 
     {
@@ -20,10 +29,8 @@ public class MenuControllerUI : MonoBehaviour
         _settingsButton.onClick.AddListener(OnSettingsButtonClick);
         _creditsButton.onClick.AddListener(OnCreditsButtonClick);
         _quitButton.onClick.AddListener(OnQuitButtonClick);
-
-        _skinnyDevButton.onClick.AddListener(() => OpenLinks("https://www.youtube.com/@skinnydev"));
-        _discordButton.onClick.AddListener(() => OpenLinks("https://discord.gg/Scf6zKFtpj"));
     }
+    
     private void OnPlayButtonClick()
     {
         SceneManager.LoadScene("GameScene");
@@ -31,12 +38,12 @@ public class MenuControllerUI : MonoBehaviour
 
     private void OnSettingsButtonClick()
     {
-        //TODO: Settings Menu
+        AnimateContents(_settingsContentTransform);
     }
 
     private void OnCreditsButtonClick()
     {
-        //TODO: Credits Menu
+        AnimateContents(_creditsContentTransform);
     }
 
     private void OpenLinks(string link)
@@ -46,8 +53,18 @@ public class MenuControllerUI : MonoBehaviour
 
     private void OnQuitButtonClick()
     {
-        Application.Quit();
-        Debug.Log("Quitting the Game...");
+        AnimateContents(_quitContentTransform);
     }
 
+    private void AnimateContents(RectTransform newContentTransform)
+    {
+        if(_currentContentTransform != null && _currentContentTransform != newContentTransform)
+        {
+            _currentContentTransform.DOAnchorPosX(-1000f, _animationDuration).SetEase(Ease.InBack);
+        } 
+
+        newContentTransform.DOAnchorPosX(50f, _animationDuration).SetEase(Ease.OutBack);
+        _currentContentTransform = newContentTransform;
+        _currentContentTransform.SetAsLastSibling();
+    }
 }

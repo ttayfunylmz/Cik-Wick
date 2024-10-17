@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 38f27aec50672824d9f8ade5b8c86439
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 295860
+  packageName: Mask Transitions
+  packageVersion: 1.0
+  assetPath: Assets/Nearmint Studios/Mask Transitions/Scripts/CutoutMaskUI.cs
+  uploadId: 693016

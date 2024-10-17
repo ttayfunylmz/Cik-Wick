@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using Zenject;
 
-public class LosePopup : MonoBehaviour
+public class WinPopup : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private TMP_Text _timerText;
-    [SerializeField] private Button _tryAgainButton;
+    [SerializeField] private Button _oneMoreButton;
     [SerializeField] private Button _mainMenuButton;
-    
+
     private TimerUI _timerUI;
 
     [Inject]
@@ -23,8 +23,8 @@ public class LosePopup : MonoBehaviour
     {
         SetTimerText();
 
-        _tryAgainButton.onClick.AddListener(OnTryAgainButtonClicked);
-        _mainMenuButton.onClick.AddListener(OnMainMenuButtonClicked);    
+        _oneMoreButton.onClick.AddListener(OnOneMoreButtonClicked);
+        _mainMenuButton.onClick.AddListener(OnMainMenuButtonClicked);
     }
 
     private void OnMainMenuButtonClicked()
@@ -32,11 +32,11 @@ public class LosePopup : MonoBehaviour
 
     }
 
-    private void OnTryAgainButtonClicked()
+    private void OnOneMoreButtonClicked()
     {
 
     }
-    
+
     private void SetTimerText()
     {
         _timerText.text = _timerUI.GetFinalTime();
@@ -44,8 +44,7 @@ public class LosePopup : MonoBehaviour
 
     private void OnDisable() 
     {
-        _tryAgainButton.onClick.RemoveListener(OnTryAgainButtonClicked);
+        _oneMoreButton.onClick.RemoveListener(OnOneMoreButtonClicked);
         _mainMenuButton.onClick.RemoveListener(OnMainMenuButtonClicked);    
-    }
-
+    }   
 }

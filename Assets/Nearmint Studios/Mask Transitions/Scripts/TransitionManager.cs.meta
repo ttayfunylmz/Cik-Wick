@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 62370cdbb32b1c341bc21fba1e18929c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 295860
+  packageName: Mask Transitions
+  packageVersion: 1.0
+  assetPath: Assets/Nearmint Studios/Mask Transitions/Scripts/TransitionManager.cs
+  uploadId: 693016

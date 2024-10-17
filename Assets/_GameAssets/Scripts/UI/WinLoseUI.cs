@@ -31,4 +31,13 @@ public class WinLoseUI : MonoBehaviour
         _blackBackgroundImage.DOFade(0.8f, _animationDuration).SetEase(Ease.Linear);
         _losePopupTransform.DOScale(1f, _animationDuration).SetEase(Ease.OutBack);
     }
+
+    public void OnGameWin()
+    {
+        _blackBackgroundObject.SetActive(true);
+        _winPopup.SetActive(true);
+
+        _blackBackgroundImage.DOFade(0.8f, _animationDuration).SetEase(Ease.Linear);
+        _winPopupTransform.DOScale(1f, _animationDuration).SetEase(Ease.OutBack);
+    }
 }

@@ -8,6 +8,7 @@ public class SettingsUI : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private GameObject _settingsPopupObject;
+    [SerializeField] private GameObject _blackBackgroundObject;
 
     [Header("Buttons")]
     [SerializeField] private Button _settingsButton;
@@ -25,6 +26,8 @@ public class SettingsUI : MonoBehaviour
     [Header("Settings")]
     [SerializeField] private float _scaleDuration;
 
+    private Image _blackBackgroundImage;
+
     private bool _isMusicActive = true;
     private bool _isSoundActive = true;
 
@@ -38,6 +41,7 @@ public class SettingsUI : MonoBehaviour
 
     private void Awake() 
     {
+        _blackBackgroundImage = _blackBackgroundObject.GetComponent<Image>();
         _settingsPopupObject.transform.localScale = Vector3.zero;
 
         _settingsButton.onClick.AddListener(OnSettingsButtonClicked);
@@ -49,17 +53,21 @@ public class SettingsUI : MonoBehaviour
 
     private void OnSettingsButtonClicked()
     {
+        _blackBackgroundObject.SetActive(true);
         _settingsPopupObject.SetActive(true);
+        _blackBackgroundImage.DOFade(0.8f, _scaleDuration).SetEase(Ease.Linear);
         _settingsPopupObject.transform.DOScale(1f, _scaleDuration).SetEase(Ease.OutBack);
         _gameManager.ChangeGameState(GameState.Pause);
     }
 
     private void OnResumeButtonClicked()
     {
+        _blackBackgroundImage.DOFade(0f, _scaleDuration).SetEase(Ease.Linear);
         _settingsPopupObject.transform.DOScale(0f, _scaleDuration).SetEase(Ease.OutExpo).OnComplete(() =>
         {
             _settingsPopupObject.SetActive(false);
             _gameManager.ChangeGameState(GameState.Resume);
+            _blackBackgroundObject.SetActive(false);
         });
     }
 

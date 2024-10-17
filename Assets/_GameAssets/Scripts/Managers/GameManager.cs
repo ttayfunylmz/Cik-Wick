@@ -60,8 +60,9 @@ public class GameManager : MonoBehaviour
 
         if(_currentEggCount == _maxEggCount)
         {
+            ChangeGameState(GameState.GameOver);
             _eggCounterUI.SetEggCompleted();
-            Debug.Log("You Collected All Eggs!");
+            _winLoseUI.OnGameWin();
         }
     }
 }
