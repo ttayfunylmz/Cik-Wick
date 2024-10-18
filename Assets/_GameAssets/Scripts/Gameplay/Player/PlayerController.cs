@@ -45,11 +45,13 @@ public class PlayerController : MonoBehaviour
 
     #region Zenject Setup
     private StateController _stateController;
+    private GameManager _gameManager;
 
     [Inject]
-    private void ZenjectSetup(StateController stateController)
+    private void ZenjectSetup(StateController stateController, GameManager gameManager)
     {
         _stateController = stateController;
+        _gameManager = gameManager;
     }
 
     #endregion
@@ -66,6 +68,9 @@ public class PlayerController : MonoBehaviour
 
     private void Update() 
     {
+        if(_gameManager.GetCurrentGameState() != GameState.Play 
+            && _gameManager.GetCurrentGameState() != GameState.Resume) { return; }
+
         SetInputs();
         SetStates();
         SetPlayerSpeed();
@@ -74,6 +79,9 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate() 
     {
+        if(_gameManager.GetCurrentGameState() != GameState.Play 
+            && _gameManager.GetCurrentGameState() != GameState.Resume) { return; }
+
         SetPlayerMovement();
     }
 

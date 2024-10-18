@@ -8168,7 +8168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
+  m_EffectDistance: {x: 3, y: 5}
   m_UseGraphicAlpha: 1
 --- !u!1001 &1414723070
 PrefabInstance:
@@ -12929,6 +12929,18 @@ PrefabInstance:
     - target: {fileID: 5106513157748771321, guid: 5e8c1602acb6bfd47969180164cfda2b, type: 3}
       propertyPath: m_SizeDelta.y
       value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106513157748771321, guid: 5e8c1602acb6bfd47969180164cfda2b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106513157748771321, guid: 5e8c1602acb6bfd47969180164cfda2b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106513157748771321, guid: 5e8c1602acb6bfd47969180164cfda2b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5106513157748771321, guid: 5e8c1602acb6bfd47969180164cfda2b, type: 3}
       propertyPath: m_LocalPosition.x

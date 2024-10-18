@@ -1,5 +1,6 @@
 using System;
 using DG.Tweening;
+using MaskTransitions;
 using UnityEngine;
 using UnityEngine.UI;
 using Zenject;
@@ -56,7 +57,7 @@ public class SettingsUI : MonoBehaviour
         _blackBackgroundObject.SetActive(true);
         _settingsPopupObject.SetActive(true);
         _blackBackgroundImage.DOFade(0.8f, _scaleDuration).SetEase(Ease.Linear);
-        _settingsPopupObject.transform.DOScale(1f, _scaleDuration).SetEase(Ease.OutBack);
+        _settingsPopupObject.transform.DOScale(1.5f, _scaleDuration).SetEase(Ease.OutBack);
         _gameManager.ChangeGameState(GameState.Pause);
     }
 
@@ -85,7 +86,7 @@ public class SettingsUI : MonoBehaviour
 
     private void OnMainMenuButtonClicked()
     {
-        //TODO: Go to Main Menu.
+        TransitionManager.Instance.LoadLevel(Consts.SceneNames.MENU_SCENE);
     }
 
     private void OnDestroy() 

@@ -29,7 +29,7 @@ public class WinLoseUI : MonoBehaviour
         _losePopup.SetActive(true);
 
         _blackBackgroundImage.DOFade(0.8f, _animationDuration).SetEase(Ease.Linear);
-        _losePopupTransform.DOScale(1f, _animationDuration).SetEase(Ease.OutBack);
+        _losePopupTransform.DOScale(1.5f, _animationDuration).SetEase(Ease.OutBack);
     }
 
     public void OnGameWin()
@@ -38,6 +38,6 @@ public class WinLoseUI : MonoBehaviour
         _winPopup.SetActive(true);
 
         _blackBackgroundImage.DOFade(0.8f, _animationDuration).SetEase(Ease.Linear);
-        _winPopupTransform.DOScale(1f, _animationDuration).SetEase(Ease.OutBack);
+        _winPopupTransform.DOScale(1.5f, _animationDuration).SetEase(Ease.OutBack);
     }
 }

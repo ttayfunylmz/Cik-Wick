@@ -15,12 +15,15 @@ public class PlayerAnimationController : MonoBehaviour
 
     private PlayerController _playerController;
     private StateController _stateController;
+    private GameManager _gameManager;
 
     [Inject]
-    private void ZenjectSetup(PlayerController playerController, StateController stateController)
+    private void ZenjectSetup(PlayerController playerController, StateController stateController,
+        GameManager gameManager)
     {
         _playerController = playerController;
         _stateController = stateController;
+        _gameManager = gameManager;
     }
 
     private void Start() 
@@ -30,6 +33,9 @@ public class PlayerAnimationController : MonoBehaviour
 
     private void Update() 
     {
+        if(_gameManager.GetCurrentGameState() != GameState.Play 
+            && _gameManager.GetCurrentGameState() != GameState.Resume) { return; }
+
         SetPlayerAnimations();
     }
 

@@ -1,4 +1,5 @@
 using System;
+using MaskTransitions;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -29,12 +30,12 @@ public class LosePopup : MonoBehaviour
 
     private void OnMainMenuButtonClicked()
     {
-
+        TransitionManager.Instance.LoadLevel(Consts.SceneNames.MENU_SCENE);
     }
 
     private void OnTryAgainButtonClicked()
     {
-
+        TransitionManager.Instance.LoadLevel(Consts.SceneNames.GAME_SCENE);
     }
     
     private void SetTimerText()

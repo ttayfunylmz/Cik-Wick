@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
 
     private int _currentEggCount;
     private int _maxEggCount;
+    private GameState _currentGameState;
 
     private EggCounterUI _eggCounterUI;
     private WinLoseUI _winLoseUI;
@@ -35,9 +36,15 @@ public class GameManager : MonoBehaviour
         _catController.OnCatCatched += CatController_OnCatCatched;
     }
 
+    private void OnEnable() 
+    {
+        ChangeGameState(GameState.Play);    
+    }
+
     public void ChangeGameState(GameState gameState)
     {
         OnGameStateChanged?.Invoke(gameState);
+        _currentGameState = gameState;
         Debug.Log($"Game State: {gameState}");
     }
 
@@ -64,5 +71,10 @@ public class GameManager : MonoBehaviour
             _eggCounterUI.SetEggCompleted();
             _winLoseUI.OnGameWin();
         }
+    }
+
+    public GameState GetCurrentGameState()
+    {
+        return _currentGameState;
     }
 }
