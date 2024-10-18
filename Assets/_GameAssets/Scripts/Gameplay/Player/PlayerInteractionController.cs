@@ -3,7 +3,11 @@ using UnityEngine;
 
 public class PlayerInteractionController : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private Transform _playerVisualTransform;
+
+    [Header("Settings")]
+    [SerializeField] private float _interactRange = 4f;
 
     private PlayerController _playerController;
     private Rigidbody _playerRigidbody;
@@ -12,6 +16,15 @@ public class PlayerInteractionController : MonoBehaviour
     {
         _playerController = GetComponent<PlayerController>();
         _playerRigidbody = GetComponent<Rigidbody>();
+    }
+
+    private void Update() 
+    {
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            IInteractable interactable = GetInteractableObject();
+            interactable?.Interact(transform);
+        }    
     }
 
     private void OnTriggerEnter(Collider other) 
@@ -43,5 +56,38 @@ public class PlayerInteractionController : MonoBehaviour
             damageable.GiveDamage(_playerRigidbody, _playerVisualTransform);
             damageable.PlayHitParticle(transform);
         }    
+    }
+
+    public IInteractable GetInteractableObject()
+    {
+        List<IInteractable> interactableList = new List<IInteractable>();
+        Collider[] colliderArray = Physics.OverlapSphere(transform.position, _interactRange);
+
+        foreach (Collider collider in colliderArray)
+        {
+            if(collider.TryGetComponent(out IInteractable interactable))
+            {
+                interactableList.Add(interactable);
+            }
+        }
+
+        IInteractable closestInteractable = null;
+        foreach(IInteractable interactable in interactableList)
+        {
+            if(closestInteractable == null)
+            {
+                closestInteractable = interactable;
+            }
+            else
+            {
+                if(Vector3.Distance(transform.position, interactable.GetTransform().position) <
+                    Vector3.Distance(transform.position, closestInteractable.GetTransform().position))
+                {
+                    closestInteractable = interactable;
+                }
+            }
+        }
+
+        return closestInteractable;
     }
 }

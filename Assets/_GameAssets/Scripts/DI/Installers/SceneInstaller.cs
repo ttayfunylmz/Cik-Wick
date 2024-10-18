@@ -6,6 +6,7 @@ public class SceneInstaller : MonoInstaller
     {
         //Controller Bindings
         Container.Bind<PlayerController>().FromComponentInHierarchy().AsSingle();
+        Container.Bind<PlayerInteractionController>().FromComponentInHierarchy().AsSingle();
         Container.Bind<StateController>().FromComponentInHierarchy().AsSingle();
         Container.Bind<CatController>().FromComponentInHierarchy().AsSingle();
         Container.Bind<GameManager>().FromComponentInHierarchy().AsSingle();
