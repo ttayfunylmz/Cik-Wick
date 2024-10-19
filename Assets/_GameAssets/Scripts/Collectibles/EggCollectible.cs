@@ -33,7 +33,6 @@ public class EggCollectible : MonoBehaviour, ICollectible
             2 => "ALMOST HALFWAY!",
             3 => "2 SIBLINGS LEFT!",
             4 => "ONLY 1 LEFT!",
-            5 => "SAVED ALL MY SIBLINGS!",
             _ => "SOMETHING IS WRONG!"
         };
 
