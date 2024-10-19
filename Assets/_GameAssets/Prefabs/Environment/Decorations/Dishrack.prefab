@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5617632067283661638}
+  - component: {fileID: 7435756436645545148}
   - component: {fileID: 482162178285974162}
   - component: {fileID: 3746853145103083823}
   - component: {fileID: 4103196284555008866}
@@ -34,6 +35,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7435756436645545148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8218980408636588756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b4224c5c48bee47869f456951ffacc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactText: TO CHECK THE DISHES
+  _speechText: CLEAN & SMELLS GOOD. LIKEY!
 --- !u!33 &482162178285974162
 MeshFilter:
   m_ObjectHideFlags: 0

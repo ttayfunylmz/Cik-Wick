@@ -119,6 +119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2771808973056846165}
   - component: {fileID: 1110706607999906332}
+  - component: {fileID: 6443932975621833337}
   - component: {fileID: 7954885359726617358}
   m_Layer: 0
   m_Name: Spatula
@@ -159,6 +160,20 @@ MonoBehaviour:
   _boostParticlesPrefab: {fileID: 7518214413946413221, guid: b41fb6d5fa431d047b8b0ad874e77881, type: 3}
   _jumpForce: 25
   _boostParticlesDestroyDuration: 2
+--- !u!114 &6443932975621833337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2863175942238327620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b4224c5c48bee47869f456951ffacc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactText: TO CHECK THE SPATULA
+  _speechText: SEEMS LIKE A JUMP PAD!
 --- !u!65 &7954885359726617358
 BoxCollider:
   m_ObjectHideFlags: 0

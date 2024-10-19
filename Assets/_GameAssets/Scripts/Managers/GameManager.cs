@@ -73,6 +73,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public int GetCurrentEggCount()
+    {
+        return _currentEggCount;
+    }
+
     public GameState GetCurrentGameState()
     {
         return _currentGameState;

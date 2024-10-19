@@ -1358,7 +1358,7 @@ MonoBehaviour:
   _speechText: {fileID: 2092956870}
   _typewriter: {fileID: 2092956872}
   _scaleDuration: 0.5
-  _endDelay: 0.5
+  _endDelay: 0.75
 --- !u!1001 &217726890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2488,8 +2488,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 68.07739, y: 0}
-  m_SizeDelta: {x: 363.8452, y: 100}
+  m_AnchoredPosition: {x: 14.438293, y: 0}
+  m_SizeDelta: {x: 309.4917, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &391391549
 MonoBehaviour:
@@ -2511,7 +2511,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TO INTERACT
+  m_text: TO INTERACTt
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 58086e076d235f14994b5eed57b7fc6f, type: 2}
   m_sharedMaterial: {fileID: 7256126768911658474, guid: 58086e076d235f14994b5eed57b7fc6f, type: 2}
@@ -11747,7 +11747,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: 150}
+  m_AnchoredPosition: {x: 350, y: 150}
   m_SizeDelta: {x: 477.7152, y: 369.5796}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2030322093

@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8965748021641867495}
+  - component: {fileID: 203745959456062338}
   - component: {fileID: 6442200154753389911}
   - component: {fileID: 981052069384135732}
   - component: {fileID: 832817131190690739}
@@ -34,6 +35,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &203745959456062338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5351554294330231975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b4224c5c48bee47869f456951ffacc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactText: TO CHECK THE BOWL
+  _speechText: SOMEONE WAS HUNGRY, OBVIOUSLY!
 --- !u!33 &6442200154753389911
 MeshFilter:
   m_ObjectHideFlags: 0

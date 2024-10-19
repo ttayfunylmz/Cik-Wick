@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactText: TO CHECK THE MENU
-  _speechText: WOW.. NICE MENU!
+  _speechText: JUST SUBSCRIBE TO SKINNYDEV!
 --- !u!33 &1629066551680369552
 MeshFilter:
   m_ObjectHideFlags: 0

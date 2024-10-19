@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5844257913895726890}
+  - component: {fileID: 962189735661728851}
   - component: {fileID: 3194219506692346134}
   - component: {fileID: 3554941325055178035}
   - component: {fileID: 1725072273507763466}
@@ -35,6 +36,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -45, y: 0, z: 0}
+--- !u!114 &962189735661728851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949294732303018752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b4224c5c48bee47869f456951ffacc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactText: TO CHECK THE BOARD
+  _speechText: MIGHT BE USEFUL TO RUN AWAY..
 --- !u!33 &3194219506692346134
 MeshFilter:
   m_ObjectHideFlags: 0

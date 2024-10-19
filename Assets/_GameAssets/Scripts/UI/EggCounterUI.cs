@@ -1,6 +1,7 @@
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
+using Zenject;
 
 public class EggCounterUI : MonoBehaviour
 {

@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8912459567556338168}
+  - component: {fileID: 8191786612270264008}
   - component: {fileID: 8606036748230745918}
   - component: {fileID: 7402167730242719899}
   - component: {fileID: 2472738878691967295}
@@ -39,6 +40,20 @@ Transform:
   - {fileID: 8702500168244274824}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8191786612270264008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2164491672414230182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b4224c5c48bee47869f456951ffacc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactText: TO CHECK THE STOVE
+  _speechText: NO PLEASE, AWAY FROM THE FIRE!
 --- !u!33 &8606036748230745918
 MeshFilter:
   m_ObjectHideFlags: 0

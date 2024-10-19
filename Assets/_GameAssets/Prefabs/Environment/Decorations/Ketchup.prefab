@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3667679879259221406}
+  - component: {fileID: 5077648954568166357}
   - component: {fileID: 6504109653671888075}
   - component: {fileID: 870170161105473575}
   - component: {fileID: 5040831034432959895}
@@ -34,6 +35,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 89.98, y: 0, z: 0}
+--- !u!114 &5077648954568166357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7815697153993757167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b4224c5c48bee47869f456951ffacc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactText: TO CHECK THE SAUCES
+  _speechText: JUST KETCHUP & MUSTARD..
 --- !u!33 &6504109653671888075
 MeshFilter:
   m_ObjectHideFlags: 0
