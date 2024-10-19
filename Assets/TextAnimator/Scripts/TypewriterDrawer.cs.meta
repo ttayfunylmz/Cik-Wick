@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8c964770c5e8c6a4e996c6fe1265a14a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 280574
+  packageName: Text Animator | Typewriter | TextMeshPro
+  packageVersion: 1.1
+  assetPath: Assets/TextAnimator/Scripts/TypewriterDrawer.cs
+  uploadId: 672692

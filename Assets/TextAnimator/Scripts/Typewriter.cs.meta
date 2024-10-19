@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: af038dcc3fadf4d40ba66f4ebad13e91
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 280574
+  packageName: Text Animator | Typewriter | TextMeshPro
+  packageVersion: 1.1
+  assetPath: Assets/TextAnimator/Scripts/Typewriter.cs
+  uploadId: 672692

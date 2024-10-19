@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 098969eb6fb5c2c44841a96472f3f64e
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 280574
+  packageName: Text Animator | Typewriter | TextMeshPro
+  packageVersion: 1.1
+  assetPath: Assets/TextAnimator/Example/Scenes/SampleScene.unity
+  uploadId: 672692

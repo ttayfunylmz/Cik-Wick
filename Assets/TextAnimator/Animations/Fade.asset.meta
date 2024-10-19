@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ec8c4162d28fd00498b40e9a564690b6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 280574
+  packageName: Text Animator | Typewriter | TextMeshPro
+  packageVersion: 1.1
+  assetPath: Assets/TextAnimator/Animations/Fade.asset
+  uploadId: 672692

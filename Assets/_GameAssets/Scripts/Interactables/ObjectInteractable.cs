@@ -1,10 +1,19 @@
 using UnityEngine;
+using Zenject;
 
 public class ObjectInteractable : MonoBehaviour, IInteractable
 {
     [Header("Settings")]
     [SerializeField] private string _interactText;
     [SerializeField] private string _speechText;
+
+    private ChatBubbleUI _chatBubbleUI;
+
+    [Inject]
+    private void ZenjectSetup(ChatBubbleUI chatBubbleUI)
+    {
+        _chatBubbleUI = chatBubbleUI;
+    }
 
     public string GetInteractText()
     {
@@ -18,6 +27,6 @@ public class ObjectInteractable : MonoBehaviour, IInteractable
 
     public void Interact(Transform interactorTransform)
     {
-        Debug.Log(_speechText);
+        _chatBubbleUI.PlayChatBubbleAnimation(_speechText);
     }
 }

@@ -1314,6 +1314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 205903017}
+  - component: {fileID: 205903018}
   m_Layer: 5
   m_Name: ChatBubbleUI
   m_TagString: Untagged
@@ -1341,6 +1342,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &205903018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205903016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7352bd335bf5e843bfec4008dbe158c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bubbleImageTransform: {fileID: 2030322092}
+  _speechText: {fileID: 2092956870}
+  _typewriter: {fileID: 2092956872}
+  _scaleDuration: 0.5
+  _endDelay: 0.5
 --- !u!1001 &217726890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1484,6 +1502,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226295695}
   m_CullTransparentMesh: 1
+--- !u!1 &229613621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 229613623}
+  - component: {fileID: 229613622}
+  m_Layer: 0
+  m_Name: TextAnimatorManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &229613622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229613621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38eda9353d234da42a08a9aa90137442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &229613623
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229613621}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &236409339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7867,9 +7929,9 @@ RectTransform:
   - {fileID: 180639449}
   - {fileID: 1911992736}
   - {fileID: 1052029394}
+  - {fileID: 205903017}
   - {fileID: 1087411805}
   - {fileID: 470306969}
-  - {fileID: 205903017}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -11979,6 +12041,7 @@ GameObject:
   - component: {fileID: 2092956869}
   - component: {fileID: 2092956871}
   - component: {fileID: 2092956870}
+  - component: {fileID: 2092956872}
   m_Layer: 5
   m_Name: SpeechText
   m_TagString: Untagged
@@ -12104,6 +12167,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092956868}
   m_CullTransparentMesh: 1
+--- !u!114 &2092956872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092956868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af038dcc3fadf4d40ba66f4ebad13e91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animation: {fileID: 11400000, guid: 8ae43b3f555e6e740b1a91c700747f41, type: 2}
+  onEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  runFromStart: 0
+  runFromEnable: 0
+  speedModifier: 1
+  charactersModifier: 3
+  skippingSpeed: 4
+  skippingChars: 4
+  isHidden: 0
+  isStarted: 0
+  isPaused: 0
+  isSkipping: 0
 --- !u!1 &2098176450
 GameObject:
   m_ObjectHideFlags: 0
@@ -18569,6 +18658,7 @@ SceneRoots:
   - {fileID: 1376196131}
   - {fileID: 503679848}
   - {fileID: 530236762}
+  - {fileID: 229613623}
   - {fileID: 1141146460}
   - {fileID: 798379332}
   - {fileID: 1137445836}

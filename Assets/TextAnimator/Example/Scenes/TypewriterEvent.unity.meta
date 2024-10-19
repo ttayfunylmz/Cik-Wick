@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fdd409ece320f574da1a8ebcac5b0f90
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 280574
+  packageName: Text Animator | Typewriter | TextMeshPro
+  packageVersion: 1.1
+  assetPath: Assets/TextAnimator/Example/Scenes/TypewriterEvent.unity
+  uploadId: 672692

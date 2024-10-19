@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 94aa63c313189914ca4dbc6a541f82eb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 280574
+  packageName: Text Animator | Typewriter | TextMeshPro
+  packageVersion: 1.1
+  assetPath: Assets/TextAnimator/Scripts/ScriptableObject/AnimationSettingsDrawer.cs
+  uploadId: 672692

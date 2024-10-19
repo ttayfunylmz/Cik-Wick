@@ -18,5 +18,6 @@ public class SceneInstaller : MonoInstaller
         Container.Bind<PlayerHealthUI>().FromComponentInHierarchy().AsSingle();
         Container.Bind<WinLoseUI>().FromComponentInHierarchy().AsSingle();
         Container.Bind<TimerUI>().FromComponentInHierarchy().AsSingle();
+        Container.Bind<ChatBubbleUI>().FromComponentInHierarchy().AsSingle();
     }
 }

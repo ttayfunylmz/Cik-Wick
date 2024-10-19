@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8ae43b3f555e6e740b1a91c700747f41
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 280574
+  packageName: Text Animator | Typewriter | TextMeshPro
+  packageVersion: 1.1
+  assetPath: Assets/TextAnimator/AnimationsTypewriter/Drop.asset
+  uploadId: 672692
