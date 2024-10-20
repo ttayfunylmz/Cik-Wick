@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5814537342984162585}
   - component: {fileID: 6996431556603503490}
   - component: {fileID: 2819924509001924657}
+  - component: {fileID: 8926960119693452386}
   m_Layer: 8
   m_Name: CounterDefault
   m_TagString: Untagged
@@ -107,8 +108,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 10, y: 4.989952, z: 9.990593}
-  m_Center: {x: 0, y: 2.4949737, z: -0.004711787}
+  m_Size: {x: 10, y: 4.989952, z: 8.980167}
+  m_Center: {x: 0, y: 2.4949737, z: 0.5005164}
 --- !u!208 &2819924509001924657
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -125,3 +126,24 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 3.0000002, z: 0.105000004}
   m_TimeToStationary: 0.5
+--- !u!65 &8926960119693452386
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066157180341965832}
+  m_Material: {fileID: 13400000, guid: 86eb2296dbafe164ab5b1f4448c8b0d7, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 6.021446, z: 1.0061445}
+  m_Center: {x: 0, y: 3.010723, z: -4.4969616}

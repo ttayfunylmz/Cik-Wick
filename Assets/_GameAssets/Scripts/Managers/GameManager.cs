@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
 
     private void OnEnable() 
     {
-        ChangeGameState(GameState.Play);    
+        ChangeGameState(GameState.CutScene);
     }
 
     public void ChangeGameState(GameState gameState)
@@ -50,14 +50,20 @@ public class GameManager : MonoBehaviour
 
     private void CatController_OnCatCatched(Transform playerTransform)
     {
-        StartCoroutine(OnGameOver(playerTransform));
+        PlayGameOver(playerTransform);
     }
 
     private IEnumerator OnGameOver(Transform playerTransform)
     {
         yield return new WaitForSeconds(_delay);
         Instantiate(_fightingParticles, playerTransform.position, _fightingParticles.transform.rotation);
+        ChangeGameState(GameState.GameOver);
         _winLoseUI.OnGameOver();
+    }
+
+    public void PlayGameOver(Transform playerTransform)
+    {
+        StartCoroutine(OnGameOver(playerTransform));
     }
 
     public void OnEggCollected()

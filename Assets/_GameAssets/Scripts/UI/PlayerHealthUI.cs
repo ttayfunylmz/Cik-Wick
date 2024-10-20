@@ -38,6 +38,14 @@ public class PlayerHealthUI : MonoBehaviour
         }
     }
 
+    public void AnimateDamageForAll()
+    {
+        for (int i = 0; i < _playerHealthImages.Length; ++i)
+        {
+            AnimateDamageSprite(_playerHealthImages[i], _playerHealthTransforms[i]);
+        }
+    }
+
     private void AnimateDamageSprite(Image activeImage, RectTransform activeImageTransform)
     {
         activeImageTransform.DOScale(0f, _scaleDuration).SetEase(Ease.InBack).OnComplete(() =>

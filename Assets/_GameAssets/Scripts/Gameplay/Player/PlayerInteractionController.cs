@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using Zenject;
 
 public class PlayerInteractionController : MonoBehaviour
 {
@@ -12,6 +13,14 @@ public class PlayerInteractionController : MonoBehaviour
     private PlayerController _playerController;
     private Rigidbody _playerRigidbody;
 
+    private GameManager _gameManager;
+
+    [Inject]
+    private void ZenjectSetup(GameManager gameManager)
+    {
+        _gameManager = gameManager;
+    }
+
     private void Awake() 
     {
         _playerController = GetComponent<PlayerController>();
@@ -20,6 +29,9 @@ public class PlayerInteractionController : MonoBehaviour
 
     private void Update() 
     {
+        if(_gameManager.GetCurrentGameState() != GameState.Play 
+            && _gameManager.GetCurrentGameState() != GameState.Resume) { return; }
+
         if(Input.GetKeyDown(KeyCode.F))
         {
             IInteractable interactable = GetInteractableObject();

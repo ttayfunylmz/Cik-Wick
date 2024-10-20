@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5025434897903184362}
   - component: {fileID: 8253125882978311797}
   - component: {fileID: 6333601538244135845}
-  - component: {fileID: 6692244969810088041}
+  - component: {fileID: 336174953089488938}
   - component: {fileID: 5552920845886273725}
   m_Layer: 8
   m_Name: CounterCorner
@@ -88,14 +88,14 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6692244969810088041
-BoxCollider:
+--- !u!64 &336174953089488938
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190133628515291279}
-  m_Material: {fileID: 13400000, guid: 86eb2296dbafe164ab5b1f4448c8b0d7, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -106,9 +106,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 8.999479, y: 4.9944115, z: 10}
-  m_Center: {x: 0.50027627, y: 2.4972057, z: -5.0474527e-14}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 535817780032081027, guid: c418e166e96382c45bb954ec4b8f623f, type: 3}
 --- !u!208 &5552920845886273725
 NavMeshObstacle:
   m_ObjectHideFlags: 0

@@ -13,15 +13,21 @@ public class PlayerInteractUI : MonoBehaviour
     [SerializeField] private float _fadeDuration = 0.5f;
 
     private PlayerInteractionController _playerInteractionController;
+    private GameManager _gameManager;
 
     [Inject]
-    private void ZenjectSetup(PlayerInteractionController playerInteractionController)
+    private void ZenjectSetup(PlayerInteractionController playerInteractionController,
+        GameManager gameManager)
     {
         _playerInteractionController = playerInteractionController;
+        _gameManager = gameManager;
     }
 
     private void Update() 
     {
+        if(_gameManager.GetCurrentGameState() != GameState.Play 
+            && _gameManager.GetCurrentGameState() != GameState.Resume) { return; }
+
         if(_playerInteractionController.GetInteractableObject() != null)
         {
             ShowInteractObject(_playerInteractionController.GetInteractableObject());

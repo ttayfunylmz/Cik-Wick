@@ -3,6 +3,7 @@ using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.AI;
 using Zenject;
+using Zenject.SpaceFighter;
 
 public class CatController : MonoBehaviour
 {
@@ -31,13 +32,13 @@ public class CatController : MonoBehaviour
 
     private CatStateController _catStateController;
     private PlayerController _playerController;
-    private GameManager _gameManager;
+    private PlayerHealthUI _playerHealthUI;
 
     [Inject]
-    private void ZenjectSetup(PlayerController playerController, GameManager gameManager)
+    private void ZenjectSetup(PlayerController playerController, PlayerHealthUI playerHealthUI)
     {
         _playerController = playerController;
-        _gameManager = gameManager;
+        _playerHealthUI = playerHealthUI;
     }
 
     private void Awake() 
@@ -82,10 +83,10 @@ public class CatController : MonoBehaviour
 
         if (Vector3.Distance(transform.position, _playerTransform.position) <= _chaseDistance && _isChasing)
         {
-            _gameManager.ChangeGameState(GameState.GameOver);
             _catCinemachineCamera.Priority = 2;
             _catStateController.ChangeState(CatState.Catched);
             OnCatCatched?.Invoke(_playerTransform);
+            _playerHealthUI.AnimateDamageForAll();
             _isChasing = false;
         }
     }

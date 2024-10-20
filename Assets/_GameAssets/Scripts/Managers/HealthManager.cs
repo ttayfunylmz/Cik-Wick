@@ -3,16 +3,21 @@ using Zenject;
 
 public class HealthManager : MonoBehaviour
 {
+    [Header("References")]
+    [SerializeField] private Transform _playerTransform;
+
     [Header("Settings")]
     [SerializeField] private int _maxHealth = 3;
     private int _currentHealth;
 
     private PlayerHealthUI _playerHealthUI;
+    private GameManager _gameManager;
 
     [Inject]
-    private void ZenjectSetup(PlayerHealthUI playerHealthUI)
+    private void ZenjectSetup(PlayerHealthUI playerHealthUI, GameManager gameManager)
     {
         _playerHealthUI = playerHealthUI;
+        _gameManager = gameManager;
     }
 
     private void Start()
@@ -29,7 +34,7 @@ public class HealthManager : MonoBehaviour
 
             if(_currentHealth <= 0)
             {
-                Debug.Log("Player Dead!");
+                _gameManager.PlayGameOver(_playerTransform);
             }
         }
     }
