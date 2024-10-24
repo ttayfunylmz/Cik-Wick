@@ -5,6 +5,7 @@ using MaskTransitions;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Zenject;
 
 public class MenuControllerUI : MonoBehaviour
 {
@@ -25,10 +26,18 @@ public class MenuControllerUI : MonoBehaviour
 
     private RectTransform _currentContentTransform = null;
 
+    private AudioManager _audioManager;
+
+    [Inject]
+    private void ZenjectSetup(AudioManager audioManager) 
+    {
+        _audioManager = audioManager;
+    }
+
     private void Awake() 
     {
         _playButton.onClick.AddListener(OnPlayButtonClick);
-        _howToPlayButton.onClick.AddListener(OnSettingsButtonClick);
+        _howToPlayButton.onClick.AddListener(OnHowToPlayButtonClick);
         _creditsButton.onClick.AddListener(OnCreditsButtonClick);
         _quitButton.onClick.AddListener(OnQuitButtonClick);
     }
@@ -38,8 +47,9 @@ public class MenuControllerUI : MonoBehaviour
         TransitionManager.Instance.LoadLevel(Consts.SceneNames.GAME_SCENE);
     }
 
-    private void OnSettingsButtonClick()
+    private void OnHowToPlayButtonClick()
     {
+        _audioManager.Play(SoundType.ButtonClickSound);
         AnimateContents(_howToPlayContentTransform);
     }
 
