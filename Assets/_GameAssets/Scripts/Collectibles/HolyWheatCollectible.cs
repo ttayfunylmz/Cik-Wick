@@ -25,12 +25,15 @@ public class HolyWheatCollectible : MonoBehaviour, ICollectible
 
     private PlayerController _playerController;
     private PlayerStateUI _playerStateUI;
+    private CameraShake _cameraShake;
 
     [Inject]
-    private void ZenjectSetup(PlayerController playerController, PlayerStateUI playerStateUI)
+    private void ZenjectSetup(PlayerController playerController, PlayerStateUI playerStateUI,
+        CameraShake cameraShake)
     {
         _playerController = playerController;
         _playerStateUI = playerStateUI;
+        _cameraShake = cameraShake;
     }
 
     private void Awake() 
@@ -58,6 +61,9 @@ public class HolyWheatCollectible : MonoBehaviour, ICollectible
         _playerController.SetJumpForce(_forceIncrease, _resetBoostDuration);
         _playerStateUI.PlayBoosterUIAnimations(_playerBoosterTransform, _playerBoosterImage,_playerStateUI.GetHolyBoosterWheatImage, 
             _activeWheatSprite, _passiveWheatSprite, _activeSprite, _passiveSprite, _resetBoostDuration);
+
+        _cameraShake.ShakeCamera(0.5f, 0.5f);
+
         Destroy(gameObject);
     }
 

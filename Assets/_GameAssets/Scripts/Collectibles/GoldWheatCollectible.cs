@@ -25,12 +25,15 @@ public class GoldWheatCollectible : MonoBehaviour, ICollectible
 
     private PlayerController _playerController;
     private PlayerStateUI _playerStateUI;
+    private CameraShake _cameraShake;
 
     [Inject]
-    private void ZenjectSetup(PlayerController playerController, PlayerStateUI playerStateUI)
+    private void ZenjectSetup(PlayerController playerController, PlayerStateUI playerStateUI,
+        CameraShake cameraShake)
     {
         _playerController = playerController;
         _playerStateUI = playerStateUI;
+        _cameraShake = cameraShake;
     }
 
     private void Awake() 
@@ -58,6 +61,9 @@ public class GoldWheatCollectible : MonoBehaviour, ICollectible
         _playerController.SetMovementSpeed(_movementIncreaseSpeed, _resetBoostDuration);
         _playerStateUI.PlayBoosterUIAnimations(_playerBoosterTransform, _playerBoosterImage, _playerStateUI.GetGoldBoosterWheatImage, 
             _activeWheatSprite, _passiveWheatSprite, _activeSprite, _passiveSprite, _resetBoostDuration);
+        
+        _cameraShake.ShakeCamera(0.5f, 0.5f);
+
         Destroy(gameObject);
     }
 

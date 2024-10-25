@@ -14,11 +14,13 @@ public class PlayerInteractionController : MonoBehaviour
     private Rigidbody _playerRigidbody;
 
     private GameManager _gameManager;
+    private CameraShake _cameraShake;
 
     [Inject]
-    private void ZenjectSetup(GameManager gameManager)
+    private void ZenjectSetup(GameManager gameManager, CameraShake cameraShake)
     {
         _gameManager = gameManager;
+        _cameraShake = cameraShake;
     }
 
     private void Awake() 
@@ -67,6 +69,8 @@ public class PlayerInteractionController : MonoBehaviour
         {
             damageable.GiveDamage(_playerRigidbody, _playerVisualTransform);
             damageable.PlayHitParticle(transform);
+
+            _cameraShake.ShakeCamera(1f, 0.5f);
         }    
     }
 

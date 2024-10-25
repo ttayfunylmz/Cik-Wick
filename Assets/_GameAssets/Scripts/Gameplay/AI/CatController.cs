@@ -33,12 +33,15 @@ public class CatController : MonoBehaviour
     private CatStateController _catStateController;
     private PlayerController _playerController;
     private PlayerHealthUI _playerHealthUI;
+    private CameraShake _cameraShake;
 
     [Inject]
-    private void ZenjectSetup(PlayerController playerController, PlayerHealthUI playerHealthUI)
+    private void ZenjectSetup(PlayerController playerController, PlayerHealthUI playerHealthUI,
+        CameraShake cameraShake)
     {
         _playerController = playerController;
         _playerHealthUI = playerHealthUI;
+        _cameraShake = cameraShake;
     }
 
     private void Awake() 
@@ -85,6 +88,7 @@ public class CatController : MonoBehaviour
         {
             _catCinemachineCamera.Priority = 2;
             _catStateController.ChangeState(CatState.Catched);
+            _cameraShake.ShakeCamera(1.5f, 2f, 0.5f);
             OnCatCatched?.Invoke(_playerTransform);
             _playerHealthUI.AnimateDamageForAll();
             _isChasing = false;

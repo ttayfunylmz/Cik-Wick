@@ -44,19 +44,11 @@ public class AudioManager : MonoBehaviour
         s.Source.Stop();
     }
 
-    public void MuteAllSoundEffects()
+    public void SetSoundEffectsMute(bool isMuted)
     {
         foreach (Sound s in Sounds)
         {
-            s.Source.mute = true;
-        }
-    }
-
-    public void UnmuteAllSoundEffects()
-    {
-        foreach (Sound s in Sounds)
-        {
-            s.Source.mute = false;
+            s.Source.mute = isMuted;
         }
     }
 }

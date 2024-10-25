@@ -1,5 +1,6 @@
 using System;
 using MaskTransitions;
+using TextAnimation;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,6 +12,7 @@ public class LosePopup : MonoBehaviour
     [SerializeField] private TMP_Text _timerText;
     [SerializeField] private Button _tryAgainButton;
     [SerializeField] private Button _mainMenuButton;
+    [SerializeField] private TextAnimatorManager _textAnimatorManager;
     
     private TimerUI _timerUI;
     private AudioManager _audioManager;
@@ -32,6 +34,7 @@ public class LosePopup : MonoBehaviour
 
     private void OnMainMenuButtonClicked()
     {
+        Destroy(_textAnimatorManager.gameObject);
         _audioManager.Play(SoundType.ButtonClickSound);
         TransitionManager.Instance.LoadLevel(Consts.SceneNames.MENU_SCENE);
     }

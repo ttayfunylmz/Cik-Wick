@@ -1,7 +1,9 @@
 using System;
 using DG.Tweening;
 using MaskTransitions;
+using TextAnimation;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.UI;
 using Zenject;
 
@@ -10,6 +12,8 @@ public class SettingsUI : MonoBehaviour
     [Header("References")]
     [SerializeField] private GameObject _settingsPopupObject;
     [SerializeField] private GameObject _blackBackgroundObject;
+    [SerializeField] private TextAnimatorManager _textAnimatorManager;
+    [SerializeField] private PlayableDirector _playableDirector;
 
     [Header("Buttons")]
     [SerializeField] private Button _settingsButton;
@@ -34,12 +38,14 @@ public class SettingsUI : MonoBehaviour
 
     private GameManager _gameManager;
     private AudioManager _audioManager;
+    private BackgroundMusic _backgroundMusic;
 
     [Inject]
-    private void ZenjectSetup(GameManager gameManager, AudioManager audioManager)
+    private void ZenjectSetup(GameManager gameManager, AudioManager audioManager, BackgroundMusic backgroundMusic)
     {
         _gameManager = gameManager;
         _audioManager = audioManager;
+        _backgroundMusic = backgroundMusic;
     }
 
     private void Awake() 
@@ -52,6 +58,16 @@ public class SettingsUI : MonoBehaviour
         _soundButton.onClick.AddListener(OnSoundButtonClicked);
         _resumeButton.onClick.AddListener(OnResumeButtonClicked);
         _mainMenuButton.onClick.AddListener(OnMainMenuButtonClicked);
+    }
+
+    private void Start() 
+    {
+        _playableDirector.stopped += OnTimelineFinished;    
+    }
+
+    private void OnTimelineFinished(PlayableDirector playableDirector)
+    {
+        _settingsButton.interactable = true;
     }
 
     private void OnSettingsButtonClicked()
@@ -81,6 +97,7 @@ public class SettingsUI : MonoBehaviour
         _audioManager.Play(SoundType.ButtonClickSound);
         _isMusicActive = !_isMusicActive;
         _musicButton.image.sprite = _isMusicActive ? _musicActiveSprite : _musicPassiveSprite;
+        _backgroundMusic.SetMusicMute(!_isMusicActive);
     }
 
     private void OnSoundButtonClicked()
@@ -88,10 +105,12 @@ public class SettingsUI : MonoBehaviour
         _audioManager.Play(SoundType.ButtonClickSound);
         _isSoundActive = !_isSoundActive;
         _soundButton.image.sprite = _isSoundActive ? _soundActiveSprite : _soundPassiveSprite;
+        _audioManager.SetSoundEffectsMute(!_isSoundActive);
     }
 
     private void OnMainMenuButtonClicked()
     {
+        Destroy(_textAnimatorManager.gameObject);
         _audioManager.Play(SoundType.ButtonClickSound);
         TransitionManager.Instance.LoadLevel(Consts.SceneNames.MENU_SCENE);
     }

@@ -12,6 +12,9 @@ public class SceneInstaller : MonoInstaller<SceneInstaller>
         Container.Bind<GameManager>().FromComponentInHierarchy().AsSingle();
         Container.Bind<HealthManager>().FromComponentInHierarchy().AsSingle();
 
+        //Helper Bindings
+        Container.Bind<CameraShake>().FromComponentInHierarchy().AsSingle();
+
         //UI Bindings
         Container.Bind<PlayerStateUI>().FromComponentInHierarchy().AsSingle();
         Container.Bind<EggCounterUI>().FromComponentInHierarchy().AsSingle();
