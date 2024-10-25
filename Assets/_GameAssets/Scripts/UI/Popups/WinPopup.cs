@@ -13,11 +13,13 @@ public class WinPopup : MonoBehaviour
     [SerializeField] private Button _mainMenuButton;
 
     private TimerUI _timerUI;
+    private AudioManager _audioManager;
 
     [Inject]
-    private void ZenjectSetup(TimerUI timerUI)
+    private void ZenjectSetup(TimerUI timerUI, AudioManager audioManager)
     {
         _timerUI = timerUI;
+        _audioManager = audioManager;
     }
 
     private void OnEnable() 
@@ -30,11 +32,13 @@ public class WinPopup : MonoBehaviour
 
     private void OnMainMenuButtonClicked()
     {
+        _audioManager.Play(SoundType.ButtonClickSound);
         TransitionManager.Instance.LoadLevel(Consts.SceneNames.MENU_SCENE);
     }
 
     private void OnOneMoreButtonClicked()
     {
+        _audioManager.Play(SoundType.ButtonClickSound);
         TransitionManager.Instance.LoadLevel(Consts.SceneNames.GAME_SCENE);
     }
 

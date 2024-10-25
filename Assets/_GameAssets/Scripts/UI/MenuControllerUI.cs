@@ -44,6 +44,7 @@ public class MenuControllerUI : MonoBehaviour
     
     private void OnPlayButtonClick()
     {
+        _audioManager.Play(SoundType.ButtonClickSound);
         TransitionManager.Instance.LoadLevel(Consts.SceneNames.GAME_SCENE);
     }
 
@@ -55,16 +56,13 @@ public class MenuControllerUI : MonoBehaviour
 
     private void OnCreditsButtonClick()
     {
+        _audioManager.Play(SoundType.ButtonClickSound);
         AnimateContents(_creditsContentTransform);
-    }
-
-    private void OpenLinks(string link)
-    {
-        Application.OpenURL(link);
     }
 
     private void OnQuitButtonClick()
     {
+        _audioManager.Play(SoundType.ButtonClickSound);
         AnimateContents(_quitContentTransform);
     }
 
