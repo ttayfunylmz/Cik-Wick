@@ -3,6 +3,7 @@ using DG.Tweening;
 using TextAnimation;
 using TMPro;
 using UnityEngine;
+using Zenject;
 
 public class ChatBubbleUI : MonoBehaviour
 {
@@ -16,6 +17,14 @@ public class ChatBubbleUI : MonoBehaviour
     [SerializeField] private float _endDelay = 0.5f;
 
     private bool _isTyping;
+
+    private AudioManager _audioManager;
+
+    [Inject]
+    private void ZenjectSetup(AudioManager audioManager)
+    {
+        _audioManager = audioManager;
+    }
 
     private void Start() 
     {
@@ -35,16 +44,21 @@ public class ChatBubbleUI : MonoBehaviour
 
         _isTyping = true;
 
+        _audioManager.Play(SoundType.InteractionSound);
+        
         _bubbleImageTransform.DOScale(1f, _scaleDuration).SetEase(Ease.OutBack).OnComplete(() =>
         {
             _speechText.text = text;
             _speechText.gameObject.SetActive(true);
             _typewriter.StartTypewriter();
+            _audioManager.Play(SoundType.TypingSound);
         });
     }
 
     private void EndChatBubbleAnimation()
     {
+        _audioManager.Stop(SoundType.TypingSound);
+
         _bubbleImageTransform.DOScale(0f, _scaleDuration).SetEase(Ease.InBack).OnComplete(() 
             => ResetChatBubble());
     }

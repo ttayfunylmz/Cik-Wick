@@ -27,6 +27,7 @@ public class WinPopup : MonoBehaviour
     private void OnEnable() 
     {
         SetTimerText();
+        _audioManager.Play(SoundType.WinSound);
 
         _oneMoreButton.onClick.AddListener(OnOneMoreButtonClicked);
         _mainMenuButton.onClick.AddListener(OnMainMenuButtonClicked);
@@ -35,7 +36,7 @@ public class WinPopup : MonoBehaviour
     private void OnMainMenuButtonClicked()
     {
         Destroy(_textAnimatorManager.gameObject);
-        _audioManager.Play(SoundType.ButtonClickSound);
+        _audioManager.Play(SoundType.TransitionSound);
         TransitionManager.Instance.LoadLevel(Consts.SceneNames.MENU_SCENE);
     }
 

@@ -44,7 +44,7 @@ public class MenuControllerUI : MonoBehaviour
     
     private void OnPlayButtonClick()
     {
-        _audioManager.Play(SoundType.ButtonClickSound);
+        _audioManager.Play(SoundType.TransitionSound);
         TransitionManager.Instance.LoadLevel(Consts.SceneNames.GAME_SCENE);
     }
 

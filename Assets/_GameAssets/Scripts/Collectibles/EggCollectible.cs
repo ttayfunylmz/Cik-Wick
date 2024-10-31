@@ -14,14 +14,16 @@ public class EggCollectible : MonoBehaviour, ICollectible
     private GameManager _gameManager;
     private ChatBubbleUI _chatBubbleUI;
     private CameraShake _cameraShake;
+    private AudioManager _audioManager;
 
     [Inject]
     private void ZenjectSetup(GameManager gameManager, ChatBubbleUI chatBubbleUI,
-        CameraShake cameraShake)
+        CameraShake cameraShake, AudioManager audioManager)
     {
         _gameManager = gameManager;
         _chatBubbleUI = chatBubbleUI;
         _cameraShake = cameraShake;
+        _audioManager = audioManager;
     }
 
     public void Collect()
@@ -41,6 +43,7 @@ public class EggCollectible : MonoBehaviour, ICollectible
 
         _chatBubbleUI.PlayChatBubbleAnimation(message);
         _cameraShake.ShakeCamera(0.5f, 0.5f);
+        _audioManager.Play(SoundType.ItemPickupSound);
         
         Destroy(gameObject);
     }

@@ -107,8 +107,8 @@ MonoBehaviour:
     Volume: 0.25
     Pitch: 1
     Mute: 0
-    Loop: 0
-    playOnAwake: 0
+    Loop: 1
+    playOnAwake: 1
   - Source: {fileID: 0}
     AudioClip: {fileID: 8300000, guid: 2b4b071c7005b544184019d45c757552, type: 3}
     SoundType: 8
@@ -136,7 +136,7 @@ MonoBehaviour:
   - Source: {fileID: 0}
     AudioClip: {fileID: 8300000, guid: c31a365d3b16820479bf3ea80fb3de28, type: 3}
     SoundType: 7
-    Volume: 0.25
+    Volume: 1
     Pitch: 1
     Mute: 0
     Loop: 0

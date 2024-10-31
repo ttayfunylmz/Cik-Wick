@@ -111,7 +111,7 @@ public class SettingsUI : MonoBehaviour
     private void OnMainMenuButtonClicked()
     {
         Destroy(_textAnimatorManager.gameObject);
-        _audioManager.Play(SoundType.ButtonClickSound);
+        _audioManager.Play(SoundType.TransitionSound);
         TransitionManager.Instance.LoadLevel(Consts.SceneNames.MENU_SCENE);
     }
 

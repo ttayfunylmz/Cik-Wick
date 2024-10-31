@@ -20,13 +20,16 @@ public class GameManager : MonoBehaviour
     private EggCounterUI _eggCounterUI;
     private WinLoseUI _winLoseUI;
     private CatController _catController;
+    private AudioManager _audioManager;
 
     [Inject]
-    private void ZenjectSetup(EggCounterUI eggCounterUI, WinLoseUI winLoseUI, CatController catController)
+    private void ZenjectSetup(EggCounterUI eggCounterUI, WinLoseUI winLoseUI, 
+        CatController catController, AudioManager audioManager)
     {
         _eggCounterUI = eggCounterUI;
         _winLoseUI = winLoseUI;
         _catController = catController;
+        _audioManager = audioManager;
     }
 
     private void Start() 
@@ -59,6 +62,7 @@ public class GameManager : MonoBehaviour
         Instantiate(_fightingParticles, playerTransform.position, _fightingParticles.transform.rotation);
         ChangeGameState(GameState.GameOver);
         _winLoseUI.OnGameOver();
+        _audioManager.Play(SoundType.CatSound);
     }
 
     public void PlayGameOver(Transform playerTransform)

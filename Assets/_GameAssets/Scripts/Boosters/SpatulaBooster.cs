@@ -1,4 +1,5 @@
 using UnityEngine;
+using Zenject;
 
 public class SpatulaBooster : MonoBehaviour, IBoostable
 {
@@ -12,6 +13,14 @@ public class SpatulaBooster : MonoBehaviour, IBoostable
 
     private bool _isActivated;
 
+    private AudioManager _audioManager;
+
+    [Inject]
+    private void ZenjectSetup(AudioManager audioManager)
+    {
+        _audioManager = audioManager;
+    }
+
     public void Boost(PlayerController playerController)
     {
         if(_isActivated) { return; }
@@ -22,6 +31,7 @@ public class SpatulaBooster : MonoBehaviour, IBoostable
         playerRigidbody.AddForce(transform.forward * _jumpForce, ForceMode.Impulse);
         _isActivated = true;
         Invoke(nameof(ResetActivation), 0.2f);
+        _audioManager.Play(SoundType.SpatulaSound);
     }
 
     public void PlayBoostAnimation()

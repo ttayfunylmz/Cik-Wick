@@ -25,14 +25,16 @@ public class RottenWheatCollectible : MonoBehaviour, ICollectible
     private PlayerController _playerController;
     private PlayerStateUI _playerStateUI;
     private CameraShake _cameraShake;
+    private AudioManager _audioManager;
 
     [Inject]
     private void ZenjectSetup(PlayerController playerController, PlayerStateUI playerStateUI,
-        CameraShake cameraShake)
+        CameraShake cameraShake, AudioManager audioManager)
     {
         _playerController = playerController;
         _playerStateUI = playerStateUI;
         _cameraShake = cameraShake;
+        _audioManager = audioManager;
     }
 
     private void Awake() 
@@ -62,6 +64,8 @@ public class RottenWheatCollectible : MonoBehaviour, ICollectible
             _activeWheatSprite, _passiveWheatSprite, _activeSprite, _passiveSprite, _resetBoostDuration);
 
         _cameraShake.ShakeCamera(0.5f, 0.5f);
+
+        _audioManager.Play(SoundType.ItemPickupSound);
 
         Destroy(gameObject);
     }

@@ -46,12 +46,15 @@ public class PlayerController : MonoBehaviour
     #region Zenject Setup
     private StateController _stateController;
     private GameManager _gameManager;
+    private AudioManager _audioManager;
 
     [Inject]
-    private void ZenjectSetup(StateController stateController, GameManager gameManager)
+    private void ZenjectSetup(StateController stateController, GameManager gameManager,
+        AudioManager audioManager)
     {
         _stateController = stateController;
         _gameManager = gameManager;
+        _audioManager = audioManager;
     }
 
     #endregion
@@ -74,7 +77,7 @@ public class PlayerController : MonoBehaviour
         SetInputs();
         SetStates();
         SetPlayerSpeed();
-        SetPlayerDrag();        
+        SetPlayerDrag();
     }
 
     private void FixedUpdate() 
@@ -107,6 +110,7 @@ public class PlayerController : MonoBehaviour
             _canJump = false;
             SetPlayerJumping();
             Invoke(nameof(ResetJumping), _jumpCooldown);
+            _audioManager.Play(SoundType.JumpSound);
         }
     }
 
@@ -130,6 +134,7 @@ public class PlayerController : MonoBehaviour
         {
             _stateController.ChangeState(newState);
             OnPlayerStateChanged?.Invoke(newState);
+            SetSounds(newState);
         }
     }
 
@@ -200,6 +205,22 @@ public class PlayerController : MonoBehaviour
             }
         }
         return false;
+    }
+
+    private void SetSounds(PlayerState playerState)
+    {
+        switch (playerState)
+        {
+            case PlayerState.Move:
+            case PlayerState.Slide:
+                _audioManager.Play(SoundType.MoveSound);
+                break;
+            case PlayerState.Idle:
+            case PlayerState.SlideIdle:
+            case PlayerState.Jump:
+                _audioManager.Stop(SoundType.MoveSound);
+                break;
+        }
     }
 
     public bool IsSliding()

@@ -312,10 +312,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62370cdbb32b1c341bc21fba1e18929c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionImage: {fileID: -732615893, guid: 2e9375320becf1c4bbeb45c634898063, type: 3}
+  transitionImage: {fileID: -1777802642, guid: 3cdbc7ed66db2cb4eb48c8e644bb73ee, type: 3}
   transitionColor: {r: 0, g: 0, b: 0, a: 1}
   rotation: 1
-  transitionTime: 1
+  transitionTime: 0.75
   parentMaskRect: {fileID: 1224733614992737017}
   maskRect: {fileID: 5572791951585757581}
   transitionCanvas: {fileID: 4165769277727045733}
