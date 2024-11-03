@@ -4,12 +4,14 @@ public enum SoundType : byte
     ButtonClickSound,
     CatSound,
     InteractionSound,
-    ItemPickupSound,
     JumpSound,
     LoseSound,
     MoveSound,
     SpatulaSound,
     TransitionSound,
     TypingSound,
-    WinSound
+    WinSound,
+    PickupGoodSound,
+    PickupBadSound,
+    ChickSound
 }

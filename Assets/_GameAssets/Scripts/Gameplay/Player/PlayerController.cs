@@ -134,7 +134,6 @@ public class PlayerController : MonoBehaviour
         {
             _stateController.ChangeState(newState);
             OnPlayerStateChanged?.Invoke(newState);
-            SetSounds(newState);
         }
     }
 
@@ -205,22 +204,6 @@ public class PlayerController : MonoBehaviour
             }
         }
         return false;
-    }
-
-    private void SetSounds(PlayerState playerState)
-    {
-        switch (playerState)
-        {
-            case PlayerState.Move:
-            case PlayerState.Slide:
-                _audioManager.Play(SoundType.MoveSound);
-                break;
-            case PlayerState.Idle:
-            case PlayerState.SlideIdle:
-            case PlayerState.Jump:
-                _audioManager.Stop(SoundType.MoveSound);
-                break;
-        }
     }
 
     public bool IsSliding()

@@ -66,7 +66,7 @@ public class GoldWheatCollectible : MonoBehaviour, ICollectible
         
         _cameraShake.ShakeCamera(0.5f, 0.5f);
 
-        _audioManager.Play(SoundType.ItemPickupSound);
+        _audioManager.Play(SoundType.PickupGoodSound);
 
         Destroy(gameObject);
     }

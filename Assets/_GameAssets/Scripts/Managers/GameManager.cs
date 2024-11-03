@@ -21,15 +21,17 @@ public class GameManager : MonoBehaviour
     private WinLoseUI _winLoseUI;
     private CatController _catController;
     private AudioManager _audioManager;
+    private BackgroundMusic _backgroundMusic;
 
     [Inject]
     private void ZenjectSetup(EggCounterUI eggCounterUI, WinLoseUI winLoseUI, 
-        CatController catController, AudioManager audioManager)
+        CatController catController, AudioManager audioManager, BackgroundMusic backgroundMusic)
     {
         _eggCounterUI = eggCounterUI;
         _winLoseUI = winLoseUI;
         _catController = catController;
         _audioManager = audioManager;
+        _backgroundMusic = backgroundMusic;
     }
 
     private void Start() 
@@ -42,6 +44,7 @@ public class GameManager : MonoBehaviour
     private void OnEnable() 
     {
         ChangeGameState(GameState.CutScene);
+        _backgroundMusic.PlayBackgroundMusic(true);
     }
 
     public void ChangeGameState(GameState gameState)

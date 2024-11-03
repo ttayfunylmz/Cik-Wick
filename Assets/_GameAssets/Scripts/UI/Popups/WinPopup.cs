@@ -16,18 +16,21 @@ public class WinPopup : MonoBehaviour
 
     private TimerUI _timerUI;
     private AudioManager _audioManager;
+    private BackgroundMusic _backgroundMusic;
 
     [Inject]
-    private void ZenjectSetup(TimerUI timerUI, AudioManager audioManager)
+    private void ZenjectSetup(TimerUI timerUI, AudioManager audioManager, BackgroundMusic backgroundMusic)
     {
         _timerUI = timerUI;
         _audioManager = audioManager;
+        _backgroundMusic = backgroundMusic;
     }
 
     private void OnEnable() 
     {
         SetTimerText();
         _audioManager.Play(SoundType.WinSound);
+        _backgroundMusic.PlayBackgroundMusic(false);
 
         _oneMoreButton.onClick.AddListener(OnOneMoreButtonClicked);
         _mainMenuButton.onClick.AddListener(OnMainMenuButtonClicked);

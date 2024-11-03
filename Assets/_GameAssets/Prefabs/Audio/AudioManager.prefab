@@ -70,7 +70,7 @@ MonoBehaviour:
     Loop: 0
     playOnAwake: 0
   - Source: {fileID: 0}
-    AudioClip: {fileID: 8300000, guid: 2da3c50e1e59cd149b0ca248ccf2d884, type: 3}
+    AudioClip: {fileID: 8300000, guid: f0ad2d1bf28f9194a919bb0673495ca6, type: 3}
     SoundType: 3
     Volume: 0.25
     Pitch: 1
@@ -78,7 +78,7 @@ MonoBehaviour:
     Loop: 0
     playOnAwake: 0
   - Source: {fileID: 0}
-    AudioClip: {fileID: 8300000, guid: bcc8cbac40628464ba54f29fc37201c7, type: 3}
+    AudioClip: {fileID: 8300000, guid: 0f984160ce0647940adb07e440812eff, type: 3}
     SoundType: 4
     Volume: 0.25
     Pitch: 1
@@ -86,7 +86,7 @@ MonoBehaviour:
     Loop: 0
     playOnAwake: 0
   - Source: {fileID: 0}
-    AudioClip: {fileID: 8300000, guid: 0f984160ce0647940adb07e440812eff, type: 3}
+    AudioClip: {fileID: 8300000, guid: 08670ea6effab2547b7b040ecba15d26, type: 3}
     SoundType: 5
     Volume: 0.25
     Pitch: 1
@@ -94,24 +94,8 @@ MonoBehaviour:
     Loop: 0
     playOnAwake: 0
   - Source: {fileID: 0}
-    AudioClip: {fileID: 8300000, guid: 08670ea6effab2547b7b040ecba15d26, type: 3}
-    SoundType: 6
-    Volume: 0.25
-    Pitch: 1
-    Mute: 0
-    Loop: 0
-    playOnAwake: 0
-  - Source: {fileID: 0}
-    AudioClip: {fileID: 8300000, guid: c31a365d3b16820479bf3ea80fb3de28, type: 3}
-    SoundType: 7
-    Volume: 0.25
-    Pitch: 1
-    Mute: 0
-    Loop: 1
-    playOnAwake: 1
-  - Source: {fileID: 0}
     AudioClip: {fileID: 8300000, guid: 2b4b071c7005b544184019d45c757552, type: 3}
-    SoundType: 8
+    SoundType: 7
     Volume: 0.25
     Pitch: 1
     Mute: 0
@@ -119,7 +103,7 @@ MonoBehaviour:
     playOnAwake: 0
   - Source: {fileID: 0}
     AudioClip: {fileID: 8300000, guid: e0b24bf35e85f744d8f6a4de70915b9b, type: 3}
-    SoundType: 9
+    SoundType: 8
     Volume: 0.25
     Pitch: 1
     Mute: 0
@@ -127,6 +111,30 @@ MonoBehaviour:
     playOnAwake: 0
   - Source: {fileID: 0}
     AudioClip: {fileID: 8300000, guid: d82a22a063ed1224087be25dd13aba19, type: 3}
+    SoundType: 9
+    Volume: 0.25
+    Pitch: 1
+    Mute: 0
+    Loop: 0
+    playOnAwake: 0
+  - Source: {fileID: 0}
+    AudioClip: {fileID: 8300000, guid: bd6c50ddc15a8194f9df6a5f7d0d6aa2, type: 3}
+    SoundType: 11
+    Volume: 0.25
+    Pitch: 1
+    Mute: 0
+    Loop: 0
+    playOnAwake: 0
+  - Source: {fileID: 0}
+    AudioClip: {fileID: 8300000, guid: 1ae14dd3764d82648bd0e8b36e735c40, type: 3}
+    SoundType: 12
+    Volume: 0.25
+    Pitch: 1
+    Mute: 0
+    Loop: 0
+    playOnAwake: 0
+  - Source: {fileID: 0}
+    AudioClip: {fileID: 8300000, guid: 23540bf153da10f46903312dd65a5225, type: 3}
     SoundType: 10
     Volume: 0.25
     Pitch: 1
@@ -134,9 +142,9 @@ MonoBehaviour:
     Loop: 0
     playOnAwake: 0
   - Source: {fileID: 0}
-    AudioClip: {fileID: 8300000, guid: c31a365d3b16820479bf3ea80fb3de28, type: 3}
-    SoundType: 7
-    Volume: 1
+    AudioClip: {fileID: 8300000, guid: c7e903128a1d45d44bf55a62903e84c2, type: 3}
+    SoundType: 13
+    Volume: 0.25
     Pitch: 1
     Mute: 0
     Loop: 0

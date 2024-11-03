@@ -11,17 +11,20 @@ public class FireDamageable : MonoBehaviour, IDamageable
     [SerializeField] private float _hitParticlesDestroyDuration = 2f;
 
     private HealthManager _healthManager;
+    private AudioManager _audioManager;
 
     [Inject]
-    private void ZenjectSetup(HealthManager healthManager)
+    private void ZenjectSetup(HealthManager healthManager, AudioManager audioManager)
     {
         _healthManager = healthManager;
+        _audioManager = audioManager;
     }
 
     public void GiveDamage(Rigidbody playerRigidbody, Transform playerVisualTransform)
     {
         _healthManager.Damage(1);
         playerRigidbody.AddForce(-playerVisualTransform.forward * _force, ForceMode.Impulse);
+        _audioManager.Play(SoundType.ChickSound);
         Destroy(gameObject);
     }
 

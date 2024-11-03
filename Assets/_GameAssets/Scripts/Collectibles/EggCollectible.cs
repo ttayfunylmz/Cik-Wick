@@ -43,7 +43,7 @@ public class EggCollectible : MonoBehaviour, ICollectible
 
         _chatBubbleUI.PlayChatBubbleAnimation(message);
         _cameraShake.ShakeCamera(0.5f, 0.5f);
-        _audioManager.Play(SoundType.ItemPickupSound);
+        _audioManager.Play(SoundType.PickupGoodSound);
         
         Destroy(gameObject);
     }

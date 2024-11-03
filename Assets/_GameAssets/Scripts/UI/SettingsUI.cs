@@ -68,6 +68,7 @@ public class SettingsUI : MonoBehaviour
     private void OnTimelineFinished(PlayableDirector playableDirector)
     {
         _settingsButton.interactable = true;
+        _settingsButton.gameObject.GetComponent<ButtonHoverController>().enabled = true;
     }
 
     private void OnSettingsButtonClicked()
