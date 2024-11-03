@@ -674,7 +674,7 @@ Transform:
   m_GameObject: {fileID: 141972192}
   serializedVersion: 2
   m_LocalRotation: {x: 0.14021039, y: -0.6930664, z: 0.14021039, w: 0.6930664}
-  m_LocalPosition: {x: 28.273003, y: 3.509142, z: 10.440001}
+  m_LocalPosition: {x: 27.023003, y: 3.509142, z: 7.9400005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8109,7 +8109,7 @@ Transform:
   m_GameObject: {fileID: 1974044323}
   serializedVersion: 2
   m_LocalRotation: {x: 0.14021039, y: -0.6930664, z: 0.14021039, w: 0.6930664}
-  m_LocalPosition: {x: 28.273003, y: 3.509142, z: 10.440001}
+  m_LocalPosition: {x: 27.023003, y: 3.509142, z: 7.9400005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9323,7 +9323,7 @@ Transform:
   m_GameObject: {fileID: 85672714621716916}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 19.893002, y: 1.459142, z: 10.440001}
+  m_LocalPosition: {x: 18.643002, y: 1.459142, z: 7.9400005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9440,7 +9440,7 @@ MonoBehaviour:
   _slideMultiplier: 1.1
   _slideDrag: 2.2
   _jumpKey: 32
-  _jumpForce: 6
+  _jumpForce: 8
   _jumpCooldown: 0.5
   _airMultiplier: 0.2
   _airDrag: 0.75

@@ -56,21 +56,21 @@ public class GameManager : MonoBehaviour
 
     private void CatController_OnCatCatched(Transform playerTransform)
     {
-        PlayGameOver(playerTransform);
+        PlayGameOver(playerTransform, true);
     }
 
-    private IEnumerator OnGameOver(Transform playerTransform)
+    private IEnumerator OnGameOver(Transform playerTransform, bool isCatCatched)
     {
         yield return new WaitForSeconds(_delay);
         Instantiate(_fightingParticles, playerTransform.position, _fightingParticles.transform.rotation);
         ChangeGameState(GameState.GameOver);
         _winLoseUI.OnGameOver();
-        _audioManager.Play(SoundType.CatSound);
+        if(isCatCatched) _audioManager.Play(SoundType.CatSound);
     }
 
-    public void PlayGameOver(Transform playerTransform)
+    public void PlayGameOver(Transform playerTransform, bool isCatCatched)
     {
-        StartCoroutine(OnGameOver(playerTransform));
+        StartCoroutine(OnGameOver(playerTransform, isCatCatched));
     }
 
     public void OnEggCollected()

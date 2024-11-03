@@ -45,6 +45,7 @@ public class WinPopup : MonoBehaviour
 
     private void OnOneMoreButtonClicked()
     {
+        Destroy(_textAnimatorManager.gameObject);
         _audioManager.Play(SoundType.ButtonClickSound);
         TransitionManager.Instance.LoadLevel(Consts.SceneNames.GAME_SCENE);
     }

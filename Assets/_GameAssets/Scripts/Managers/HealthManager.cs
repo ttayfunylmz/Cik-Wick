@@ -34,7 +34,7 @@ public class HealthManager : MonoBehaviour
 
             if(_currentHealth <= 0)
             {
-                _gameManager.PlayGameOver(_playerTransform);
+                _gameManager.PlayGameOver(_playerTransform, false);
             }
         }
     }

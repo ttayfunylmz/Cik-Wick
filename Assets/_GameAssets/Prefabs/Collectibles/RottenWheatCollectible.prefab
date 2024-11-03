@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _wheatDesignSO: {fileID: 11400000, guid: 2fba1318e7b25f049b74fdb39d8666ab, type: 2}
-  _movementDecreaseSpeed: 5
+  _movementDecreaseSpeed: -25
 --- !u!65 &2875069630962768447
 BoxCollider:
   m_ObjectHideFlags: 0

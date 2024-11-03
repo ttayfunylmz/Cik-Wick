@@ -45,6 +45,7 @@ public class LosePopup : MonoBehaviour
 
     private void OnTryAgainButtonClicked()
     {
+        Destroy(_textAnimatorManager.gameObject);
         _audioManager.Play(SoundType.ButtonClickSound);
         TransitionManager.Instance.LoadLevel(Consts.SceneNames.GAME_SCENE);
     }
