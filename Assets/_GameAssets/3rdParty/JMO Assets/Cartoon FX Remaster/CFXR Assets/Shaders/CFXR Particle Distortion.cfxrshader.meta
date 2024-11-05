@@ -15,7 +15,7 @@ ScriptedImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-  script: {instanceID: 0}
+  script: {fileID: 11500000, guid: fe56ec25963759b49955809beeb4324b, type: 3}
   renderPipelineDetection: 0
   detectedRenderPipeline: Universal Render Pipeline
   strippedLinesCount: 45
@@ -64,5 +64,5 @@ ScriptedImporter:
     \"CartoonFX.MaterialInspector\"\r\n}\r\n\r\n"
   shaderName: Cartoon FX/Remaster/Particle Screen Distortion
   shaderErrors: []
-  variantCount: 32
+  variantCount: 64
   variantCountUsed: 2

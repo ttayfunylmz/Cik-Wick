@@ -15,7 +15,7 @@ ScriptedImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-  script: {instanceID: 0}
+  script: {fileID: 11500000, guid: fe56ec25963759b49955809beeb4324b, type: 3}
   renderPipelineDetection: 0
   detectedRenderPipeline: Universal Render Pipeline
   strippedLinesCount: 85
@@ -81,5 +81,5 @@ ScriptedImporter:
     \"CartoonFX.MaterialInspector\"\r\n}\r\n\r\n"
   shaderName: Cartoon FX/Remaster/Particle Procedural Glow
   shaderErrors: []
-  variantCount: 224
+  variantCount: 2240
   variantCountUsed: 4
