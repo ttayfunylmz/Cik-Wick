@@ -158,7 +158,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CinemachineCamera
+    m_DisplayName: ChickCinemachineCamera
   m_Markers:
     m_Objects: []
   TrackPriority: 0

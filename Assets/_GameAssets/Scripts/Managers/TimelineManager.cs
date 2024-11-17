@@ -23,7 +23,7 @@ public class TimelineManager : MonoBehaviour
     private void OnEnable() 
     {
         _playableDirector.Play();
-        _playableDirector.stopped += OnTimelineFinished;    
+        _playableDirector.stopped += OnTimelineFinished;   
     }
 
     private void OnTimelineFinished(PlayableDirector director)
