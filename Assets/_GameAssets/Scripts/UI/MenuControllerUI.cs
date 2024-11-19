@@ -12,14 +12,12 @@ public class MenuControllerUI : MonoBehaviour
     [Header("References")]
     [SerializeField] private Button _playButton;
     [SerializeField] private Button _howToPlayButton;
-    [SerializeField] private Button _languageButton;
     [SerializeField] private Button _creditsButton;
     [SerializeField] private Button _quitButton;
     [SerializeField] private RectTransform _headerImageTransform;
 
     [Header("Content References")]
     [SerializeField] private RectTransform _howToPlayContentTransform;
-    [SerializeField] private RectTransform _languageContentTransform;
     [SerializeField] private RectTransform _creditsContentTransform;
     [SerializeField] private RectTransform _quitContentTransform;
 
@@ -40,11 +38,10 @@ public class MenuControllerUI : MonoBehaviour
     {
         _playButton.onClick.AddListener(OnPlayButtonClick);
         _howToPlayButton.onClick.AddListener(OnHowToPlayButtonClick);
-        _languageButton.onClick.AddListener(OnLanguageButtonClick);
         _creditsButton.onClick.AddListener(OnCreditsButtonClick);
         _quitButton.onClick.AddListener(OnQuitButtonClick);
     }
-
+    
     private void OnPlayButtonClick()
     {
         _audioManager.Play(SoundType.TransitionSound);
@@ -55,12 +52,6 @@ public class MenuControllerUI : MonoBehaviour
     {
         _audioManager.Play(SoundType.ButtonClickSound);
         AnimateContents(_howToPlayContentTransform);
-    }
-
-    private void OnLanguageButtonClick()
-    {
-        _audioManager.Play(SoundType.ButtonClickSound);
-        AnimateContents(_languageContentTransform);
     }
 
     private void OnCreditsButtonClick()
