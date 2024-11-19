@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MenuStringTableCollection_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 0c5986ca423b13143bd6c039a20b8b53, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 365043978240
+    m_Localized: Jugar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 508673724416
+    m_Localized: "C\xF3mo Jugar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 615917883392
+    m_Localized: idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 678035525632
+    m_Localized: "Cr\xE9ditos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 760940138496
+    m_Localized: Abandonar
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
