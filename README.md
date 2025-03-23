@@ -1,13 +1,13 @@
 <h2 align="center">🐣 Cik Wick 🐣</h2>
 <h4 align="center">🆕 Start your Game Development Journey by making this awesome 3D Platformer. 🆕</h4>
-<h4 align="center">🎮 You can play the game you are going to develop through this <a href="">link. 🎮</a></h4>
+<h4 align="center">🎮 You can play the game you are going to develop through this <a href="https://ttayfunylmz.itch.io/cik-wick">link. 🎮</a></h4>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/b3fd9573-7ecc-46ed-9a20-fcc736c755f2" width="128" alt="SkinnyDev">
 </div>
 
 <h4 align="center">👨‍💻 This game is designed for beginners to learn the basics of game development and coding using Unity and C#. 👨‍💻</h4>
-<h4 align="center">🔗 You can access the course for free on <a href="">YouTube</a> or with a small fee on <a href="">Udemy</a>! 🔗</h4>
+<h4 align="center">🔗 You can access the course for free on <a href="https://youtu.be/KZ5V9xIwwcE?si=eHuPFXp2eo1u4iNy">YouTube</a> or with a small fee on <a href="https://www.udemy.com/course/sifirdan-unity-ile-oyun-gelistirme-egitimi-unity-6/?referralCode=71ED457012A899338116">Udemy</a>! 🔗</h4>
 
 <h2 align="center">🐤 Key Features You'll Learn in This Course! 🐤</h2>
 
